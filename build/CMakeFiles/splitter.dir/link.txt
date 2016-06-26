@@ -1,1 +1,0 @@
-/usr/bin/c++   -Wall -std=c++11 -O0 -g   CMakeFiles/splitter.dir/src/splitter.cc.o  -o ../bin/splitter -rdynamic ../lib/p2psp/bin/libp2psp.so -lpthread -lboost_system -lboost_filesystem -lboost_chrono -lboost_serialization -lboost_timer -lboost_thread -lboost_log -lboost_log_setup -lboost_date_time -lboost_program_options -lpthread -Wl,-rpath,/home/kevin/p2psp/Test/lib/p2psp/bin 

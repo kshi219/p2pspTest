@@ -1,2 +1,0 @@
-/home/kevin/p2psp/Test/build/CMakeFiles/splitter.dir
-/home/kevin/p2psp/Test/build/CMakeFiles/peer.dir
