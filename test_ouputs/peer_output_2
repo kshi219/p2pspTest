@@ -1,0 +1,721 @@
+2016-06-26 06:49:38.709729 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/peer_dbs.cc:24: TRACE: max_chunk_debt =128[0m
+2016-06-26 06:49:38.710086 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/peer_dbs.cc:25: TRACE: Initialized[0m
+2016-06-26 06:49:38.710230 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/peer_ims.cc:79: TRACE: Waiting for the player at (0.0.0.0,4555)[0m
+2016-06-26 06:49:52.888583 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/peer_ims.cc:84: TRACE: The player is (207.81.37.53,46240)[0m
+2016-06-26 06:49:52.888755 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/peer_ems.cc:34: TRACE: use_localhost = False[0m
+2016-06-26 06:49:52.888958 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/peer_ems.cc:53: TRACE: Connecting to the splitter at (150.214.150.68,4554) from 150.214.150.68[0m
+2016-06-26 06:49:52.889099 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/peer_ems.cc:69: TRACE: Connected to the splitter at (150.214.150.68,4554)[0m
+2016-06-26 06:49:52.889239 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/peer_ems.cc:83: TRACE: send to splitter local endpoint = (150.214.150.68,39401)[0m
+2016-06-26 06:49:52.889860 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/peer_ims.cc:149: TRACE: mcast_endpoint = (0.0.0.0,4554)[0m
+2016-06-26 06:49:52.889974 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/peer_ims.cc:158: TRACE: header_size (in chunks) = 10[0m
+2016-06-26 06:49:52.890047 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/peer_ims.cc:168: TRACE: chunk_size (bytes) = 1024[0m
+2016-06-26 06:49:52.890503 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/peer_ims.cc:193: TRACE: Received 10240bytes of header[0m
+2016-06-26 06:49:52.890586 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/peer_ims.cc:202: TRACE: buffer_size_ = 256[0m
+2016-06-26 06:49:52.890634 Using IP Multicast address = 0.0.0.0
+2016-06-26 06:49:52.890712 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/peer_dbs.cc:132: TRACE: me = (150.214.150.68,39401)[0m
+2016-06-26 06:49:52.890785 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/peer_dbs.cc:51: TRACE: Magic flags = 00000001[0m
+2016-06-26 06:49:52.890873 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/peer_dbs.cc:68: TRACE: Requesting the number of monitors and peers to (150.214.150.68,4554)[0m
+2016-06-26 06:49:52.890932 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/peer_dbs.cc:71: TRACE: The number of monitors is 1[0m
+2016-06-26 06:49:52.890969 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/peer_dbs.cc:74: TRACE: The size of the team is 1 (apart from me)[0m
+2016-06-26 06:49:52.890998 Number of peers in the team (excluding me) =1
+2016-06-26 06:49:52.891026 Am I a monitor peer? =False
+2016-06-26 06:49:52.891120 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/peer_dbs.cc:89: TRACE: Requesting1 peers to (150.214.150.68,4554)[0m
+2016-06-26 06:49:52.891173 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/peer_dbs.cc:103: TRACE: [hello] sent to (207.81.37.53,39387)[0m
+2016-06-26 06:49:52.891246 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/peer_dbs.cc:35: TRACE: [Hello] sent to (207.81.37.53,39387)[0m
+2016-06-26 06:49:52.891280 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/peer_dbs.cc:106: TRACE: 0[0m
+2016-06-26 06:49:52.891493 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/peer_dbs.cc:114: TRACE: List of peers received[0m
+2016-06-26 06:49:52.891537 List of peers received
+2016-06-26 06:49:52.891571 Peer DBS enabled
+2016-06-26 06:49:52.891751 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/peer_ims.cc:259: TRACE: (0.0.0.0,39401): buffering = 000.00%[0m
+2016-06-26 06:49:52.891816 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/peer_ims.cc:325: TRACE: Waiting for a chunk at (0.0.0.0,39401)[0m
+2016-06-26 06:49:52.917086 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/peer_ims.cc:333: TRACE: Received a message from (150.214.150.68,4554) of length 1026[0m
+2016-06-26 06:49:52.917234 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/peer_dbs.cc:176: TRACE: (0.0.0.0,39401)<-771-(150.214.150.68,4554)[0m
+2016-06-26 06:49:52.917407 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/peer_dbs.cc:264: TRACE: (0.0.0.0,39401)-768->(207.81.37.53,39387)[0m
+2016-06-26 06:49:52.917579 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/peer_ims.cc:273: TRACE: First chunk to play 771[0m
+2016-06-26 06:49:52.917632 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/peer_ims.cc:276: TRACE: (0.0.0.0,39401): buffering (0.390625[0m
+2016-06-26 06:49:52.917726 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/peer_ims.cc:292: TRACE: ![0m
+2016-06-26 06:49:52.917773 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/peer_ims.cc:325: TRACE: Waiting for a chunk at (0.0.0.0,39401)[0m
+2016-06-26 06:49:52.917839 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/peer_ims.cc:333: TRACE: Received a message from (150.214.150.68,4554) of length 1026[0m
+2016-06-26 06:49:52.917883 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/peer_dbs.cc:176: TRACE: (0.0.0.0,39401)<-773-(150.214.150.68,4554)[0m
+2016-06-26 06:49:52.917961 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/peer_dbs.cc:264: TRACE: (0.0.0.0,39401)-768->(207.81.37.53,39387)[0m
+2016-06-26 06:49:52.918008 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/peer_ims.cc:292: TRACE: ![0m
+2016-06-26 06:49:52.918039 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/peer_ims.cc:325: TRACE: Waiting for a chunk at (0.0.0.0,39401)[0m
+2016-06-26 06:49:52.983462 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/peer_ims.cc:333: TRACE: Received a message from (150.214.150.68,4554) of length 1026[0m
+2016-06-26 06:49:52.983594 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/peer_dbs.cc:176: TRACE: (0.0.0.0,39401)<-775-(150.214.150.68,4554)[0m
+2016-06-26 06:49:52.983690 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/peer_dbs.cc:264: TRACE: (0.0.0.0,39401)-768->(207.81.37.53,39387)[0m
+2016-06-26 06:49:52.983739 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/peer_ims.cc:292: TRACE: ![0m
+2016-06-26 06:49:52.983770 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/peer_ims.cc:325: TRACE: Waiting for a chunk at (0.0.0.0,39401)[0m
+2016-06-26 06:49:52.983816 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/peer_ims.cc:333: TRACE: Received a message from (150.214.150.68,4554) of length 1026[0m
+2016-06-26 06:49:52.983856 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/peer_dbs.cc:176: TRACE: (0.0.0.0,39401)<-777-(150.214.150.68,4554)[0m
+2016-06-26 06:49:52.983918 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/peer_dbs.cc:264: TRACE: (0.0.0.0,39401)-768->(207.81.37.53,39387)[0m
+2016-06-26 06:49:52.983964 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/peer_ims.cc:292: TRACE: ![0m
+2016-06-26 06:49:52.983994 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/peer_ims.cc:325: TRACE: Waiting for a chunk at (0.0.0.0,39401)[0m
+2016-06-26 06:49:53.042047 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/peer_ims.cc:333: TRACE: Received a message from (150.214.150.68,4554) of length 1026[0m
+2016-06-26 06:49:53.042182 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/peer_dbs.cc:176: TRACE: (0.0.0.0,39401)<-779-(150.214.150.68,4554)[0m
+2016-06-26 06:49:53.042275 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/peer_dbs.cc:264: TRACE: (0.0.0.0,39401)-768->(207.81.37.53,39387)[0m
+2016-06-26 06:49:53.042323 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/peer_ims.cc:292: TRACE: ![0m
+2016-06-26 06:49:53.042356 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/peer_ims.cc:325: TRACE: Waiting for a chunk at (0.0.0.0,39401)[0m
+2016-06-26 06:49:53.042401 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/peer_ims.cc:333: TRACE: Received a message from (150.214.150.68,4554) of length 1026[0m
+2016-06-26 06:49:53.042441 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/peer_dbs.cc:176: TRACE: (0.0.0.0,39401)<-781-(150.214.150.68,4554)[0m
+2016-06-26 06:49:53.042505 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/peer_dbs.cc:264: TRACE: (0.0.0.0,39401)-768->(207.81.37.53,39387)[0m
+2016-06-26 06:49:53.042551 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/peer_ims.cc:292: TRACE: ![0m
+2016-06-26 06:49:53.042581 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/peer_ims.cc:325: TRACE: Waiting for a chunk at (0.0.0.0,39401)[0m
+2016-06-26 06:49:53.209277 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/peer_ims.cc:333: TRACE: Received a message from (150.214.150.68,4554) of length 1026[0m
+2016-06-26 06:49:53.209526 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/peer_dbs.cc:176: TRACE: (0.0.0.0,39401)<-783-(150.214.150.68,4554)[0m
+2016-06-26 06:49:53.209617 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/peer_dbs.cc:264: TRACE: (0.0.0.0,39401)-768->(207.81.37.53,39387)[0m
+2016-06-26 06:49:53.209665 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/peer_ims.cc:292: TRACE: ![0m
+2016-06-26 06:49:53.209697 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/peer_ims.cc:325: TRACE: Waiting for a chunk at (0.0.0.0,39401)[0m
+2016-06-26 06:49:53.209743 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/peer_ims.cc:333: TRACE: Received a message from (150.214.150.68,4554) of length 1026[0m
+2016-06-26 06:49:53.209783 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/peer_dbs.cc:176: TRACE: (0.0.0.0,39401)<-785-(150.214.150.68,4554)[0m
+2016-06-26 06:49:53.209845 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/peer_dbs.cc:264: TRACE: (0.0.0.0,39401)-768->(207.81.37.53,39387)[0m
+2016-06-26 06:49:53.209892 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/peer_ims.cc:292: TRACE: ![0m
+2016-06-26 06:49:53.209921 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/peer_ims.cc:325: TRACE: Waiting for a chunk at (0.0.0.0,39401)[0m
+2016-06-26 06:49:53.376595 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/peer_ims.cc:333: TRACE: Received a message from (150.214.150.68,4554) of length 1026[0m
+2016-06-26 06:49:53.376741 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/peer_dbs.cc:176: TRACE: (0.0.0.0,39401)<-787-(150.214.150.68,4554)[0m
+2016-06-26 06:49:53.376839 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/peer_dbs.cc:264: TRACE: (0.0.0.0,39401)-768->(207.81.37.53,39387)[0m
+2016-06-26 06:49:53.376888 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/peer_ims.cc:292: TRACE: ![0m
+2016-06-26 06:49:53.376919 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/peer_ims.cc:325: TRACE: Waiting for a chunk at (0.0.0.0,39401)[0m
+2016-06-26 06:49:53.376965 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/peer_ims.cc:333: TRACE: Received a message from (150.214.150.68,4554) of length 1026[0m
+2016-06-26 06:49:53.377005 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/peer_dbs.cc:176: TRACE: (0.0.0.0,39401)<-789-(150.214.150.68,4554)[0m
+2016-06-26 06:49:53.377065 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/peer_dbs.cc:264: TRACE: (0.0.0.0,39401)-768->(207.81.37.53,39387)[0m
+2016-06-26 06:49:53.377111 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/peer_ims.cc:292: TRACE: ![0m
+2016-06-26 06:49:53.377141 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/peer_ims.cc:325: TRACE: Waiting for a chunk at (0.0.0.0,39401)[0m
+2016-06-26 06:49:53.541940 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/peer_ims.cc:333: TRACE: Received a message from (150.214.150.68,4554) of length 1026[0m
+2016-06-26 06:49:53.542088 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/peer_dbs.cc:176: TRACE: (0.0.0.0,39401)<-791-(150.214.150.68,4554)[0m
+2016-06-26 06:49:53.542175 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/peer_dbs.cc:264: TRACE: (0.0.0.0,39401)-768->(207.81.37.53,39387)[0m
+2016-06-26 06:49:53.542223 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/peer_ims.cc:292: TRACE: ![0m
+2016-06-26 06:49:53.542254 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/peer_ims.cc:325: TRACE: Waiting for a chunk at (0.0.0.0,39401)[0m
+2016-06-26 06:49:53.542300 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/peer_ims.cc:333: TRACE: Received a message from (150.214.150.68,4554) of length 1026[0m
+2016-06-26 06:49:53.542341 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/peer_dbs.cc:176: TRACE: (0.0.0.0,39401)<-793-(150.214.150.68,4554)[0m
+2016-06-26 06:49:53.542403 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/peer_dbs.cc:264: TRACE: (0.0.0.0,39401)-768->(207.81.37.53,39387)[0m
+2016-06-26 06:49:53.542449 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/peer_ims.cc:292: TRACE: ![0m
+2016-06-26 06:49:53.542480 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/peer_ims.cc:325: TRACE: Waiting for a chunk at (0.0.0.0,39401)[0m
+2016-06-26 06:49:53.665146 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/peer_ims.cc:333: TRACE: Received a message from (150.214.150.68,4554) of length 1026[0m
+2016-06-26 06:49:53.665360 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/peer_dbs.cc:176: TRACE: (0.0.0.0,39401)<-795-(150.214.150.68,4554)[0m
+2016-06-26 06:49:53.665451 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/peer_dbs.cc:264: TRACE: (0.0.0.0,39401)-768->(207.81.37.53,39387)[0m
+2016-06-26 06:49:53.665499 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/peer_ims.cc:292: TRACE: ![0m
+2016-06-26 06:49:53.665531 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/peer_ims.cc:325: TRACE: Waiting for a chunk at (0.0.0.0,39401)[0m
+2016-06-26 06:49:53.665577 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/peer_ims.cc:333: TRACE: Received a message from (150.214.150.68,4554) of length 1026[0m
+2016-06-26 06:49:53.665617 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/peer_dbs.cc:176: TRACE: (0.0.0.0,39401)<-797-(150.214.150.68,4554)[0m
+2016-06-26 06:49:53.665678 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/peer_dbs.cc:264: TRACE: (0.0.0.0,39401)-768->(207.81.37.53,39387)[0m
+2016-06-26 06:49:53.665724 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/peer_ims.cc:292: TRACE: ![0m
+2016-06-26 06:49:53.665754 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/peer_ims.cc:325: TRACE: Waiting for a chunk at (0.0.0.0,39401)[0m
+2016-06-26 06:49:53.665798 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/peer_ims.cc:333: TRACE: Received a message from (150.214.150.68,4554) of length 1026[0m
+2016-06-26 06:49:53.665838 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/peer_dbs.cc:176: TRACE: (0.0.0.0,39401)<-799-(150.214.150.68,4554)[0m
+2016-06-26 06:49:53.665898 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/peer_dbs.cc:264: TRACE: (0.0.0.0,39401)-768->(207.81.37.53,39387)[0m
+2016-06-26 06:49:53.665945 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/peer_ims.cc:292: TRACE: ![0m
+2016-06-26 06:49:53.665975 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/peer_ims.cc:325: TRACE: Waiting for a chunk at (0.0.0.0,39401)[0m
+2016-06-26 06:49:53.709881 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/peer_ims.cc:333: TRACE: Received a message from (150.214.150.68,4554) of length 1026[0m
+2016-06-26 06:49:53.710002 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/peer_dbs.cc:176: TRACE: (0.0.0.0,39401)<-801-(150.214.150.68,4554)[0m
+2016-06-26 06:49:53.710114 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/peer_dbs.cc:264: TRACE: (0.0.0.0,39401)-768->(207.81.37.53,39387)[0m
+2016-06-26 06:49:53.710187 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/peer_ims.cc:292: TRACE: ![0m
+2016-06-26 06:49:53.710235 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/peer_ims.cc:325: TRACE: Waiting for a chunk at (0.0.0.0,39401)[0m
+2016-06-26 06:49:53.710307 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/peer_ims.cc:333: TRACE: Received a message from (150.214.150.68,4554) of length 1026[0m
+2016-06-26 06:49:53.710371 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/peer_dbs.cc:176: TRACE: (0.0.0.0,39401)<-803-(150.214.150.68,4554)[0m
+2016-06-26 06:49:53.710466 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/peer_dbs.cc:264: TRACE: (0.0.0.0,39401)-768->(207.81.37.53,39387)[0m
+2016-06-26 06:49:53.710534 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/peer_ims.cc:292: TRACE: ![0m
+2016-06-26 06:49:53.710565 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/peer_ims.cc:325: TRACE: Waiting for a chunk at (0.0.0.0,39401)[0m
+2016-06-26 06:49:53.835044 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/peer_ims.cc:333: TRACE: Received a message from (150.214.150.68,4554) of length 1026[0m
+2016-06-26 06:49:53.835161 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/peer_dbs.cc:176: TRACE: (0.0.0.0,39401)<-805-(150.214.150.68,4554)[0m
+2016-06-26 06:49:53.835269 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/peer_dbs.cc:264: TRACE: (0.0.0.0,39401)-768->(207.81.37.53,39387)[0m
+2016-06-26 06:49:53.835360 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/peer_ims.cc:292: TRACE: ![0m
+2016-06-26 06:49:53.835408 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/peer_ims.cc:325: TRACE: Waiting for a chunk at (0.0.0.0,39401)[0m
+2016-06-26 06:49:53.835477 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/peer_ims.cc:333: TRACE: Received a message from (150.214.150.68,4554) of length 1026[0m
+2016-06-26 06:49:53.835627 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/peer_dbs.cc:176: TRACE: (0.0.0.0,39401)<-807-(150.214.150.68,4554)[0m
+2016-06-26 06:49:53.835735 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/peer_dbs.cc:264: TRACE: (0.0.0.0,39401)-768->(207.81.37.53,39387)[0m
+2016-06-26 06:49:53.835789 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/peer_ims.cc:292: TRACE: ![0m
+2016-06-26 06:49:53.835820 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/peer_ims.cc:325: TRACE: Waiting for a chunk at (0.0.0.0,39401)[0m
+2016-06-26 06:49:53.959357 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/peer_ims.cc:333: TRACE: Received a message from (150.214.150.68,4554) of length 1026[0m
+2016-06-26 06:49:53.959472 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/peer_dbs.cc:176: TRACE: (0.0.0.0,39401)<-809-(150.214.150.68,4554)[0m
+2016-06-26 06:49:53.959584 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/peer_dbs.cc:264: TRACE: (0.0.0.0,39401)-768->(207.81.37.53,39387)[0m
+2016-06-26 06:49:53.959657 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/peer_ims.cc:292: TRACE: ![0m
+2016-06-26 06:49:53.959706 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/peer_ims.cc:325: TRACE: Waiting for a chunk at (0.0.0.0,39401)[0m
+2016-06-26 06:49:53.959776 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/peer_ims.cc:333: TRACE: Received a message from (150.214.150.68,4554) of length 1026[0m
+2016-06-26 06:49:53.959841 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/peer_dbs.cc:176: TRACE: (0.0.0.0,39401)<-811-(150.214.150.68,4554)[0m
+2016-06-26 06:49:53.959936 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/peer_dbs.cc:264: TRACE: (0.0.0.0,39401)-768->(207.81.37.53,39387)[0m
+2016-06-26 06:49:53.960000 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/peer_ims.cc:292: TRACE: ![0m
+2016-06-26 06:49:53.960036 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/peer_ims.cc:325: TRACE: Waiting for a chunk at (0.0.0.0,39401)[0m
+2016-06-26 06:49:54.084418 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/peer_ims.cc:333: TRACE: Received a message from (150.214.150.68,4554) of length 1026[0m
+2016-06-26 06:49:54.084529 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/peer_dbs.cc:176: TRACE: (0.0.0.0,39401)<-813-(150.214.150.68,4554)[0m
+2016-06-26 06:49:54.084640 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/peer_dbs.cc:264: TRACE: (0.0.0.0,39401)-768->(207.81.37.53,39387)[0m
+2016-06-26 06:49:54.084715 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/peer_ims.cc:292: TRACE: ![0m
+2016-06-26 06:49:54.084763 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/peer_ims.cc:325: TRACE: Waiting for a chunk at (0.0.0.0,39401)[0m
+2016-06-26 06:49:54.084833 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/peer_ims.cc:333: TRACE: Received a message from (150.214.150.68,4554) of length 1026[0m
+2016-06-26 06:49:54.084899 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/peer_dbs.cc:176: TRACE: (0.0.0.0,39401)<-815-(150.214.150.68,4554)[0m
+2016-06-26 06:49:54.084996 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/peer_dbs.cc:264: TRACE: (0.0.0.0,39401)-768->(207.81.37.53,39387)[0m
+2016-06-26 06:49:54.085067 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/peer_ims.cc:292: TRACE: ![0m
+2016-06-26 06:49:54.085114 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/peer_ims.cc:325: TRACE: Waiting for a chunk at (0.0.0.0,39401)[0m
+2016-06-26 06:49:54.209767 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/peer_ims.cc:333: TRACE: Received a message from (150.214.150.68,4554) of length 1026[0m
+2016-06-26 06:49:54.209873 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/peer_dbs.cc:176: TRACE: (0.0.0.0,39401)<-817-(150.214.150.68,4554)[0m
+2016-06-26 06:49:54.209981 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/peer_dbs.cc:264: TRACE: (0.0.0.0,39401)-768->(207.81.37.53,39387)[0m
+2016-06-26 06:49:54.210058 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/peer_ims.cc:292: TRACE: ![0m
+2016-06-26 06:49:54.210108 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/peer_ims.cc:325: TRACE: Waiting for a chunk at (0.0.0.0,39401)[0m
+2016-06-26 06:49:54.210256 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/peer_ims.cc:333: TRACE: Received a message from (150.214.150.68,4554) of length 1026[0m
+2016-06-26 06:49:54.210325 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/peer_dbs.cc:176: TRACE: (0.0.0.0,39401)<-819-(150.214.150.68,4554)[0m
+2016-06-26 06:49:54.210396 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/peer_dbs.cc:264: TRACE: (0.0.0.0,39401)-768->(207.81.37.53,39387)[0m
+2016-06-26 06:49:54.210444 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/peer_ims.cc:292: TRACE: ![0m
+2016-06-26 06:49:54.210474 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/peer_ims.cc:325: TRACE: Waiting for a chunk at (0.0.0.0,39401)[0m
+2016-06-26 06:49:54.334429 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/peer_ims.cc:333: TRACE: Received a message from (150.214.150.68,4554) of length 1026[0m
+2016-06-26 06:49:54.334587 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/peer_dbs.cc:176: TRACE: (0.0.0.0,39401)<-821-(150.214.150.68,4554)[0m
+2016-06-26 06:49:54.334690 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/peer_dbs.cc:264: TRACE: (0.0.0.0,39401)-768->(207.81.37.53,39387)[0m
+2016-06-26 06:49:54.334739 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/peer_ims.cc:292: TRACE: ![0m
+2016-06-26 06:49:54.334770 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/peer_ims.cc:325: TRACE: Waiting for a chunk at (0.0.0.0,39401)[0m
+2016-06-26 06:49:54.334816 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/peer_ims.cc:333: TRACE: Received a message from (150.214.150.68,4554) of length 1026[0m
+2016-06-26 06:49:54.334856 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/peer_dbs.cc:176: TRACE: (0.0.0.0,39401)<-823-(150.214.150.68,4554)[0m
+2016-06-26 06:49:54.334918 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/peer_dbs.cc:264: TRACE: (0.0.0.0,39401)-768->(207.81.37.53,39387)[0m
+2016-06-26 06:49:54.334965 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/peer_ims.cc:292: TRACE: ![0m
+2016-06-26 06:49:54.334994 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/peer_ims.cc:325: TRACE: Waiting for a chunk at (0.0.0.0,39401)[0m
+2016-06-26 06:49:54.416527 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/peer_ims.cc:333: TRACE: Received a message from (150.214.150.68,4554) of length 1026[0m
+2016-06-26 06:49:54.416632 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/peer_dbs.cc:176: TRACE: (0.0.0.0,39401)<-825-(150.214.150.68,4554)[0m
+2016-06-26 06:49:54.416713 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/peer_dbs.cc:264: TRACE: (0.0.0.0,39401)-768->(207.81.37.53,39387)[0m
+2016-06-26 06:49:54.416761 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/peer_ims.cc:292: TRACE: ![0m
+2016-06-26 06:49:54.416792 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/peer_ims.cc:325: TRACE: Waiting for a chunk at (0.0.0.0,39401)[0m
+2016-06-26 06:49:54.416837 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/peer_ims.cc:333: TRACE: Received a message from (150.214.150.68,4554) of length 1026[0m
+2016-06-26 06:49:54.416878 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/peer_dbs.cc:176: TRACE: (0.0.0.0,39401)<-827-(150.214.150.68,4554)[0m
+2016-06-26 06:49:54.416941 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/peer_dbs.cc:264: TRACE: (0.0.0.0,39401)-768->(207.81.37.53,39387)[0m
+2016-06-26 06:49:54.416988 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/peer_ims.cc:292: TRACE: ![0m
+2016-06-26 06:49:54.417018 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/peer_ims.cc:325: TRACE: Waiting for a chunk at (0.0.0.0,39401)[0m
+2016-06-26 06:49:54.432573 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/peer_ims.cc:333: TRACE: Received a message from (150.214.150.68,4554) of length 1026[0m
+2016-06-26 06:49:54.432641 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/peer_dbs.cc:176: TRACE: (0.0.0.0,39401)<-829-(150.214.150.68,4554)[0m
+2016-06-26 06:49:54.432722 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/peer_dbs.cc:264: TRACE: (0.0.0.0,39401)-768->(207.81.37.53,39387)[0m
+2016-06-26 06:49:54.432769 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/peer_ims.cc:292: TRACE: ![0m
+2016-06-26 06:49:54.432799 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/peer_ims.cc:325: TRACE: Waiting for a chunk at (0.0.0.0,39401)[0m
+2016-06-26 06:49:54.432913 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/peer_ims.cc:333: TRACE: Received a message from (150.214.150.68,4554) of length 1026[0m
+2016-06-26 06:49:54.432955 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/peer_dbs.cc:176: TRACE: (0.0.0.0,39401)<-831-(150.214.150.68,4554)[0m
+2016-06-26 06:49:54.433018 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/peer_dbs.cc:264: TRACE: (0.0.0.0,39401)-768->(207.81.37.53,39387)[0m
+2016-06-26 06:49:54.433065 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/peer_ims.cc:292: TRACE: ![0m
+2016-06-26 06:49:54.433095 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/peer_ims.cc:325: TRACE: Waiting for a chunk at (0.0.0.0,39401)[0m
+2016-06-26 06:49:54.500765 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/peer_ims.cc:333: TRACE: Received a message from (150.214.150.68,4554) of length 1026[0m
+2016-06-26 06:49:54.500853 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/peer_dbs.cc:176: TRACE: (0.0.0.0,39401)<-833-(150.214.150.68,4554)[0m
+2016-06-26 06:49:54.500926 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/peer_dbs.cc:264: TRACE: (0.0.0.0,39401)-768->(207.81.37.53,39387)[0m
+2016-06-26 06:49:54.500973 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/peer_ims.cc:292: TRACE: ![0m
+2016-06-26 06:49:54.501004 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/peer_ims.cc:325: TRACE: Waiting for a chunk at (0.0.0.0,39401)[0m
+2016-06-26 06:49:54.501366 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/peer_ims.cc:333: TRACE: Received a message from (150.214.150.68,4554) of length 1026[0m
+2016-06-26 06:49:54.501484 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/peer_dbs.cc:176: TRACE: (0.0.0.0,39401)<-835-(150.214.150.68,4554)[0m
+2016-06-26 06:49:54.501594 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/peer_dbs.cc:264: TRACE: (0.0.0.0,39401)-768->(207.81.37.53,39387)[0m
+2016-06-26 06:49:54.501670 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/peer_ims.cc:292: TRACE: ![0m
+2016-06-26 06:49:54.501717 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/peer_ims.cc:325: TRACE: Waiting for a chunk at (0.0.0.0,39401)[0m
+2016-06-26 06:49:54.584575 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/peer_ims.cc:333: TRACE: Received a message from (150.214.150.68,4554) of length 1026[0m
+2016-06-26 06:49:54.584684 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/peer_dbs.cc:176: TRACE: (0.0.0.0,39401)<-837-(150.214.150.68,4554)[0m
+2016-06-26 06:49:54.584806 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/peer_dbs.cc:264: TRACE: (0.0.0.0,39401)-768->(207.81.37.53,39387)[0m
+2016-06-26 06:49:54.584887 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/peer_ims.cc:292: TRACE: ![0m
+2016-06-26 06:49:54.584934 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/peer_ims.cc:325: TRACE: Waiting for a chunk at (0.0.0.0,39401)[0m
+2016-06-26 06:49:54.585003 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/peer_ims.cc:333: TRACE: Received a message from (150.214.150.68,4554) of length 1026[0m
+2016-06-26 06:49:54.585064 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/peer_dbs.cc:176: TRACE: (0.0.0.0,39401)<-839-(150.214.150.68,4554)[0m
+2016-06-26 06:49:54.585161 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/peer_dbs.cc:264: TRACE: (0.0.0.0,39401)-768->(207.81.37.53,39387)[0m
+2016-06-26 06:49:54.585212 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/peer_ims.cc:292: TRACE: ![0m
+2016-06-26 06:49:54.585242 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/peer_ims.cc:325: TRACE: Waiting for a chunk at (0.0.0.0,39401)[0m
+2016-06-26 06:49:54.751400 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/peer_ims.cc:333: TRACE: Received a message from (150.214.150.68,4554) of length 1026[0m
+2016-06-26 06:49:54.751521 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/peer_dbs.cc:176: TRACE: (0.0.0.0,39401)<-841-(150.214.150.68,4554)[0m
+2016-06-26 06:49:54.751643 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/peer_dbs.cc:264: TRACE: (0.0.0.0,39401)-768->(207.81.37.53,39387)[0m
+2016-06-26 06:49:54.751707 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/peer_ims.cc:292: TRACE: ![0m
+2016-06-26 06:49:54.751820 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/peer_ims.cc:325: TRACE: Waiting for a chunk at (0.0.0.0,39401)[0m
+2016-06-26 06:49:54.751870 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/peer_ims.cc:333: TRACE: Received a message from (150.214.150.68,4554) of length 1026[0m
+2016-06-26 06:49:54.751912 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/peer_dbs.cc:176: TRACE: (0.0.0.0,39401)<-843-(150.214.150.68,4554)[0m
+2016-06-26 06:49:54.751976 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/peer_dbs.cc:264: TRACE: (0.0.0.0,39401)-768->(207.81.37.53,39387)[0m
+2016-06-26 06:49:54.752021 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/peer_ims.cc:292: TRACE: ![0m
+2016-06-26 06:49:54.752051 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/peer_ims.cc:325: TRACE: Waiting for a chunk at (0.0.0.0,39401)[0m
+2016-06-26 06:49:54.876393 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/peer_ims.cc:333: TRACE: Received a message from (150.214.150.68,4554) of length 1026[0m
+2016-06-26 06:49:54.876494 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/peer_dbs.cc:176: TRACE: (0.0.0.0,39401)<-845-(150.214.150.68,4554)[0m
+2016-06-26 06:49:54.876588 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/peer_dbs.cc:264: TRACE: (0.0.0.0,39401)-768->(207.81.37.53,39387)[0m
+2016-06-26 06:49:54.876635 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/peer_ims.cc:292: TRACE: ![0m
+2016-06-26 06:49:54.876666 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/peer_ims.cc:325: TRACE: Waiting for a chunk at (0.0.0.0,39401)[0m
+2016-06-26 06:49:54.876710 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/peer_ims.cc:333: TRACE: Received a message from (150.214.150.68,4554) of length 1026[0m
+2016-06-26 06:49:54.876749 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/peer_dbs.cc:176: TRACE: (0.0.0.0,39401)<-847-(150.214.150.68,4554)[0m
+2016-06-26 06:49:54.876811 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/peer_dbs.cc:264: TRACE: (0.0.0.0,39401)-768->(207.81.37.53,39387)[0m
+2016-06-26 06:49:54.876856 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/peer_ims.cc:292: TRACE: ![0m
+2016-06-26 06:49:54.876886 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/peer_ims.cc:325: TRACE: Waiting for a chunk at (0.0.0.0,39401)[0m
+2016-06-26 06:49:54.877139 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/peer_ims.cc:333: TRACE: Received a message from (150.214.150.68,4554) of length 1026[0m
+2016-06-26 06:49:54.877254 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/peer_dbs.cc:176: TRACE: (0.0.0.0,39401)<-849-(150.214.150.68,4554)[0m
+2016-06-26 06:49:54.877365 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/peer_dbs.cc:264: TRACE: (0.0.0.0,39401)-768->(207.81.37.53,39387)[0m
+2016-06-26 06:49:54.877437 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/peer_ims.cc:292: TRACE: ![0m
+2016-06-26 06:49:54.877487 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/peer_ims.cc:325: TRACE: Waiting for a chunk at (0.0.0.0,39401)[0m
+2016-06-26 06:49:55.042249 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/peer_ims.cc:333: TRACE: Received a message from (150.214.150.68,4554) of length 1026[0m
+2016-06-26 06:49:55.042365 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/peer_dbs.cc:176: TRACE: (0.0.0.0,39401)<-851-(150.214.150.68,4554)[0m
+2016-06-26 06:49:55.042475 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/peer_dbs.cc:264: TRACE: (0.0.0.0,39401)-768->(207.81.37.53,39387)[0m
+2016-06-26 06:49:55.042547 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/peer_ims.cc:292: TRACE: ![0m
+2016-06-26 06:49:55.042596 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/peer_ims.cc:325: TRACE: Waiting for a chunk at (0.0.0.0,39401)[0m
+2016-06-26 06:49:55.042664 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/peer_ims.cc:333: TRACE: Received a message from (150.214.150.68,4554) of length 1026[0m
+2016-06-26 06:49:55.042727 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/peer_dbs.cc:176: TRACE: (0.0.0.0,39401)<-853-(150.214.150.68,4554)[0m
+2016-06-26 06:49:55.042838 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/peer_dbs.cc:264: TRACE: (0.0.0.0,39401)-768->(207.81.37.53,39387)[0m
+2016-06-26 06:49:55.042909 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/peer_ims.cc:292: TRACE: ![0m
+2016-06-26 06:49:55.043014 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/peer_ims.cc:325: TRACE: Waiting for a chunk at (0.0.0.0,39401)[0m
+2016-06-26 06:49:55.175437 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/peer_ims.cc:333: TRACE: Received a message from (150.214.150.68,4554) of length 1026[0m
+2016-06-26 06:49:55.175543 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/peer_dbs.cc:176: TRACE: (0.0.0.0,39401)<-855-(150.214.150.68,4554)[0m
+2016-06-26 06:49:55.175652 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/peer_dbs.cc:264: TRACE: (0.0.0.0,39401)-768->(207.81.37.53,39387)[0m
+2016-06-26 06:49:55.175724 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/peer_ims.cc:292: TRACE: ![0m
+2016-06-26 06:49:55.175775 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/peer_ims.cc:325: TRACE: Waiting for a chunk at (0.0.0.0,39401)[0m
+2016-06-26 06:49:55.175842 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/peer_ims.cc:333: TRACE: Received a message from (150.214.150.68,4554) of length 1026[0m
+2016-06-26 06:49:55.175907 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/peer_dbs.cc:176: TRACE: (0.0.0.0,39401)<-857-(150.214.150.68,4554)[0m
+2016-06-26 06:49:55.176002 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/peer_dbs.cc:264: TRACE: (0.0.0.0,39401)-768->(207.81.37.53,39387)[0m
+2016-06-26 06:49:55.176077 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/peer_ims.cc:292: TRACE: ![0m
+2016-06-26 06:49:55.176124 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/peer_ims.cc:325: TRACE: Waiting for a chunk at (0.0.0.0,39401)[0m
+2016-06-26 06:49:55.334658 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/peer_ims.cc:333: TRACE: Received a message from (150.214.150.68,4554) of length 1026[0m
+2016-06-26 06:49:55.334766 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/peer_dbs.cc:176: TRACE: (0.0.0.0,39401)<-859-(150.214.150.68,4554)[0m
+2016-06-26 06:49:55.334873 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/peer_dbs.cc:264: TRACE: (0.0.0.0,39401)-768->(207.81.37.53,39387)[0m
+2016-06-26 06:49:55.334945 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/peer_ims.cc:292: TRACE: ![0m
+2016-06-26 06:49:55.334994 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/peer_ims.cc:325: TRACE: Waiting for a chunk at (0.0.0.0,39401)[0m
+2016-06-26 06:49:55.335064 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/peer_ims.cc:333: TRACE: Received a message from (150.214.150.68,4554) of length 1026[0m
+2016-06-26 06:49:55.335126 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/peer_dbs.cc:176: TRACE: (0.0.0.0,39401)<-861-(150.214.150.68,4554)[0m
+2016-06-26 06:49:55.335238 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/peer_dbs.cc:264: TRACE: (0.0.0.0,39401)-768->(207.81.37.53,39387)[0m
+2016-06-26 06:49:55.335331 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/peer_ims.cc:292: TRACE: ![0m
+2016-06-26 06:49:55.335380 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/peer_ims.cc:325: TRACE: Waiting for a chunk at (0.0.0.0,39401)[0m
+2016-06-26 06:49:55.543024 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/peer_ims.cc:333: TRACE: Received a message from (150.214.150.68,4554) of length 1026[0m
+2016-06-26 06:49:55.543136 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/peer_dbs.cc:176: TRACE: (0.0.0.0,39401)<-863-(150.214.150.68,4554)[0m
+2016-06-26 06:49:55.543243 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/peer_dbs.cc:264: TRACE: (0.0.0.0,39401)-768->(207.81.37.53,39387)[0m
+2016-06-26 06:49:55.543341 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/peer_ims.cc:292: TRACE: ![0m
+2016-06-26 06:49:55.543391 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/peer_ims.cc:325: TRACE: Waiting for a chunk at (0.0.0.0,39401)[0m
+2016-06-26 06:49:55.543450 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/peer_ims.cc:333: TRACE: Received a message from (150.214.150.68,4554) of length 1026[0m
+2016-06-26 06:49:55.543505 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/peer_dbs.cc:176: TRACE: (0.0.0.0,39401)<-865-(150.214.150.68,4554)[0m
+2016-06-26 06:49:55.543604 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/peer_dbs.cc:264: TRACE: (0.0.0.0,39401)-768->(207.81.37.53,39387)[0m
+2016-06-26 06:49:55.543756 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/peer_ims.cc:292: TRACE: ![0m
+2016-06-26 06:49:55.543808 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/peer_ims.cc:325: TRACE: Waiting for a chunk at (0.0.0.0,39401)[0m
+2016-06-26 06:49:55.857738 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/peer_ims.cc:333: TRACE: Received a message from (150.214.150.68,4554) of length 1026[0m
+2016-06-26 06:49:55.857857 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/peer_dbs.cc:176: TRACE: (0.0.0.0,39401)<-867-(150.214.150.68,4554)[0m
+2016-06-26 06:49:55.857968 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/peer_dbs.cc:264: TRACE: (0.0.0.0,39401)-768->(207.81.37.53,39387)[0m
+2016-06-26 06:49:55.858042 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/peer_ims.cc:292: TRACE: ![0m
+2016-06-26 06:49:55.858090 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/peer_ims.cc:325: TRACE: Waiting for a chunk at (0.0.0.0,39401)[0m
+2016-06-26 06:49:55.858160 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/peer_ims.cc:333: TRACE: Received a message from (150.214.150.68,4554) of length 1026[0m
+2016-06-26 06:49:55.858224 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/peer_dbs.cc:176: TRACE: (0.0.0.0,39401)<-869-(150.214.150.68,4554)[0m
+2016-06-26 06:49:55.858333 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/peer_dbs.cc:264: TRACE: (0.0.0.0,39401)-768->(207.81.37.53,39387)[0m
+2016-06-26 06:49:55.858407 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/peer_ims.cc:292: TRACE: ![0m
+2016-06-26 06:49:55.858455 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/peer_ims.cc:325: TRACE: Waiting for a chunk at (0.0.0.0,39401)[0m
+2016-06-26 06:49:56.001280 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/peer_ims.cc:333: TRACE: Received a message from (150.214.150.68,4554) of length 1026[0m
+2016-06-26 06:49:56.001424 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/peer_dbs.cc:176: TRACE: (0.0.0.0,39401)<-871-(150.214.150.68,4554)[0m
+2016-06-26 06:49:56.001525 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/peer_dbs.cc:264: TRACE: (0.0.0.0,39401)-768->(207.81.37.53,39387)[0m
+2016-06-26 06:49:56.001573 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/peer_ims.cc:292: TRACE: ![0m
+2016-06-26 06:49:56.001605 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/peer_ims.cc:325: TRACE: Waiting for a chunk at (0.0.0.0,39401)[0m
+2016-06-26 06:49:56.001650 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/peer_ims.cc:333: TRACE: Received a message from (150.214.150.68,4554) of length 1026[0m
+2016-06-26 06:49:56.001689 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/peer_dbs.cc:176: TRACE: (0.0.0.0,39401)<-873-(150.214.150.68,4554)[0m
+2016-06-26 06:49:56.001751 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/peer_dbs.cc:264: TRACE: (0.0.0.0,39401)-768->(207.81.37.53,39387)[0m
+2016-06-26 06:49:56.001797 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/peer_ims.cc:292: TRACE: ![0m
+2016-06-26 06:49:56.001827 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/peer_ims.cc:325: TRACE: Waiting for a chunk at (0.0.0.0,39401)[0m
+2016-06-26 06:49:56.497889 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/peer_ims.cc:333: TRACE: Received a message from (150.214.150.68,4554) of length 1026[0m
+2016-06-26 06:49:56.498044 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/peer_dbs.cc:176: TRACE: (0.0.0.0,39401)<-875-(150.214.150.68,4554)[0m
+2016-06-26 06:49:56.498138 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/peer_dbs.cc:264: TRACE: (0.0.0.0,39401)-768->(207.81.37.53,39387)[0m
+2016-06-26 06:49:56.498185 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/peer_ims.cc:292: TRACE: ![0m
+2016-06-26 06:49:56.498216 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/peer_ims.cc:325: TRACE: Waiting for a chunk at (0.0.0.0,39401)[0m
+2016-06-26 06:49:56.498261 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/peer_ims.cc:333: TRACE: Received a message from (150.214.150.68,4554) of length 1026[0m
+2016-06-26 06:49:56.498300 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/peer_dbs.cc:176: TRACE: (0.0.0.0,39401)<-877-(150.214.150.68,4554)[0m
+2016-06-26 06:49:56.498377 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/peer_dbs.cc:264: TRACE: (0.0.0.0,39401)-768->(207.81.37.53,39387)[0m
+2016-06-26 06:49:56.498494 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/peer_ims.cc:292: TRACE: ![0m
+2016-06-26 06:49:56.498525 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/peer_ims.cc:325: TRACE: Waiting for a chunk at (0.0.0.0,39401)[0m
+2016-06-26 06:49:56.792813 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/peer_ims.cc:333: TRACE: Received a message from (150.214.150.68,4554) of length 1026[0m
+2016-06-26 06:49:56.792930 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/peer_dbs.cc:176: TRACE: (0.0.0.0,39401)<-879-(150.214.150.68,4554)[0m
+2016-06-26 06:49:56.793041 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/peer_dbs.cc:264: TRACE: (0.0.0.0,39401)-768->(207.81.37.53,39387)[0m
+2016-06-26 06:49:56.793114 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/peer_ims.cc:292: TRACE: ![0m
+2016-06-26 06:49:56.793164 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/peer_ims.cc:325: TRACE: Waiting for a chunk at (0.0.0.0,39401)[0m
+2016-06-26 06:49:56.793234 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/peer_ims.cc:333: TRACE: Received a message from (150.214.150.68,4554) of length 1026[0m
+2016-06-26 06:49:56.793296 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/peer_dbs.cc:176: TRACE: (0.0.0.0,39401)<-881-(150.214.150.68,4554)[0m
+2016-06-26 06:49:56.793393 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/peer_dbs.cc:264: TRACE: (0.0.0.0,39401)-768->(207.81.37.53,39387)[0m
+2016-06-26 06:49:56.793464 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/peer_ims.cc:292: TRACE: ![0m
+2016-06-26 06:49:56.793497 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/peer_ims.cc:325: TRACE: Waiting for a chunk at (0.0.0.0,39401)[0m
+2016-06-26 06:49:56.917216 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/peer_ims.cc:333: TRACE: Received a message from (150.214.150.68,4554) of length 1026[0m
+2016-06-26 06:49:56.917333 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/peer_dbs.cc:176: TRACE: (0.0.0.0,39401)<-883-(150.214.150.68,4554)[0m
+2016-06-26 06:49:56.917441 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/peer_dbs.cc:264: TRACE: (0.0.0.0,39401)-768->(207.81.37.53,39387)[0m
+2016-06-26 06:49:56.917524 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/peer_ims.cc:292: TRACE: ![0m
+2016-06-26 06:49:56.917575 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/peer_ims.cc:325: TRACE: Waiting for a chunk at (0.0.0.0,39401)[0m
+2016-06-26 06:49:56.917643 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/peer_ims.cc:333: TRACE: Received a message from (150.214.150.68,4554) of length 1026[0m
+2016-06-26 06:49:56.917706 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/peer_dbs.cc:176: TRACE: (0.0.0.0,39401)<-885-(150.214.150.68,4554)[0m
+2016-06-26 06:49:56.917820 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/peer_dbs.cc:264: TRACE: (0.0.0.0,39401)-768->(207.81.37.53,39387)[0m
+2016-06-26 06:49:56.917889 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/peer_ims.cc:292: TRACE: ![0m
+2016-06-26 06:49:56.917936 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/peer_ims.cc:325: TRACE: Waiting for a chunk at (0.0.0.0,39401)[0m
+2016-06-26 06:49:56.918016 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/peer_ims.cc:333: TRACE: Received a message from (150.214.150.68,4554) of length 1026[0m
+2016-06-26 06:49:56.918080 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/peer_dbs.cc:176: TRACE: (0.0.0.0,39401)<-887-(150.214.150.68,4554)[0m
+2016-06-26 06:49:56.918176 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/peer_dbs.cc:264: TRACE: (0.0.0.0,39401)-768->(207.81.37.53,39387)[0m
+2016-06-26 06:49:56.918265 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/peer_ims.cc:292: TRACE: ![0m
+2016-06-26 06:49:56.918314 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/peer_ims.cc:325: TRACE: Waiting for a chunk at (0.0.0.0,39401)[0m
+2016-06-26 06:49:56.918384 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/peer_ims.cc:333: TRACE: Received a message from (150.214.150.68,4554) of length 1026[0m
+2016-06-26 06:49:56.918449 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/peer_dbs.cc:176: TRACE: (0.0.0.0,39401)<-889-(150.214.150.68,4554)[0m
+2016-06-26 06:49:56.918556 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/peer_dbs.cc:264: TRACE: (0.0.0.0,39401)-768->(207.81.37.53,39387)[0m
+2016-06-26 06:49:56.918708 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/peer_ims.cc:292: TRACE: ![0m
+2016-06-26 06:49:56.918777 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/peer_ims.cc:325: TRACE: Waiting for a chunk at (0.0.0.0,39401)[0m
+2016-06-26 06:49:56.918849 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/peer_ims.cc:333: TRACE: Received a message from (150.214.150.68,4554) of length 1026[0m
+2016-06-26 06:49:56.918913 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/peer_dbs.cc:176: TRACE: (0.0.0.0,39401)<-891-(150.214.150.68,4554)[0m
+2016-06-26 06:49:56.919024 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/peer_dbs.cc:264: TRACE: (0.0.0.0,39401)-768->(207.81.37.53,39387)[0m
+2016-06-26 06:49:56.919099 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/peer_ims.cc:292: TRACE: ![0m
+2016-06-26 06:49:56.919145 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/peer_ims.cc:325: TRACE: Waiting for a chunk at (0.0.0.0,39401)[0m
+2016-06-26 06:49:56.919213 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/peer_ims.cc:333: TRACE: Received a message from (150.214.150.68,4554) of length 1026[0m
+2016-06-26 06:49:56.919290 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/peer_dbs.cc:176: TRACE: (0.0.0.0,39401)<-893-(150.214.150.68,4554)[0m
+2016-06-26 06:49:56.919424 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/peer_dbs.cc:264: TRACE: (0.0.0.0,39401)-768->(207.81.37.53,39387)[0m
+2016-06-26 06:49:56.919509 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/peer_ims.cc:292: TRACE: ![0m
+2016-06-26 06:49:56.919556 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/peer_ims.cc:325: TRACE: Waiting for a chunk at (0.0.0.0,39401)[0m
+2016-06-26 06:49:56.919625 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/peer_ims.cc:333: TRACE: Received a message from (150.214.150.68,4554) of length 1026[0m
+2016-06-26 06:49:56.919687 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/peer_dbs.cc:176: TRACE: (0.0.0.0,39401)<-895-(150.214.150.68,4554)[0m
+2016-06-26 06:49:56.919785 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/peer_dbs.cc:264: TRACE: (0.0.0.0,39401)-768->(207.81.37.53,39387)[0m
+2016-06-26 06:49:56.919854 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/peer_ims.cc:292: TRACE: ![0m
+2016-06-26 06:49:56.919901 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/peer_ims.cc:325: TRACE: Waiting for a chunk at (0.0.0.0,39401)[0m
+2016-06-26 06:49:57.265801 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/peer_ims.cc:333: TRACE: Received a message from (150.214.150.68,4554) of length 1026[0m
+2016-06-26 06:49:57.265913 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/peer_dbs.cc:176: TRACE: (0.0.0.0,39401)<-897-(150.214.150.68,4554)[0m
+2016-06-26 06:49:57.266022 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/peer_dbs.cc:264: TRACE: (0.0.0.0,39401)-768->(207.81.37.53,39387)[0m
+2016-06-26 06:49:57.266095 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/peer_ims.cc:292: TRACE: ![0m
+2016-06-26 06:49:57.266144 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/peer_ims.cc:325: TRACE: Waiting for a chunk at (0.0.0.0,39401)[0m
+2016-06-26 06:49:57.266212 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/peer_ims.cc:333: TRACE: Received a message from (150.214.150.68,4554) of length 1026[0m
+2016-06-26 06:49:57.266289 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/peer_dbs.cc:176: TRACE: (0.0.0.0,39401)<-899-(150.214.150.68,4554)[0m
+2016-06-26 06:49:57.266385 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/peer_dbs.cc:264: TRACE: (0.0.0.0,39401)-768->(207.81.37.53,39387)[0m
+2016-06-26 06:49:57.266434 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/peer_ims.cc:292: TRACE: ![0m
+2016-06-26 06:49:57.266465 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/peer_ims.cc:325: TRACE: Waiting for a chunk at (0.0.0.0,39401)[0m
+2016-06-26 06:49:57.376970 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/peer_ims.cc:333: TRACE: Received a message from (150.214.150.68,4554) of length 1026[0m
+2016-06-26 06:49:57.377091 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/peer_dbs.cc:176: TRACE: (0.0.0.0,39401)<-901-(150.214.150.68,4554)[0m
+2016-06-26 06:49:57.409251 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/peer_dbs.cc:264: TRACE: (0.0.0.0,39401)-768->(207.81.37.53,39387)[0m
+2016-06-26 06:49:57.409319 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/peer_ims.cc:292: TRACE: ![0m
+2016-06-26 06:49:57.409351 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/peer_ims.cc:325: TRACE: Waiting for a chunk at (0.0.0.0,39401)[0m
+2016-06-26 06:49:57.409397 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/peer_ims.cc:333: TRACE: Received a message from (150.214.150.68,4554) of length 1026[0m
+2016-06-26 06:49:57.409439 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/peer_dbs.cc:176: TRACE: (0.0.0.0,39401)<-903-(150.214.150.68,4554)[0m
+2016-06-26 06:49:57.409501 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/peer_dbs.cc:264: TRACE: (0.0.0.0,39401)-768->(207.81.37.53,39387)[0m
+2016-06-26 06:49:57.409546 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/peer_ims.cc:292: TRACE: ![0m
+2016-06-26 06:49:57.409576 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/peer_ims.cc:325: TRACE: Waiting for a chunk at (0.0.0.0,39401)[0m
+2016-06-26 06:49:57.751606 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/peer_ims.cc:333: TRACE: Received a message from (150.214.150.68,4554) of length 1026[0m
+2016-06-26 06:49:57.751723 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/peer_dbs.cc:176: TRACE: (0.0.0.0,39401)<-905-(150.214.150.68,4554)[0m
+2016-06-26 06:49:57.751833 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/peer_dbs.cc:264: TRACE: (0.0.0.0,39401)-768->(207.81.37.53,39387)[0m
+2016-06-26 06:49:57.751910 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/peer_ims.cc:292: TRACE: ![0m
+2016-06-26 06:49:57.751959 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/peer_ims.cc:325: TRACE: Waiting for a chunk at (0.0.0.0,39401)[0m
+2016-06-26 06:49:57.752042 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/peer_ims.cc:333: TRACE: Received a message from (150.214.150.68,4554) of length 1026[0m
+2016-06-26 06:49:57.752103 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/peer_dbs.cc:176: TRACE: (0.0.0.0,39401)<-907-(150.214.150.68,4554)[0m
+2016-06-26 06:49:57.752195 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/peer_dbs.cc:264: TRACE: (0.0.0.0,39401)-768->(207.81.37.53,39387)[0m
+2016-06-26 06:49:57.752253 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/peer_ims.cc:292: TRACE: ![0m
+2016-06-26 06:49:57.752284 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/peer_ims.cc:325: TRACE: Waiting for a chunk at (0.0.0.0,39401)[0m
+2016-06-26 06:49:57.905871 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/peer_ims.cc:333: TRACE: Received a message from (150.214.150.68,4554) of length 1026[0m
+2016-06-26 06:49:57.905985 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/peer_dbs.cc:176: TRACE: (0.0.0.0,39401)<-909-(150.214.150.68,4554)[0m
+2016-06-26 06:49:57.906111 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/peer_dbs.cc:264: TRACE: (0.0.0.0,39401)-768->(207.81.37.53,39387)[0m
+2016-06-26 06:49:57.906204 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/peer_ims.cc:292: TRACE: ![0m
+2016-06-26 06:49:57.906252 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/peer_ims.cc:325: TRACE: Waiting for a chunk at (0.0.0.0,39401)[0m
+2016-06-26 06:49:57.906322 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/peer_ims.cc:333: TRACE: Received a message from (150.214.150.68,4554) of length 1026[0m
+2016-06-26 06:49:57.906382 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/peer_dbs.cc:176: TRACE: (0.0.0.0,39401)<-911-(150.214.150.68,4554)[0m
+2016-06-26 06:49:57.906467 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/peer_dbs.cc:264: TRACE: (0.0.0.0,39401)-768->(207.81.37.53,39387)[0m
+2016-06-26 06:49:57.906514 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/peer_ims.cc:292: TRACE: ![0m
+2016-06-26 06:49:57.906545 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/peer_ims.cc:325: TRACE: Waiting for a chunk at (0.0.0.0,39401)[0m
+2016-06-26 06:49:58.043052 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/peer_ims.cc:333: TRACE: Received a message from (150.214.150.68,4554) of length 1026[0m
+2016-06-26 06:49:58.043164 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/peer_dbs.cc:176: TRACE: (0.0.0.0,39401)<-913-(150.214.150.68,4554)[0m
+2016-06-26 06:49:58.043450 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/peer_dbs.cc:264: TRACE: (0.0.0.0,39401)-768->(207.81.37.53,39387)[0m
+2016-06-26 06:49:58.043533 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/peer_ims.cc:292: TRACE: ![0m
+2016-06-26 06:49:58.043596 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/peer_ims.cc:325: TRACE: Waiting for a chunk at (0.0.0.0,39401)[0m
+2016-06-26 06:49:58.043667 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/peer_ims.cc:333: TRACE: Received a message from (150.214.150.68,4554) of length 1026[0m
+2016-06-26 06:49:58.043731 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/peer_dbs.cc:176: TRACE: (0.0.0.0,39401)<-915-(150.214.150.68,4554)[0m
+2016-06-26 06:49:58.043829 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/peer_dbs.cc:264: TRACE: (0.0.0.0,39401)-768->(207.81.37.53,39387)[0m
+2016-06-26 06:49:58.043898 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/peer_ims.cc:292: TRACE: ![0m
+2016-06-26 06:49:58.043943 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/peer_ims.cc:325: TRACE: Waiting for a chunk at (0.0.0.0,39401)[0m
+2016-06-26 06:49:58.334687 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/peer_ims.cc:333: TRACE: Received a message from (150.214.150.68,4554) of length 1026[0m
+2016-06-26 06:49:58.334799 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/peer_dbs.cc:176: TRACE: (0.0.0.0,39401)<-917-(150.214.150.68,4554)[0m
+2016-06-26 06:49:58.334929 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/peer_dbs.cc:264: TRACE: (0.0.0.0,39401)-768->(207.81.37.53,39387)[0m
+2016-06-26 06:49:58.335006 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/peer_ims.cc:292: TRACE: ![0m
+2016-06-26 06:49:58.335053 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/peer_ims.cc:325: TRACE: Waiting for a chunk at (0.0.0.0,39401)[0m
+2016-06-26 06:49:58.335118 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/peer_ims.cc:333: TRACE: Received a message from (150.214.150.68,4554) of length 1026[0m
+2016-06-26 06:49:58.335174 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/peer_dbs.cc:176: TRACE: (0.0.0.0,39401)<-919-(150.214.150.68,4554)[0m
+2016-06-26 06:49:58.335238 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/peer_dbs.cc:264: TRACE: (0.0.0.0,39401)-768->(207.81.37.53,39387)[0m
+2016-06-26 06:49:58.335284 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/peer_ims.cc:292: TRACE: ![0m
+2016-06-26 06:49:58.335331 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/peer_ims.cc:325: TRACE: Waiting for a chunk at (0.0.0.0,39401)[0m
+2016-06-26 06:49:58.674030 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/peer_ims.cc:333: TRACE: Received a message from (150.214.150.68,4554) of length 1026[0m
+2016-06-26 06:49:58.674144 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/peer_dbs.cc:176: TRACE: (0.0.0.0,39401)<-921-(150.214.150.68,4554)[0m
+2016-06-26 06:49:58.674254 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/peer_dbs.cc:264: TRACE: (0.0.0.0,39401)-768->(207.81.37.53,39387)[0m
+2016-06-26 06:49:58.674331 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/peer_ims.cc:292: TRACE: ![0m
+2016-06-26 06:49:58.674381 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/peer_ims.cc:325: TRACE: Waiting for a chunk at (0.0.0.0,39401)[0m
+2016-06-26 06:49:58.674465 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/peer_ims.cc:333: TRACE: Received a message from (150.214.150.68,4554) of length 1026[0m
+2016-06-26 06:49:58.674538 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/peer_dbs.cc:176: TRACE: (0.0.0.0,39401)<-923-(150.214.150.68,4554)[0m
+2016-06-26 06:49:58.674651 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/peer_dbs.cc:264: TRACE: (0.0.0.0,39401)-768->(207.81.37.53,39387)[0m
+2016-06-26 06:49:58.674723 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/peer_ims.cc:292: TRACE: ![0m
+2016-06-26 06:49:58.674764 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/peer_ims.cc:325: TRACE: Waiting for a chunk at (0.0.0.0,39401)[0m
+2016-06-26 06:49:58.751191 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/peer_ims.cc:333: TRACE: Received a message from (150.214.150.68,4554) of length 1026[0m
+2016-06-26 06:49:58.751397 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/peer_dbs.cc:176: TRACE: (0.0.0.0,39401)<-925-(150.214.150.68,4554)[0m
+2016-06-26 06:49:58.751515 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/peer_dbs.cc:264: TRACE: (0.0.0.0,39401)-768->(207.81.37.53,39387)[0m
+2016-06-26 06:49:58.751588 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/peer_ims.cc:292: TRACE: ![0m
+2016-06-26 06:49:58.751652 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/peer_ims.cc:325: TRACE: Waiting for a chunk at (0.0.0.0,39401)[0m
+2016-06-26 06:49:58.751719 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/peer_ims.cc:333: TRACE: Received a message from (150.214.150.68,4554) of length 1026[0m
+2016-06-26 06:49:58.751773 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/peer_dbs.cc:176: TRACE: (0.0.0.0,39401)<-927-(150.214.150.68,4554)[0m
+2016-06-26 06:49:58.751838 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/peer_dbs.cc:264: TRACE: (0.0.0.0,39401)-768->(207.81.37.53,39387)[0m
+2016-06-26 06:49:58.751894 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/peer_ims.cc:292: TRACE: ![0m
+2016-06-26 06:49:58.751924 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/peer_ims.cc:325: TRACE: Waiting for a chunk at (0.0.0.0,39401)[0m
+2016-06-26 06:49:59.084769 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/peer_ims.cc:333: TRACE: Received a message from (150.214.150.68,4554) of length 1026[0m
+2016-06-26 06:49:59.084885 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/peer_dbs.cc:176: TRACE: (0.0.0.0,39401)<-929-(150.214.150.68,4554)[0m
+2016-06-26 06:49:59.084995 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/peer_dbs.cc:264: TRACE: (0.0.0.0,39401)-768->(207.81.37.53,39387)[0m
+2016-06-26 06:49:59.085073 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/peer_ims.cc:292: TRACE: ![0m
+2016-06-26 06:49:59.085122 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/peer_ims.cc:325: TRACE: Waiting for a chunk at (0.0.0.0,39401)[0m
+2016-06-26 06:49:59.085204 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/peer_ims.cc:333: TRACE: Received a message from (150.214.150.68,4554) of length 1026[0m
+2016-06-26 06:49:59.085266 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/peer_dbs.cc:176: TRACE: (0.0.0.0,39401)<-931-(150.214.150.68,4554)[0m
+2016-06-26 06:49:59.085381 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/peer_dbs.cc:264: TRACE: (0.0.0.0,39401)-768->(207.81.37.53,39387)[0m
+2016-06-26 06:49:59.085468 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/peer_ims.cc:292: TRACE: ![0m
+2016-06-26 06:49:59.085516 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/peer_ims.cc:325: TRACE: Waiting for a chunk at (0.0.0.0,39401)[0m
+2016-06-26 06:49:59.086408 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/peer_ims.cc:333: TRACE: Received a message from (150.214.150.68,4554) of length 1026[0m
+2016-06-26 06:49:59.086492 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/peer_dbs.cc:176: TRACE: (0.0.0.0,39401)<-933-(150.214.150.68,4554)[0m
+2016-06-26 06:49:59.086592 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/peer_dbs.cc:264: TRACE: (0.0.0.0,39401)-768->(207.81.37.53,39387)[0m
+2016-06-26 06:49:59.086680 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/peer_ims.cc:292: TRACE: ![0m
+2016-06-26 06:49:59.086729 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/peer_ims.cc:325: TRACE: Waiting for a chunk at (0.0.0.0,39401)[0m
+2016-06-26 06:49:59.086795 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/peer_ims.cc:333: TRACE: Received a message from (150.214.150.68,4554) of length 1026[0m
+2016-06-26 06:49:59.086857 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/peer_dbs.cc:176: TRACE: (0.0.0.0,39401)<-935-(150.214.150.68,4554)[0m
+2016-06-26 06:49:59.086953 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/peer_dbs.cc:264: TRACE: (0.0.0.0,39401)-768->(207.81.37.53,39387)[0m
+2016-06-26 06:49:59.087022 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/peer_ims.cc:292: TRACE: ![0m
+2016-06-26 06:49:59.087067 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/peer_ims.cc:325: TRACE: Waiting for a chunk at (0.0.0.0,39401)[0m
+2016-06-26 06:49:59.087134 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/peer_ims.cc:333: TRACE: Received a message from (150.214.150.68,4554) of length 1026[0m
+2016-06-26 06:49:59.087279 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/peer_dbs.cc:176: TRACE: (0.0.0.0,39401)<-937-(150.214.150.68,4554)[0m
+2016-06-26 06:49:59.087413 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/peer_dbs.cc:264: TRACE: (0.0.0.0,39401)-768->(207.81.37.53,39387)[0m
+2016-06-26 06:49:59.087502 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/peer_ims.cc:292: TRACE: ![0m
+2016-06-26 06:49:59.087552 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/peer_ims.cc:325: TRACE: Waiting for a chunk at (0.0.0.0,39401)[0m
+2016-06-26 06:49:59.087619 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/peer_ims.cc:333: TRACE: Received a message from (150.214.150.68,4554) of length 1026[0m
+2016-06-26 06:49:59.087682 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/peer_dbs.cc:176: TRACE: (0.0.0.0,39401)<-939-(150.214.150.68,4554)[0m
+2016-06-26 06:49:59.087787 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/peer_dbs.cc:264: TRACE: (0.0.0.0,39401)-768->(207.81.37.53,39387)[0m
+2016-06-26 06:49:59.087858 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/peer_ims.cc:292: TRACE: ![0m
+2016-06-26 06:49:59.087905 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/peer_ims.cc:325: TRACE: Waiting for a chunk at (0.0.0.0,39401)[0m
+2016-06-26 06:49:59.087991 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/peer_ims.cc:333: TRACE: Received a message from (150.214.150.68,4554) of length 1026[0m
+2016-06-26 06:49:59.088054 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/peer_dbs.cc:176: TRACE: (0.0.0.0,39401)<-941-(150.214.150.68,4554)[0m
+2016-06-26 06:49:59.088152 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/peer_dbs.cc:264: TRACE: (0.0.0.0,39401)-768->(207.81.37.53,39387)[0m
+2016-06-26 06:49:59.088238 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/peer_ims.cc:292: TRACE: ![0m
+2016-06-26 06:49:59.088287 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/peer_ims.cc:325: TRACE: Waiting for a chunk at (0.0.0.0,39401)[0m
+2016-06-26 06:49:59.167985 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/peer_ims.cc:333: TRACE: Received a message from (150.214.150.68,4554) of length 1026[0m
+2016-06-26 06:49:59.168093 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/peer_dbs.cc:176: TRACE: (0.0.0.0,39401)<-943-(150.214.150.68,4554)[0m
+2016-06-26 06:49:59.168203 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/peer_dbs.cc:264: TRACE: (0.0.0.0,39401)-768->(207.81.37.53,39387)[0m
+2016-06-26 06:49:59.168276 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/peer_ims.cc:292: TRACE: ![0m
+2016-06-26 06:49:59.168326 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/peer_ims.cc:325: TRACE: Waiting for a chunk at (0.0.0.0,39401)[0m
+2016-06-26 06:49:59.168408 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/peer_ims.cc:333: TRACE: Received a message from (150.214.150.68,4554) of length 1026[0m
+2016-06-26 06:49:59.168471 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/peer_dbs.cc:176: TRACE: (0.0.0.0,39401)<-945-(150.214.150.68,4554)[0m
+2016-06-26 06:49:59.168566 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/peer_dbs.cc:264: TRACE: (0.0.0.0,39401)-768->(207.81.37.53,39387)[0m
+2016-06-26 06:49:59.168615 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/peer_ims.cc:292: TRACE: ![0m
+2016-06-26 06:49:59.168658 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/peer_ims.cc:325: TRACE: Waiting for a chunk at (0.0.0.0,39401)[0m
+2016-06-26 06:49:59.292206 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/peer_ims.cc:333: TRACE: Received a message from (150.214.150.68,4554) of length 1026[0m
+2016-06-26 06:49:59.292319 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/peer_dbs.cc:176: TRACE: (0.0.0.0,39401)<-947-(150.214.150.68,4554)[0m
+2016-06-26 06:49:59.292444 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/peer_dbs.cc:264: TRACE: (0.0.0.0,39401)-768->(207.81.37.53,39387)[0m
+2016-06-26 06:49:59.292517 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/peer_ims.cc:292: TRACE: ![0m
+2016-06-26 06:49:59.292581 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/peer_ims.cc:325: TRACE: Waiting for a chunk at (0.0.0.0,39401)[0m
+2016-06-26 06:49:59.292651 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/peer_ims.cc:333: TRACE: Received a message from (150.214.150.68,4554) of length 1026[0m
+2016-06-26 06:49:59.292799 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/peer_dbs.cc:176: TRACE: (0.0.0.0,39401)<-949-(150.214.150.68,4554)[0m
+2016-06-26 06:49:59.292876 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/peer_dbs.cc:264: TRACE: (0.0.0.0,39401)-768->(207.81.37.53,39387)[0m
+2016-06-26 06:49:59.292922 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/peer_ims.cc:292: TRACE: ![0m
+2016-06-26 06:49:59.292952 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/peer_ims.cc:325: TRACE: Waiting for a chunk at (0.0.0.0,39401)[0m
+2016-06-26 06:49:59.356377 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/peer_ims.cc:333: TRACE: Received a message from (150.214.150.68,4554) of length 1026[0m
+2016-06-26 06:49:59.356486 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/peer_dbs.cc:176: TRACE: (0.0.0.0,39401)<-951-(150.214.150.68,4554)[0m
+2016-06-26 06:49:59.356593 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/peer_dbs.cc:264: TRACE: (0.0.0.0,39401)-768->(207.81.37.53,39387)[0m
+2016-06-26 06:49:59.356664 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/peer_ims.cc:292: TRACE: ![0m
+2016-06-26 06:49:59.356715 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/peer_ims.cc:325: TRACE: Waiting for a chunk at (0.0.0.0,39401)[0m
+2016-06-26 06:49:59.356796 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/peer_ims.cc:333: TRACE: Received a message from (150.214.150.68,4554) of length 1026[0m
+2016-06-26 06:49:59.356854 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/peer_dbs.cc:176: TRACE: (0.0.0.0,39401)<-953-(150.214.150.68,4554)[0m
+2016-06-26 06:49:59.356943 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/peer_dbs.cc:264: TRACE: (0.0.0.0,39401)-768->(207.81.37.53,39387)[0m
+2016-06-26 06:49:59.357029 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/peer_ims.cc:292: TRACE: ![0m
+2016-06-26 06:49:59.357074 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/peer_ims.cc:325: TRACE: Waiting for a chunk at (0.0.0.0,39401)[0m
+2016-06-26 06:49:59.376404 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/peer_ims.cc:333: TRACE: Received a message from (150.214.150.68,4554) of length 1026[0m
+2016-06-26 06:49:59.376491 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/peer_dbs.cc:176: TRACE: (0.0.0.0,39401)<-955-(150.214.150.68,4554)[0m
+2016-06-26 06:49:59.376611 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/peer_dbs.cc:264: TRACE: (0.0.0.0,39401)-768->(207.81.37.53,39387)[0m
+2016-06-26 06:49:59.376682 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/peer_ims.cc:292: TRACE: ![0m
+2016-06-26 06:49:59.376732 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/peer_ims.cc:325: TRACE: Waiting for a chunk at (0.0.0.0,39401)[0m
+2016-06-26 06:49:59.376812 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/peer_ims.cc:333: TRACE: Received a message from (150.214.150.68,4554) of length 1026[0m
+2016-06-26 06:49:59.376875 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/peer_dbs.cc:176: TRACE: (0.0.0.0,39401)<-957-(150.214.150.68,4554)[0m
+2016-06-26 06:49:59.376969 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/peer_dbs.cc:264: TRACE: (0.0.0.0,39401)-768->(207.81.37.53,39387)[0m
+2016-06-26 06:49:59.377034 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/peer_ims.cc:292: TRACE: ![0m
+2016-06-26 06:49:59.377065 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/peer_ims.cc:325: TRACE: Waiting for a chunk at (0.0.0.0,39401)[0m
+2016-06-26 06:49:59.459395 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/peer_ims.cc:333: TRACE: Received a message from (150.214.150.68,4554) of length 1026[0m
+2016-06-26 06:49:59.459537 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/peer_dbs.cc:176: TRACE: (0.0.0.0,39401)<-959-(150.214.150.68,4554)[0m
+2016-06-26 06:49:59.459633 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/peer_dbs.cc:264: TRACE: (0.0.0.0,39401)-768->(207.81.37.53,39387)[0m
+2016-06-26 06:49:59.459680 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/peer_ims.cc:292: TRACE: ![0m
+2016-06-26 06:49:59.459712 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/peer_ims.cc:325: TRACE: Waiting for a chunk at (0.0.0.0,39401)[0m
+2016-06-26 06:49:59.459837 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/peer_ims.cc:333: TRACE: Received a message from (150.214.150.68,4554) of length 1026[0m
+2016-06-26 06:49:59.459878 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/peer_dbs.cc:176: TRACE: (0.0.0.0,39401)<-961-(150.214.150.68,4554)[0m
+2016-06-26 06:49:59.459941 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/peer_dbs.cc:264: TRACE: (0.0.0.0,39401)-768->(207.81.37.53,39387)[0m
+2016-06-26 06:49:59.459986 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/peer_ims.cc:292: TRACE: ![0m
+2016-06-26 06:49:59.460017 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/peer_ims.cc:325: TRACE: Waiting for a chunk at (0.0.0.0,39401)[0m
+2016-06-26 06:49:59.543118 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/peer_ims.cc:333: TRACE: Received a message from (150.214.150.68,4554) of length 1026[0m
+2016-06-26 06:49:59.543248 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/peer_dbs.cc:176: TRACE: (0.0.0.0,39401)<-963-(150.214.150.68,4554)[0m
+2016-06-26 06:49:59.543418 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/peer_dbs.cc:264: TRACE: (0.0.0.0,39401)-768->(207.81.37.53,39387)[0m
+2016-06-26 06:49:59.543516 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/peer_ims.cc:292: TRACE: ![0m
+2016-06-26 06:49:59.543568 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/peer_ims.cc:325: TRACE: Waiting for a chunk at (0.0.0.0,39401)[0m
+2016-06-26 06:49:59.543638 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/peer_ims.cc:333: TRACE: Received a message from (150.214.150.68,4554) of length 1026[0m
+2016-06-26 06:49:59.543702 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/peer_dbs.cc:176: TRACE: (0.0.0.0,39401)<-965-(150.214.150.68,4554)[0m
+2016-06-26 06:49:59.543798 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/peer_dbs.cc:264: TRACE: (0.0.0.0,39401)-768->(207.81.37.53,39387)[0m
+2016-06-26 06:49:59.543850 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/peer_ims.cc:292: TRACE: ![0m
+2016-06-26 06:49:59.543881 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/peer_ims.cc:325: TRACE: Waiting for a chunk at (0.0.0.0,39401)[0m
+2016-06-26 06:49:59.666592 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/peer_ims.cc:333: TRACE: Received a message from (150.214.150.68,4554) of length 1026[0m
+2016-06-26 06:49:59.666689 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/peer_dbs.cc:176: TRACE: (0.0.0.0,39401)<-967-(150.214.150.68,4554)[0m
+2016-06-26 06:49:59.666766 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/peer_dbs.cc:264: TRACE: (0.0.0.0,39401)-768->(207.81.37.53,39387)[0m
+2016-06-26 06:49:59.666813 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/peer_ims.cc:292: TRACE: ![0m
+2016-06-26 06:49:59.666844 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/peer_ims.cc:325: TRACE: Waiting for a chunk at (0.0.0.0,39401)[0m
+2016-06-26 06:49:59.666889 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/peer_ims.cc:333: TRACE: Received a message from (150.214.150.68,4554) of length 1026[0m
+2016-06-26 06:49:59.666930 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/peer_dbs.cc:176: TRACE: (0.0.0.0,39401)<-969-(150.214.150.68,4554)[0m
+2016-06-26 06:49:59.666990 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/peer_dbs.cc:264: TRACE: (0.0.0.0,39401)-768->(207.81.37.53,39387)[0m
+2016-06-26 06:49:59.667036 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/peer_ims.cc:292: TRACE: ![0m
+2016-06-26 06:49:59.667067 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/peer_ims.cc:325: TRACE: Waiting for a chunk at (0.0.0.0,39401)[0m
+2016-06-26 06:49:59.791830 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/peer_ims.cc:333: TRACE: Received a message from (150.214.150.68,4554) of length 1026[0m
+2016-06-26 06:49:59.791944 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/peer_dbs.cc:176: TRACE: (0.0.0.0,39401)<-971-(150.214.150.68,4554)[0m
+2016-06-26 06:49:59.792041 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/peer_dbs.cc:264: TRACE: (0.0.0.0,39401)-768->(207.81.37.53,39387)[0m
+2016-06-26 06:49:59.792088 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/peer_ims.cc:292: TRACE: ![0m
+2016-06-26 06:49:59.792119 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/peer_ims.cc:325: TRACE: Waiting for a chunk at (0.0.0.0,39401)[0m
+2016-06-26 06:49:59.792217 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/peer_ims.cc:333: TRACE: Received a message from (150.214.150.68,4554) of length 1026[0m
+2016-06-26 06:49:59.792259 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/peer_dbs.cc:176: TRACE: (0.0.0.0,39401)<-973-(150.214.150.68,4554)[0m
+2016-06-26 06:49:59.792321 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/peer_dbs.cc:264: TRACE: (0.0.0.0,39401)-768->(207.81.37.53,39387)[0m
+2016-06-26 06:49:59.792367 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/peer_ims.cc:292: TRACE: ![0m
+2016-06-26 06:49:59.792397 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/peer_ims.cc:325: TRACE: Waiting for a chunk at (0.0.0.0,39401)[0m
+2016-06-26 06:49:59.876020 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/peer_ims.cc:333: TRACE: Received a message from (150.214.150.68,4554) of length 1026[0m
+2016-06-26 06:49:59.876111 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/peer_dbs.cc:176: TRACE: (0.0.0.0,39401)<-975-(150.214.150.68,4554)[0m
+2016-06-26 06:49:59.876193 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/peer_dbs.cc:264: TRACE: (0.0.0.0,39401)-768->(207.81.37.53,39387)[0m
+2016-06-26 06:49:59.876241 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/peer_ims.cc:292: TRACE: ![0m
+2016-06-26 06:49:59.876271 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/peer_ims.cc:325: TRACE: Waiting for a chunk at (0.0.0.0,39401)[0m
+2016-06-26 06:49:59.876670 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/peer_ims.cc:333: TRACE: Received a message from (150.214.150.68,4554) of length 1026[0m
+2016-06-26 06:49:59.876802 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/peer_dbs.cc:176: TRACE: (0.0.0.0,39401)<-977-(150.214.150.68,4554)[0m
+2016-06-26 06:49:59.876913 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/peer_dbs.cc:264: TRACE: (0.0.0.0,39401)-768->(207.81.37.53,39387)[0m
+2016-06-26 06:49:59.877004 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/peer_ims.cc:292: TRACE: ![0m
+2016-06-26 06:49:59.877053 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/peer_ims.cc:325: TRACE: Waiting for a chunk at (0.0.0.0,39401)[0m
+2016-06-26 06:49:59.959153 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/peer_ims.cc:333: TRACE: Received a message from (150.214.150.68,4554) of length 1026[0m
+2016-06-26 06:49:59.959241 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/peer_dbs.cc:176: TRACE: (0.0.0.0,39401)<-979-(150.214.150.68,4554)[0m
+2016-06-26 06:49:59.959346 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/peer_dbs.cc:264: TRACE: (0.0.0.0,39401)-768->(207.81.37.53,39387)[0m
+2016-06-26 06:49:59.959396 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/peer_ims.cc:292: TRACE: ![0m
+2016-06-26 06:49:59.959427 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/peer_ims.cc:325: TRACE: Waiting for a chunk at (0.0.0.0,39401)[0m
+2016-06-26 06:49:59.959830 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/peer_ims.cc:333: TRACE: Received a message from (150.214.150.68,4554) of length 1026[0m
+2016-06-26 06:49:59.959959 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/peer_dbs.cc:176: TRACE: (0.0.0.0,39401)<-981-(150.214.150.68,4554)[0m
+2016-06-26 06:49:59.960069 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/peer_dbs.cc:264: TRACE: (0.0.0.0,39401)-768->(207.81.37.53,39387)[0m
+2016-06-26 06:49:59.960160 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/peer_ims.cc:292: TRACE: ![0m
+2016-06-26 06:49:59.960210 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/peer_ims.cc:325: TRACE: Waiting for a chunk at (0.0.0.0,39401)[0m
+2016-06-26 06:50:00.042392 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/peer_ims.cc:333: TRACE: Received a message from (150.214.150.68,4554) of length 1026[0m
+2016-06-26 06:50:00.042485 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/peer_dbs.cc:176: TRACE: (0.0.0.0,39401)<-983-(150.214.150.68,4554)[0m
+2016-06-26 06:50:00.042564 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/peer_dbs.cc:264: TRACE: (0.0.0.0,39401)-768->(207.81.37.53,39387)[0m
+2016-06-26 06:50:00.042612 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/peer_ims.cc:292: TRACE: ![0m
+2016-06-26 06:50:00.042643 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/peer_ims.cc:325: TRACE: Waiting for a chunk at (0.0.0.0,39401)[0m
+2016-06-26 06:50:00.042748 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/peer_ims.cc:333: TRACE: Received a message from (150.214.150.68,4554) of length 1026[0m
+2016-06-26 06:50:00.042790 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/peer_dbs.cc:176: TRACE: (0.0.0.0,39401)<-985-(150.214.150.68,4554)[0m
+2016-06-26 06:50:00.042853 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/peer_dbs.cc:264: TRACE: (0.0.0.0,39401)-768->(207.81.37.53,39387)[0m
+2016-06-26 06:50:00.042900 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/peer_ims.cc:292: TRACE: ![0m
+2016-06-26 06:50:00.042930 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/peer_ims.cc:325: TRACE: Waiting for a chunk at (0.0.0.0,39401)[0m
+2016-06-26 06:50:00.080412 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/peer_ims.cc:333: TRACE: Received a message from (150.214.150.68,4554) of length 1026[0m
+2016-06-26 06:50:00.080488 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/peer_dbs.cc:176: TRACE: (0.0.0.0,39401)<-987-(150.214.150.68,4554)[0m
+2016-06-26 06:50:00.080570 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/peer_dbs.cc:264: TRACE: (0.0.0.0,39401)-768->(207.81.37.53,39387)[0m
+2016-06-26 06:50:00.080617 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/peer_ims.cc:292: TRACE: ![0m
+2016-06-26 06:50:00.080648 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/peer_ims.cc:325: TRACE: Waiting for a chunk at (0.0.0.0,39401)[0m
+2016-06-26 06:50:00.080692 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/peer_ims.cc:333: TRACE: Received a message from (150.214.150.68,4554) of length 1026[0m
+2016-06-26 06:50:00.080732 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/peer_dbs.cc:176: TRACE: (0.0.0.0,39401)<-989-(150.214.150.68,4554)[0m
+2016-06-26 06:50:00.080792 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/peer_dbs.cc:264: TRACE: (0.0.0.0,39401)-768->(207.81.37.53,39387)[0m
+2016-06-26 06:50:00.080838 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/peer_ims.cc:292: TRACE: ![0m
+2016-06-26 06:50:00.080868 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/peer_ims.cc:325: TRACE: Waiting for a chunk at (0.0.0.0,39401)[0m
+2016-06-26 06:50:00.126298 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/peer_ims.cc:333: TRACE: Received a message from (150.214.150.68,4554) of length 1026[0m
+2016-06-26 06:50:00.126414 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/peer_dbs.cc:176: TRACE: (0.0.0.0,39401)<-991-(150.214.150.68,4554)[0m
+2016-06-26 06:50:00.126526 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/peer_dbs.cc:264: TRACE: (0.0.0.0,39401)-768->(207.81.37.53,39387)[0m
+2016-06-26 06:50:00.126615 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/peer_ims.cc:292: TRACE: ![0m
+2016-06-26 06:50:00.126656 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/peer_ims.cc:325: TRACE: Waiting for a chunk at (0.0.0.0,39401)[0m
+2016-06-26 06:50:00.126703 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/peer_ims.cc:333: TRACE: Received a message from (150.214.150.68,4554) of length 1026[0m
+2016-06-26 06:50:00.126744 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/peer_dbs.cc:176: TRACE: (0.0.0.0,39401)<-993-(150.214.150.68,4554)[0m
+2016-06-26 06:50:00.126807 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/peer_dbs.cc:264: TRACE: (0.0.0.0,39401)-768->(207.81.37.53,39387)[0m
+2016-06-26 06:50:00.126854 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/peer_ims.cc:292: TRACE: ![0m
+2016-06-26 06:50:00.126884 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/peer_ims.cc:325: TRACE: Waiting for a chunk at (0.0.0.0,39401)[0m
+2016-06-26 06:50:00.126927 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/peer_ims.cc:333: TRACE: Received a message from (150.214.150.68,4554) of length 1026[0m
+2016-06-26 06:50:00.126966 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/peer_dbs.cc:176: TRACE: (0.0.0.0,39401)<-995-(150.214.150.68,4554)[0m
+2016-06-26 06:50:00.127037 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/peer_dbs.cc:264: TRACE: (0.0.0.0,39401)-768->(207.81.37.53,39387)[0m
+2016-06-26 06:50:00.127094 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/peer_ims.cc:292: TRACE: ![0m
+2016-06-26 06:50:00.127164 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/peer_ims.cc:325: TRACE: Waiting for a chunk at (0.0.0.0,39401)[0m
+2016-06-26 06:50:00.167224 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/peer_ims.cc:333: TRACE: Received a message from (150.214.150.68,4554) of length 1026[0m
+2016-06-26 06:50:00.167354 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/peer_dbs.cc:176: TRACE: (0.0.0.0,39401)<-997-(150.214.150.68,4554)[0m
+2016-06-26 06:50:00.167464 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/peer_dbs.cc:264: TRACE: (0.0.0.0,39401)-768->(207.81.37.53,39387)[0m
+2016-06-26 06:50:00.167552 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/peer_ims.cc:292: TRACE: ![0m
+2016-06-26 06:50:00.167604 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/peer_ims.cc:325: TRACE: Waiting for a chunk at (0.0.0.0,39401)[0m
+2016-06-26 06:50:00.167673 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/peer_ims.cc:333: TRACE: Received a message from (150.214.150.68,4554) of length 1026[0m
+2016-06-26 06:50:00.167738 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/peer_dbs.cc:176: TRACE: (0.0.0.0,39401)<-999-(150.214.150.68,4554)[0m
+2016-06-26 06:50:00.167832 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/peer_dbs.cc:264: TRACE: (0.0.0.0,39401)-768->(207.81.37.53,39387)[0m
+2016-06-26 06:50:00.167883 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/peer_ims.cc:292: TRACE: ![0m
+2016-06-26 06:50:00.167913 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/peer_ims.cc:325: TRACE: Waiting for a chunk at (0.0.0.0,39401)[0m
+2016-06-26 06:50:00.251451 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/peer_ims.cc:333: TRACE: Received a message from (150.214.150.68,4554) of length 1026[0m
+2016-06-26 06:50:00.251564 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/peer_dbs.cc:176: TRACE: (0.0.0.0,39401)<-1001-(150.214.150.68,4554)[0m
+2016-06-26 06:50:00.251673 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/peer_dbs.cc:264: TRACE: (0.0.0.0,39401)-768->(207.81.37.53,39387)[0m
+2016-06-26 06:50:00.251761 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/peer_ims.cc:292: TRACE: ![0m
+2016-06-26 06:50:00.251812 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/peer_ims.cc:325: TRACE: Waiting for a chunk at (0.0.0.0,39401)[0m
+2016-06-26 06:50:00.251881 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/peer_ims.cc:333: TRACE: Received a message from (150.214.150.68,4554) of length 1026[0m
+2016-06-26 06:50:00.251947 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/peer_dbs.cc:176: TRACE: (0.0.0.0,39401)<-1003-(150.214.150.68,4554)[0m
+2016-06-26 06:50:00.252060 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/peer_dbs.cc:264: TRACE: (0.0.0.0,39401)-768->(207.81.37.53,39387)[0m
+2016-06-26 06:50:00.252117 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/peer_ims.cc:292: TRACE: ![0m
+2016-06-26 06:50:00.252148 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/peer_ims.cc:325: TRACE: Waiting for a chunk at (0.0.0.0,39401)[0m
+2016-06-26 06:50:00.376687 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/peer_ims.cc:333: TRACE: Received a message from (150.214.150.68,4554) of length 1026[0m
+2016-06-26 06:50:00.376804 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/peer_dbs.cc:176: TRACE: (0.0.0.0,39401)<-1005-(150.214.150.68,4554)[0m
+2016-06-26 06:50:00.376913 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/peer_dbs.cc:264: TRACE: (0.0.0.0,39401)-768->(207.81.37.53,39387)[0m
+2016-06-26 06:50:00.376992 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/peer_ims.cc:292: TRACE: ![0m
+2016-06-26 06:50:00.377040 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/peer_ims.cc:325: TRACE: Waiting for a chunk at (0.0.0.0,39401)[0m
+2016-06-26 06:50:00.377110 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/peer_ims.cc:333: TRACE: Received a message from (150.214.150.68,4554) of length 1026[0m
+2016-06-26 06:50:00.377184 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/peer_dbs.cc:176: TRACE: (0.0.0.0,39401)<-1007-(150.214.150.68,4554)[0m
+2016-06-26 06:50:00.377279 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/peer_dbs.cc:264: TRACE: (0.0.0.0,39401)-768->(207.81.37.53,39387)[0m
+2016-06-26 06:50:00.377407 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/peer_ims.cc:292: TRACE: ![0m
+2016-06-26 06:50:00.377440 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/peer_ims.cc:325: TRACE: Waiting for a chunk at (0.0.0.0,39401)[0m
+2016-06-26 06:50:00.501872 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/peer_ims.cc:333: TRACE: Received a message from (150.214.150.68,4554) of length 1026[0m
+2016-06-26 06:50:00.501986 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/peer_dbs.cc:176: TRACE: (0.0.0.0,39401)<-1009-(150.214.150.68,4554)[0m
+2016-06-26 06:50:00.502097 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/peer_dbs.cc:264: TRACE: (0.0.0.0,39401)-768->(207.81.37.53,39387)[0m
+2016-06-26 06:50:00.502176 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/peer_ims.cc:292: TRACE: ![0m
+2016-06-26 06:50:00.502225 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/peer_ims.cc:325: TRACE: Waiting for a chunk at (0.0.0.0,39401)[0m
+2016-06-26 06:50:00.502294 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/peer_ims.cc:333: TRACE: Received a message from (150.214.150.68,4554) of length 1026[0m
+2016-06-26 06:50:00.502372 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/peer_dbs.cc:176: TRACE: (0.0.0.0,39401)<-1011-(150.214.150.68,4554)[0m
+2016-06-26 06:50:00.502480 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/peer_dbs.cc:264: TRACE: (0.0.0.0,39401)-768->(207.81.37.53,39387)[0m
+2016-06-26 06:50:00.502530 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/peer_ims.cc:292: TRACE: ![0m
+2016-06-26 06:50:00.502560 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/peer_ims.cc:325: TRACE: Waiting for a chunk at (0.0.0.0,39401)[0m
+2016-06-26 06:50:00.627076 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/peer_ims.cc:333: TRACE: Received a message from (150.214.150.68,4554) of length 1026[0m
+2016-06-26 06:50:00.627191 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/peer_dbs.cc:176: TRACE: (0.0.0.0,39401)<-1013-(150.214.150.68,4554)[0m
+2016-06-26 06:50:00.627316 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/peer_dbs.cc:264: TRACE: (0.0.0.0,39401)-768->(207.81.37.53,39387)[0m
+2016-06-26 06:50:00.627396 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/peer_ims.cc:292: TRACE: ![0m
+2016-06-26 06:50:00.627446 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/peer_ims.cc:325: TRACE: Waiting for a chunk at (0.0.0.0,39401)[0m
+2016-06-26 06:50:00.627529 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/peer_ims.cc:333: TRACE: Received a message from (150.214.150.68,4554) of length 1026[0m
+2016-06-26 06:50:00.627593 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/peer_dbs.cc:176: TRACE: (0.0.0.0,39401)<-1015-(150.214.150.68,4554)[0m
+2016-06-26 06:50:00.627696 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/peer_dbs.cc:264: TRACE: (0.0.0.0,39401)-768->(207.81.37.53,39387)[0m
+2016-06-26 06:50:00.627784 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/peer_ims.cc:292: TRACE: ![0m
+2016-06-26 06:50:00.627831 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/peer_ims.cc:325: TRACE: Waiting for a chunk at (0.0.0.0,39401)[0m
+2016-06-26 06:50:00.764469 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/peer_ims.cc:333: TRACE: Received a message from (150.214.150.68,4554) of length 1026[0m
+2016-06-26 06:50:00.764582 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/peer_dbs.cc:176: TRACE: (0.0.0.0,39401)<-1017-(150.214.150.68,4554)[0m
+2016-06-26 06:50:00.764694 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/peer_dbs.cc:264: TRACE: (0.0.0.0,39401)-768->(207.81.37.53,39387)[0m
+2016-06-26 06:50:00.764770 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/peer_ims.cc:292: TRACE: ![0m
+2016-06-26 06:50:00.764816 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/peer_ims.cc:325: TRACE: Waiting for a chunk at (0.0.0.0,39401)[0m
+2016-06-26 06:50:00.764884 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/peer_ims.cc:333: TRACE: Received a message from (150.214.150.68,4554) of length 1026[0m
+2016-06-26 06:50:00.764952 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/peer_dbs.cc:176: TRACE: (0.0.0.0,39401)<-1019-(150.214.150.68,4554)[0m
+2016-06-26 06:50:00.765033 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/peer_dbs.cc:264: TRACE: (0.0.0.0,39401)-768->(207.81.37.53,39387)[0m
+2016-06-26 06:50:00.765145 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/peer_ims.cc:292: TRACE: ![0m
+2016-06-26 06:50:00.765188 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/peer_ims.cc:325: TRACE: Waiting for a chunk at (0.0.0.0,39401)[0m
+2016-06-26 06:50:00.875997 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/peer_ims.cc:333: TRACE: Received a message from (150.214.150.68,4554) of length 1026[0m
+2016-06-26 06:50:00.876155 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/peer_dbs.cc:176: TRACE: (0.0.0.0,39401)<-1021-(150.214.150.68,4554)[0m
+2016-06-26 06:50:00.876258 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/peer_dbs.cc:264: TRACE: (0.0.0.0,39401)-768->(207.81.37.53,39387)[0m
+2016-06-26 06:50:00.876307 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/peer_ims.cc:292: TRACE: ![0m
+2016-06-26 06:50:00.876340 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/peer_ims.cc:325: TRACE: Waiting for a chunk at (0.0.0.0,39401)[0m
+2016-06-26 06:50:00.876386 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/peer_ims.cc:333: TRACE: Received a message from (150.214.150.68,4554) of length 1026[0m
+2016-06-26 06:50:00.876425 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/peer_dbs.cc:176: TRACE: (0.0.0.0,39401)<-1023-(150.214.150.68,4554)[0m
+2016-06-26 06:50:00.876487 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/peer_dbs.cc:264: TRACE: (0.0.0.0,39401)-768->(207.81.37.53,39387)[0m
+2016-06-26 06:50:00.876534 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/peer_ims.cc:292: TRACE: ![0m
+2016-06-26 06:50:00.876564 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/peer_ims.cc:325: TRACE: Waiting for a chunk at (0.0.0.0,39401)[0m
+2016-06-26 06:50:01.167358 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/peer_ims.cc:333: TRACE: Received a message from (150.214.150.68,4554) of length 1026[0m
+2016-06-26 06:50:01.167477 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/peer_dbs.cc:176: TRACE: (0.0.0.0,39401)<-1025-(150.214.150.68,4554)[0m
+2016-06-26 06:50:01.167570 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/peer_dbs.cc:264: TRACE: (0.0.0.0,39401)-1024->(207.81.37.53,39387)[0m
+2016-06-26 06:50:01.167618 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/peer_ims.cc:292: TRACE: ![0m
+2016-06-26 06:50:01.167649 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/peer_ims.cc:325: TRACE: Waiting for a chunk at (0.0.0.0,39401)[0m
+2016-06-26 06:50:01.168128 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/peer_ims.cc:333: TRACE: Received a message from (150.214.150.68,4554) of length 1026[0m
+2016-06-26 06:50:01.168260 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/peer_dbs.cc:176: TRACE: (0.0.0.0,39401)<-1027-(150.214.150.68,4554)[0m
+2016-06-26 06:50:01.168372 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/peer_dbs.cc:254: TRACE: (207.81.37.53,39387) removed by unsupportive (129 lossess)[0m
+2016-06-26 06:50:01.168566 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/peer_dbs.cc:264: TRACE: (0.0.0.0,39401)-1024->(207.81.37.53,39387)[0m
+2016-06-26 06:50:01.168624 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/peer_ims.cc:299: TRACE: [0m
+2016-06-26 06:50:01.168652 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/peer_ims.cc:302: TRACE: latency = 0.049200 seconds[0m
+2016-06-26 06:50:01.168695 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/peer_ims.cc:303: TRACE: buffering done.[0m
+2016-06-26 06:50:01.168935 +-----------------------------------------------------+
+2016-06-26 06:50:01.168968 | Received = Received kbps, including retransmissions |
+2016-06-26 06:50:01.168994 |     Sent = Sent kbps                                |
+2016-06-26 06:50:01.169020 |       (Expected values are between parenthesis)     |
+2016-06-26 06:50:01.169024 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/peer_ims.cc:325: TRACE: Waiting for a chunk at (0.0.0.0,39401)[0m
+2016-06-26 06:50:01.169050 ------------------------------------------------------+
+2016-06-26 06:50:01.169142 
+2016-06-26 06:50:01.169177          |     Received (kbps) |          Sent (kbps) |
+2016-06-26 06:50:01.169203     Time |      Real  Expected |       Real  Expected | Team description
+2016-06-26 06:50:01.169293 ---------+---------------------+----------------------+-----------------------------------...
+2016-06-26 06:50:01.208492 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/peer_ims.cc:333: TRACE: Received a message from (150.214.150.68,4554) of length 1026[0m
+2016-06-26 06:50:01.208587 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/peer_dbs.cc:176: TRACE: (0.0.0.0,39401)<-1029-(150.214.150.68,4554)[0m
+2016-06-26 06:50:01.208643 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/peer_ims.cc:410: TRACE: lost chunk 772[0m
+2016-06-26 06:50:01.208732 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/peer_ims.cc:325: TRACE: Waiting for a chunk at (0.0.0.0,39401)[0m
+2016-06-26 06:50:01.208779 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/peer_ims.cc:333: TRACE: Received a message from (150.214.150.68,4554) of length 1026[0m
+2016-06-26 06:50:01.208821 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/peer_dbs.cc:176: TRACE: (0.0.0.0,39401)<-1031-(150.214.150.68,4554)[0m
+2016-06-26 06:50:01.208870 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/peer_ims.cc:410: TRACE: lost chunk 774[0m
+2016-06-26 06:50:01.208912 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/peer_ims.cc:325: TRACE: Waiting for a chunk at (0.0.0.0,39401)[0m
+2016-06-26 06:50:01.403949 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/peer_ims.cc:333: TRACE: Received a message from (150.214.150.68,4554) of length 1026[0m
+2016-06-26 06:50:01.404049 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/peer_dbs.cc:176: TRACE: (0.0.0.0,39401)<-1033-(150.214.150.68,4554)[0m
+2016-06-26 06:50:01.404105 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/peer_ims.cc:410: TRACE: lost chunk 776[0m
+2016-06-26 06:50:01.404171 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/peer_ims.cc:325: TRACE: Waiting for a chunk at (0.0.0.0,39401)[0m
+2016-06-26 06:50:01.404219 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/peer_ims.cc:333: TRACE: Received a message from (150.214.150.68,4554) of length 1026[0m
+2016-06-26 06:50:01.404260 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/peer_dbs.cc:176: TRACE: (0.0.0.0,39401)<-1035-(150.214.150.68,4554)[0m
+2016-06-26 06:50:01.404308 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/peer_ims.cc:410: TRACE: lost chunk 778[0m
+2016-06-26 06:50:01.404358 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/peer_ims.cc:325: TRACE: Waiting for a chunk at (0.0.0.0,39401)[0m
+2016-06-26 06:50:01.417399 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/peer_ims.cc:333: TRACE: Received a message from (150.214.150.68,4554) of length 1026[0m
+2016-06-26 06:50:01.417536 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/peer_dbs.cc:176: TRACE: (0.0.0.0,39401)<-1037-(150.214.150.68,4554)[0m
+2016-06-26 06:50:01.417626 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/peer_ims.cc:410: TRACE: lost chunk 780[0m
+2016-06-26 06:50:01.417937 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/peer_ims.cc:426: TRACE: Player disconnected![0m
+2016-06-26 06:50:01.417988 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/peer_dbs.cc:351: TRACE: Goodbye![0m
+2016-06-26 06:50:01.418049 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/peer_dbs.cc:45: TRACE: [Goodbye] sent to (150.214.150.68,4554)[0m
+2016-06-26 06:50:01.418119 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/peer_dbs.cc:45: TRACE: [Goodbye] sent to (150.214.150.68,4554)[0m
+2016-06-26 06:50:01.418185 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/peer_dbs.cc:45: TRACE: [Goodbye] sent to (150.214.150.68,4554)[0m
+2016-06-26 06:50:02.169440 |
+2016-06-26 06:50:02.169530 [32m
+2016-06-26 06:50:02.169556 81.92
+2016-06-26 06:50:02.169623 40.96
+2016-06-26 06:50:02.169652 [32m
+2016-06-26 06:50:02.169677 1056.77
+2016-06-26 06:50:02.169705 0
+2016-06-26 06:50:02.169733 0
