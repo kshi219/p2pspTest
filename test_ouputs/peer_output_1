@@ -1,0 +1,32 @@
+/home/kevin/p2psp/Test/bin/peer --player_port 10000 --splitter_addr 150.214.150.68 --splitter_port 4554
+2016-06-25 19:49:41.216023 [33m/home/kevin/p2psp/Test/lib/p2psp/src/core/peer_dbs.cc:24: TRACE: max_chunk_debt =128[0m
+2016-06-25 19:49:41.216500 [33m/home/kevin/p2psp/Test/lib/p2psp/src/core/peer_dbs.cc:25: TRACE: Initialized[0m
+2016-06-25 19:49:41.216661 [33m/home/kevin/p2psp/Test/lib/p2psp/src/core/peer_ims.cc:79: TRACE: Waiting for the player at (0.0.0.0,10000)[0m
+2016-06-25 19:49:53.321574 [33m/home/kevin/p2psp/Test/lib/p2psp/src/core/peer_ims.cc:84: TRACE: The player is (127.0.0.1,51097)[0m
+2016-06-25 19:49:53.321802 [33m/home/kevin/p2psp/Test/lib/p2psp/src/core/peer_ems.cc:34: TRACE: use_localhost = False[0m
+2016-06-25 19:49:53.321960 [33m/home/kevin/p2psp/Test/lib/p2psp/src/core/peer_ems.cc:53: TRACE: Connecting to the splitter at (150.214.150.68,4554) from 192.168.1.118[0m
+2016-06-25 19:49:53.521275 [33m/home/kevin/p2psp/Test/lib/p2psp/src/core/peer_ems.cc:69: TRACE: Connected to the splitter at (150.214.150.68,4554)[0m
+2016-06-25 19:49:53.521539 [33m/home/kevin/p2psp/Test/lib/p2psp/src/core/peer_ems.cc:83: TRACE: send to splitter local endpoint = (192.168.1.118,45164)[0m
+2016-06-25 19:49:53.720283 [33m/home/kevin/p2psp/Test/lib/p2psp/src/core/peer_ims.cc:149: TRACE: mcast_endpoint = (0.0.0.0,4554)[0m
+2016-06-25 19:49:53.722448 [33m/home/kevin/p2psp/Test/lib/p2psp/src/core/peer_ims.cc:158: TRACE: header_size (in chunks) = 10[0m
+2016-06-25 19:49:53.722693 [33m/home/kevin/p2psp/Test/lib/p2psp/src/core/peer_ims.cc:168: TRACE: chunk_size (bytes) = 1024[0m
+2016-06-25 19:49:53.726543 [33m/home/kevin/p2psp/Test/lib/p2psp/src/core/peer_ims.cc:193: TRACE: Received 10240bytes of header[0m
+2016-06-25 19:49:53.726784 [33m/home/kevin/p2psp/Test/lib/p2psp/src/core/peer_ims.cc:202: TRACE: buffer_size_ = 256[0m
+2016-06-25 19:49:53.726938 Using IP Multicast address = 0.0.0.0
+2016-06-25 19:49:53.727093 [33m/home/kevin/p2psp/Test/lib/p2psp/src/core/peer_dbs.cc:132: TRACE: me = (207.81.37.53,45164)[0m
+2016-06-25 19:49:53.727225 [33m/home/kevin/p2psp/Test/lib/p2psp/src/core/peer_dbs.cc:51: TRACE: Magic flags = 00000001[0m
+2016-06-25 19:49:53.727407 [33m/home/kevin/p2psp/Test/lib/p2psp/src/core/peer_dbs.cc:68: TRACE: Requesting the number of monitors and peers to (150.214.150.68,4554)[0m
+2016-06-25 19:49:53.727594 [33m/home/kevin/p2psp/Test/lib/p2psp/src/core/peer_dbs.cc:71: TRACE: The number of monitors is 1[0m
+2016-06-25 19:49:53.727732 [33m/home/kevin/p2psp/Test/lib/p2psp/src/core/peer_dbs.cc:74: TRACE: The size of the team is 1 (apart from me)[0m
+2016-06-25 19:49:53.727867 Number of peers in the team (excluding me) =1
+2016-06-25 19:49:53.728003 Am I a monitor peer? =False
+2016-06-25 19:49:53.728221 [33m/home/kevin/p2psp/Test/lib/p2psp/src/core/peer_dbs.cc:89: TRACE: Requesting1 peers to (150.214.150.68,4554)[0m
+2016-06-25 19:49:53.728373 [33m/home/kevin/p2psp/Test/lib/p2psp/src/core/peer_dbs.cc:103: TRACE: [hello] sent to (192.168.1.118,55136)[0m
+2016-06-25 19:49:53.728580 [33m/home/kevin/p2psp/Test/lib/p2psp/src/core/peer_dbs.cc:35: TRACE: [Hello] sent to (192.168.1.118,55136)[0m
+2016-06-25 19:49:53.728742 [33m/home/kevin/p2psp/Test/lib/p2psp/src/core/peer_dbs.cc:106: TRACE: 0[0m
+2016-06-25 19:49:53.729085 [33m/home/kevin/p2psp/Test/lib/p2psp/src/core/peer_dbs.cc:114: TRACE: List of peers received[0m
+2016-06-25 19:49:53.729227 List of peers received
+2016-06-25 19:49:53.729347 Peer DBS enabled
+2016-06-25 19:49:53.729702 [33m/home/kevin/p2psp/Test/lib/p2psp/src/core/peer_ims.cc:259: TRACE: (0.0.0.0,45164): buffering = 000.00%[0m
+2016-06-25 19:49:53.729865 [33m/home/kevin/p2psp/Test/lib/p2psp/src/core/peer_ims.cc:325: TRACE: Waiting for a chunk at (0.0.0.0,45164)[0m
+
