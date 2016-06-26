@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="CPP_MODULE" version="4">
+  <component name="NewModuleRootManager">
+    <content url="file://$MODULE_DIR$">
+      <sourceFolder url="file://$MODULE_DIR$/src/core/peer_symsp.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/core/peer_ims.cc" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/core/monitor_ems.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/core/splitter_lrs.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/core/trusted_peer.cc" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/core/splitter_acs.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/core/monitor_lrs.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/core/monitor_dbs.cc" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/core/common_nts.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/core/splitter_acs.cc" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/core/peer_dbs.cc" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/core/splitter_ims.cc" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/core/peer_ems.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/core/trusted_peer.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/core/peer_nts.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/core/splitter_strpe.cc" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/core/splitter_ims.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/core/splitter_dbs.cc" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/core/monitor_lrs.cc" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/core/splitter_dbs.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/core/common_nts.cc" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/core/monitor_nts.cc" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/core/peer_strpeds.cc" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/core/splitter_ems.cc" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/core/peer_dbs.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/core/peer_nts.cc" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/core/malicious_peer.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/core/splitter_strpe.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/core/splitter_lrs.cc" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/core/malicious_peer.cc" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/core/peer_strpeds_malicious.cc" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/core/monitor_nts.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/core/peer_ems.cc" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/core/splitter_nts.cc" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/core/peer_ims.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/core/peer_strpeds.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/core/peer_strpeds_malicious.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/core/monitor_dbs.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/core/splitter_ems.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/core/peer_symsp.cc" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/core/monitor_ems.cc" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/core/splitter_nts.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/util/trace.cc" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/util/trace.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/test.cc" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/CMakeLists.txt" isTestSource="false" />
+    </content>
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="module-library">
+      <library name="Header Search Paths">
+        <CLASSES>
+          <root url="file:///usr/lib/gcc/x86_64-linux-gnu/4.8/include-fixed" />
+          <root url="file:///usr/lib/gcc/x86_64-linux-gnu/4.8/include" />
+          <root url="file:///usr/include" />
+          <root url="file:///usr/local/include" />
+        </CLASSES>
+        <SOURCES>
+          <root url="file:///usr/lib/gcc/x86_64-linux-gnu/4.8/include-fixed" />
+          <root url="file:///usr/lib/gcc/x86_64-linux-gnu/4.8/include" />
+          <root url="file:///usr/include" />
+          <root url="file:///usr/local/include" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+  </component>
+</module>

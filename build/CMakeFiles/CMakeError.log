@@ -1,0 +1,106 @@
+Determining if the pthread_create exist failed with the following output:
+Change Dir: /home/kevin/p2psp/p2psp-console/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec542953613/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec542953613.dir/build.make CMakeFiles/cmTryCompileExec542953613.dir/build
+make[1]: Entering directory `/home/kevin/p2psp/p2psp-console/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/kevin/p2psp/p2psp-console/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec542953613.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec542953613.dir/CheckSymbolExists.c.o   -c /home/kevin/p2psp/p2psp-console/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTryCompileExec542953613
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec542953613.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTryCompileExec542953613.dir/CheckSymbolExists.c.o  -o cmTryCompileExec542953613 -rdynamic 
+CMakeFiles/cmTryCompileExec542953613.dir/CheckSymbolExists.c.o: In function `main':
+CheckSymbolExists.c:(.text+0x16): undefined reference to `pthread_create'
+collect2: error: ld returned 1 exit status
+make[1]: Leaving directory `/home/kevin/p2psp/p2psp-console/build/CMakeFiles/CMakeTmp'
+make[1]: *** [cmTryCompileExec542953613] Error 1
+make: *** [cmTryCompileExec542953613/fast] Error 2
+
+File /home/kevin/p2psp/p2psp-console/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <pthread.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef pthread_create
+  return ((int*)(&pthread_create))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the function pthread_create exists in the pthreads failed with the following output:
+Change Dir: /home/kevin/p2psp/p2psp-console/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec1728655094/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1728655094.dir/build.make CMakeFiles/cmTryCompileExec1728655094.dir/build
+make[1]: Entering directory `/home/kevin/p2psp/p2psp-console/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/kevin/p2psp/p2psp-console/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1728655094.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTryCompileExec1728655094.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.2/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec1728655094
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1728655094.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create    CMakeFiles/cmTryCompileExec1728655094.dir/CheckFunctionExists.c.o  -o cmTryCompileExec1728655094 -rdynamic -lpthreads 
+/usr/bin/ld: cannot find -lpthreads
+collect2: error: ld returned 1 exit status
+make[1]: *** [cmTryCompileExec1728655094] Error 1
+make[1]: Leaving directory `/home/kevin/p2psp/p2psp-console/build/CMakeFiles/CMakeTmp'
+make: *** [cmTryCompileExec1728655094/fast] Error 2
+
+
+Determining if the pthread_create exist failed with the following output:
+Change Dir: /home/kevin/p2psp/Test/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec3403760022/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3403760022.dir/build.make CMakeFiles/cmTryCompileExec3403760022.dir/build
+make[1]: Entering directory `/home/kevin/p2psp/Test/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/kevin/p2psp/Test/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3403760022.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec3403760022.dir/CheckSymbolExists.c.o   -c /home/kevin/p2psp/Test/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTryCompileExec3403760022
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3403760022.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTryCompileExec3403760022.dir/CheckSymbolExists.c.o  -o cmTryCompileExec3403760022 -rdynamic 
+CMakeFiles/cmTryCompileExec3403760022.dir/CheckSymbolExists.c.o: In function `main':
+CheckSymbolExists.c:(.text+0x16): undefined reference to `pthread_create'
+collect2: error: ld returned 1 exit status
+make[1]: Leaving directory `/home/kevin/p2psp/Test/build/CMakeFiles/CMakeTmp'
+make[1]: *** [cmTryCompileExec3403760022] Error 1
+make: *** [cmTryCompileExec3403760022/fast] Error 2
+
+File /home/kevin/p2psp/Test/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <pthread.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef pthread_create
+  return ((int*)(&pthread_create))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the function pthread_create exists in the pthreads failed with the following output:
+Change Dir: /home/kevin/p2psp/Test/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec3154151344/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3154151344.dir/build.make CMakeFiles/cmTryCompileExec3154151344.dir/build
+make[1]: Entering directory `/home/kevin/p2psp/Test/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/kevin/p2psp/Test/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3154151344.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTryCompileExec3154151344.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.2/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec3154151344
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3154151344.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create    CMakeFiles/cmTryCompileExec3154151344.dir/CheckFunctionExists.c.o  -o cmTryCompileExec3154151344 -rdynamic -lpthreads 
+/usr/bin/ld: cannot find -lpthreads
+collect2: error: ld returned 1 exit status
+make[1]: *** [cmTryCompileExec3154151344] Error 1
+make[1]: Leaving directory `/home/kevin/p2psp/Test/build/CMakeFiles/CMakeTmp'
+make: *** [cmTryCompileExec3154151344/fast] Error 2
+
+

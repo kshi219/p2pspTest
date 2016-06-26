@@ -1,0 +1,1676 @@
+Script started on Sat 25 Jun 2016 01:00:19 AM PDT
+2016-06-25 01:00:19.781100 [33m/home/kevin/p2psp/core/src/core/splitter_ims.cc:59: TRACE: Initialized IMS[0m
+2016-06-25 01:00:19.781924 [33m/home/kevin/p2psp/Test/lib/p2psp/src/core/splitter_dbs.cc:34: TRACE: max_number_of_chunk_loss = 32[0m
+2016-06-25 01:00:19.782013 [33m/home/kevin/p2psp/Test/lib/p2psp/src/core/splitter_dbs.cc:35: TRACE: mcast_addr = 0.0.0.0[0m
+2016-06-25 01:00:19.782076 [33m/home/kevin/p2psp/Test/lib/p2psp/src/core/splitter_dbs.cc:36: TRACE: Initialized DBS[0m
+2016-06-25 01:00:19.782162 [33m/home/kevin/p2psp/Test/lib/p2psp/src/core/splitter_ems.cc:25: TRACE: Initialized EMS[0m
+2016-06-25 01:00:19.782278 [33m/home/kevin/p2psp/Test/lib/p2psp/src/core/splitter_dbs.cc:367: TRACE: Start[0m
+2016-06-25 01:00:19.782561 [33m/home/kevin/p2psp/core/src/core/splitter_ims.cc:186: TRACE: Requesting the stream header ...[0m
+2016-06-25 01:00:19.979539 [33m/home/kevin/p2psp/core/src/core/splitter_ims.cc:129: TRACE: 192.168.1.118 connected to (150.214.150.68, 4551)[0m
+2016-06-25 01:00:19.980198 [33m/home/kevin/p2psp/core/src/core/splitter_ims.cc:134: TRACE: 192.168.1.118IMS: GET_message = GET /BBB-134.ogv HTTP/1.1
+
+[0m
+2016-06-25 01:00:19.980348 [33m/home/kevin/p2psp/core/src/core/splitter_ims.cc:179: TRACE: Loading the video header[0m
+2016-06-25 01:00:20.535705 [33m/home/kevin/p2psp/core/src/core/splitter_ims.cc:192: TRACE: Stream header received![0m
+2016-06-25 01:00:20.535957 [33m/home/kevin/p2psp/Test/lib/p2psp/src/core/splitter_dbs.cc:299: TRACE: waiting for the monitor peers ...[0m
+2016-06-25 01:00:36.823445 [33m/home/kevin/p2psp/Test/lib/p2psp/src/core/splitter_ems.cc:75: TRACE: Accepted connection from peer 127.0.0.1:37995[0m
+2016-06-25 01:00:36.823856 [33m/home/kevin/p2psp/Test/lib/p2psp/src/core/splitter_ems.cc:90: TRACE: peer local endpoint = (127.0.0.1,37995)[0m
+2016-06-25 01:00:36.823928 [33m/home/kevin/p2psp/core/src/core/splitter_ims.cc:218: TRACE: Communicating the multicast channel (0.0.0.0, 4552)[0m
+2016-06-25 01:00:36.824006 [33m/home/kevin/p2psp/core/src/core/splitter_ims.cc:230: TRACE: Communicating the header size 10[0m
+2016-06-25 01:00:36.824057 [33m/home/kevin/p2psp/core/src/core/splitter_ims.cc:244: TRACE: Sending a chunk_size of 1024 bytes[0m
+2016-06-25 01:00:36.824115 [33m/home/kevin/p2psp/core/src/core/splitter_ims.cc:258: TRACE: Sending a header of 10240 bytes[0m
+2016-06-25 01:00:36.824156 [33m/home/kevin/p2psp/core/src/core/splitter_ims.cc:270: TRACE: Sending a buffer_size of 256 bytes[0m
+2016-06-25 01:00:36.824195 Magic flags = 00100000
+2016-06-25 01:00:36.824234 [33m/home/kevin/p2psp/Test/lib/p2psp/src/core/splitter_dbs.cc:58: TRACE: Sending the number of monitors 1[0m
+2016-06-25 01:00:36.824257 [33m/home/kevin/p2psp/Test/lib/p2psp/src/core/splitter_dbs.cc:62: TRACE: Sending a list of peers of size 0[0m
+2016-06-25 01:00:36.824461 [33m/home/kevin/p2psp/Test/lib/p2psp/src/core/splitter_dbs.cc:113: TRACE: Inserted peer 127.0.0.1:37995[0m
+2016-06-25 01:00:36.824698 [33m/home/kevin/p2psp/core/src/core/splitter_ims.cc:204: TRACE: 0 -> 127.0.0.1:37995[0m
+2016-06-25 01:00:36.824760 computed
+2016-06-25 01:00:36.824798 consumed
+2016-06-25 01:00:36.824878 [33m/home/kevin/p2psp/core/src/core/splitter_ims.cc:204: TRACE: 1 -> 127.0.0.1:37995[0m
+2016-06-25 01:00:36.824932 computed
+2016-06-25 01:00:36.824963 consumed
+2016-06-25 01:00:36.825029 [33m/home/kevin/p2psp/core/src/core/splitter_ims.cc:204: TRACE: 2 -> 127.0.0.1:37995[0m
+2016-06-25 01:00:36.825080 computed
+2016-06-25 01:00:36.825111 consumed
+2016-06-25 01:00:36.825180 [33m/home/kevin/p2psp/core/src/core/splitter_ims.cc:204: TRACE: 3 -> 127.0.0.1:37995[0m
+2016-06-25 01:00:36.825225 computed
+2016-06-25 01:00:36.825257 consumed
+2016-06-25 01:00:36.825325 [33m/home/kevin/p2psp/core/src/core/splitter_ims.cc:204: TRACE: 4 -> 127.0.0.1:37995[0m
+2016-06-25 01:00:36.825379 computed
+2016-06-25 01:00:36.825410 consumed
+2016-06-25 01:00:36.825475 [33m/home/kevin/p2psp/core/src/core/splitter_ims.cc:204: TRACE: 5 -> 127.0.0.1:37995[0m
+2016-06-25 01:00:36.825530 computed
+2016-06-25 01:00:36.825562 consumed
+2016-06-25 01:00:36.825630 [33m/home/kevin/p2psp/core/src/core/splitter_ims.cc:204: TRACE: 6 -> 127.0.0.1:37995[0m
+2016-06-25 01:00:36.825682 computed
+2016-06-25 01:00:36.825712 consumed
+2016-06-25 01:00:36.825781 [33m/home/kevin/p2psp/core/src/core/splitter_ims.cc:204: TRACE: 7 -> 127.0.0.1:37995[0m
+2016-06-25 01:00:36.825816 computed
+2016-06-25 01:00:36.825833 consumed
+2016-06-25 01:00:36.825872 [33m/home/kevin/p2psp/core/src/core/splitter_ims.cc:204: TRACE: 8 -> 127.0.0.1:37995[0m
+2016-06-25 01:00:36.825905 computed
+2016-06-25 01:00:36.825922 consumed
+2016-06-25 01:00:36.825960 [33m/home/kevin/p2psp/core/src/core/splitter_ims.cc:204: TRACE: 9 -> 127.0.0.1:37995[0m
+2016-06-25 01:00:36.825992 computed
+2016-06-25 01:00:36.826009 consumed
+2016-06-25 01:00:36.826048 [33m/home/kevin/p2psp/core/src/core/splitter_ims.cc:204: TRACE: 10 -> 127.0.0.1:37995[0m
+2016-06-25 01:00:36.826080 computed
+2016-06-25 01:00:36.826097 consumed
+2016-06-25 01:00:36.826135 [33m/home/kevin/p2psp/core/src/core/splitter_ims.cc:204: TRACE: 11 -> 127.0.0.1:37995[0m
+2016-06-25 01:00:36.826167 computed
+2016-06-25 01:00:36.826184 consumed
+2016-06-25 01:00:36.826222 [33m/home/kevin/p2psp/core/src/core/splitter_ims.cc:204: TRACE: 12 -> 127.0.0.1:37995[0m
+2016-06-25 01:00:36.826254 computed
+2016-06-25 01:00:36.826271 consumed
+2016-06-25 01:00:36.826309 [33m/home/kevin/p2psp/core/src/core/splitter_ims.cc:204: TRACE: 13 -> 127.0.0.1:37995[0m
+2016-06-25 01:00:36.826341 computed
+2016-06-25 01:00:36.826358 consumed
+2016-06-25 01:00:36.826406 [33m/home/kevin/p2psp/core/src/core/splitter_ims.cc:204: TRACE: 14 -> 127.0.0.1:37995[0m
+2016-06-25 01:00:36.826440 computed
+2016-06-25 01:00:36.826457 consumed
+2016-06-25 01:00:36.826495 [33m/home/kevin/p2psp/core/src/core/splitter_ims.cc:204: TRACE: 15 -> 127.0.0.1:37995[0m
+2016-06-25 01:00:36.826527 computed
+2016-06-25 01:00:36.826544 consumed
+2016-06-25 01:00:36.826582 [33m/home/kevin/p2psp/core/src/core/splitter_ims.cc:204: TRACE: 16 -> 127.0.0.1:37995[0m
+2016-06-25 01:00:36.826614 computed
+2016-06-25 01:00:36.826631 consumed
+2016-06-25 01:00:36.826669 [33m/home/kevin/p2psp/core/src/core/splitter_ims.cc:204: TRACE: 17 -> 127.0.0.1:37995[0m
+2016-06-25 01:00:36.826701 computed
+2016-06-25 01:00:36.826718 consumed
+2016-06-25 01:00:36.826756 [33m/home/kevin/p2psp/core/src/core/splitter_ims.cc:204: TRACE: 18 -> 127.0.0.1:37995[0m
+2016-06-25 01:00:36.826788 computed
+2016-06-25 01:00:36.826805 consumed
+2016-06-25 01:00:36.826843 [33m/home/kevin/p2psp/core/src/core/splitter_ims.cc:204: TRACE: 19 -> 127.0.0.1:37995[0m
+2016-06-25 01:00:36.826875 computed
+2016-06-25 01:00:36.826892 consumed
+2016-06-25 01:00:36.826929 [33m/home/kevin/p2psp/core/src/core/splitter_ims.cc:204: TRACE: 20 -> 127.0.0.1:37995[0m
+2016-06-25 01:00:36.826961 computed
+2016-06-25 01:00:36.826978 consumed
+2016-06-25 01:00:36.827017 [33m/home/kevin/p2psp/core/src/core/splitter_ims.cc:204: TRACE: 21 -> 127.0.0.1:37995[0m
+2016-06-25 01:00:36.827049 computed
+2016-06-25 01:00:36.827066 consumed
+2016-06-25 01:00:36.827104 [33m/home/kevin/p2psp/core/src/core/splitter_ims.cc:204: TRACE: 22 -> 127.0.0.1:37995[0m
+2016-06-25 01:00:36.827135 computed
+2016-06-25 01:00:36.827152 consumed
+2016-06-25 01:00:36.827191 [33m/home/kevin/p2psp/core/src/core/splitter_ims.cc:204: TRACE: 23 -> 127.0.0.1:37995[0m
+2016-06-25 01:00:36.827223 computed
+2016-06-25 01:00:36.827240 consumed
+2016-06-25 01:00:36.827278 [33m/home/kevin/p2psp/core/src/core/splitter_ims.cc:204: TRACE: 24 -> 127.0.0.1:37995[0m
+2016-06-25 01:00:36.827310 computed
+2016-06-25 01:00:36.827327 consumed
+2016-06-25 01:00:36.827366 [33m/home/kevin/p2psp/core/src/core/splitter_ims.cc:204: TRACE: 25 -> 127.0.0.1:37995[0m
+2016-06-25 01:00:36.827398 computed
+2016-06-25 01:00:36.827415 consumed
+2016-06-25 01:00:36.827453 [33m/home/kevin/p2psp/core/src/core/splitter_ims.cc:204: TRACE: 26 -> 127.0.0.1:37995[0m
+2016-06-25 01:00:36.827485 computed
+2016-06-25 01:00:36.827502 consumed
+2016-06-25 01:00:36.827540 [33m/home/kevin/p2psp/core/src/core/splitter_ims.cc:204: TRACE: 27 -> 127.0.0.1:37995[0m
+2016-06-25 01:00:36.827572 computed
+2016-06-25 01:00:36.827589 consumed
+2016-06-25 01:00:36.827636 [33m/home/kevin/p2psp/core/src/core/splitter_ims.cc:204: TRACE: 28 -> 127.0.0.1:37995[0m
+2016-06-25 01:00:36.827669 computed
+2016-06-25 01:00:36.827686 consumed
+2016-06-25 01:00:36.827724 [33m/home/kevin/p2psp/core/src/core/splitter_ims.cc:204: TRACE: 29 -> 127.0.0.1:37995[0m
+2016-06-25 01:00:36.827757 computed
+2016-06-25 01:00:36.827773 consumed
+2016-06-25 01:00:36.827811 [33m/home/kevin/p2psp/core/src/core/splitter_ims.cc:204: TRACE: 30 -> 127.0.0.1:37995[0m
+2016-06-25 01:00:36.827843 computed
+2016-06-25 01:00:36.827860 consumed
+2016-06-25 01:00:36.827898 [33m/home/kevin/p2psp/core/src/core/splitter_ims.cc:204: TRACE: 31 -> 127.0.0.1:37995[0m
+2016-06-25 01:00:36.827930 computed
+2016-06-25 01:00:36.827947 consumed
+2016-06-25 01:00:36.827985 [33m/home/kevin/p2psp/core/src/core/splitter_ims.cc:204: TRACE: 32 -> 127.0.0.1:37995[0m
+2016-06-25 01:00:36.828017 computed
+2016-06-25 01:00:36.828035 consumed
+2016-06-25 01:00:36.828285 [33m/home/kevin/p2psp/core/src/core/splitter_ims.cc:204: TRACE: 33 -> 127.0.0.1:37995[0m
+2016-06-25 01:00:36.828355 computed
+2016-06-25 01:00:36.828395 consumed
+2016-06-25 01:00:36.828473 [33m/home/kevin/p2psp/core/src/core/splitter_ims.cc:204: TRACE: 34 -> 127.0.0.1:37995[0m
+2016-06-25 01:00:36.828533 computed
+2016-06-25 01:00:36.828574 consumed
+2016-06-25 01:00:36.828652 [33m/home/kevin/p2psp/core/src/core/splitter_ims.cc:204: TRACE: 35 -> 127.0.0.1:37995[0m
+2016-06-25 01:00:36.828714 computed
+2016-06-25 01:00:36.828756 consumed
+2016-06-25 01:00:36.828833 [33m/home/kevin/p2psp/core/src/core/splitter_ims.cc:204: TRACE: 36 -> 127.0.0.1:37995[0m
+2016-06-25 01:00:36.828895 computed
+2016-06-25 01:00:36.828937 consumed
+2016-06-25 01:00:36.829013 [33m/home/kevin/p2psp/core/src/core/splitter_ims.cc:204: TRACE: 37 -> 127.0.0.1:37995[0m
+2016-06-25 01:00:36.829070 computed
+2016-06-25 01:00:36.829109 consumed
+2016-06-25 01:00:36.829181 [33m/home/kevin/p2psp/core/src/core/splitter_ims.cc:204: TRACE: 38 -> 127.0.0.1:37995[0m
+2016-06-25 01:00:36.829240 computed
+2016-06-25 01:00:36.829282 consumed
+2016-06-25 01:00:36.829353 [33m/home/kevin/p2psp/core/src/core/splitter_ims.cc:204: TRACE: 39 -> 127.0.0.1:37995[0m
+2016-06-25 01:00:36.829410 computed
+2016-06-25 01:00:36.829452 consumed
+2016-06-25 01:00:36.829522 [33m/home/kevin/p2psp/core/src/core/splitter_ims.cc:204: TRACE: 40 -> 127.0.0.1:37995[0m
+2016-06-25 01:00:36.829584 computed
+2016-06-25 01:00:36.829623 consumed
+2016-06-25 01:00:36.829690 [33m/home/kevin/p2psp/core/src/core/splitter_ims.cc:204: TRACE: 41 -> 127.0.0.1:37995[0m
+2016-06-25 01:00:36.829750 computed
+2016-06-25 01:00:36.829791 consumed
+2016-06-25 01:00:36.829862 [33m/home/kevin/p2psp/core/src/core/splitter_ims.cc:204: TRACE: 42 -> 127.0.0.1:37995[0m
+2016-06-25 01:00:36.829920 computed
+2016-06-25 01:00:36.829960 consumed
+2016-06-25 01:00:36.830032 [33m/home/kevin/p2psp/core/src/core/splitter_ims.cc:204: TRACE: 43 -> 127.0.0.1:37995[0m
+2016-06-25 01:00:36.830092 computed
+2016-06-25 01:00:36.830133 consumed
+2016-06-25 01:00:36.830204 [33m/home/kevin/p2psp/core/src/core/splitter_ims.cc:204: TRACE: 44 -> 127.0.0.1:37995[0m
+2016-06-25 01:00:36.830259 computed
+2016-06-25 01:00:36.830301 consumed
+2016-06-25 01:00:36.830373 [33m/home/kevin/p2psp/core/src/core/splitter_ims.cc:204: TRACE: 45 -> 127.0.0.1:37995[0m
+2016-06-25 01:00:36.830434 computed
+2016-06-25 01:00:36.830475 consumed
+2016-06-25 01:00:36.830546 [33m/home/kevin/p2psp/core/src/core/splitter_ims.cc:204: TRACE: 46 -> 127.0.0.1:37995[0m
+2016-06-25 01:00:36.830601 computed
+2016-06-25 01:00:36.830641 consumed
+2016-06-25 01:00:36.830713 [33m/home/kevin/p2psp/core/src/core/splitter_ims.cc:204: TRACE: 47 -> 127.0.0.1:37995[0m
+2016-06-25 01:00:36.830773 computed
+2016-06-25 01:00:36.830815 consumed
+2016-06-25 01:00:36.830886 [33m/home/kevin/p2psp/core/src/core/splitter_ims.cc:204: TRACE: 48 -> 127.0.0.1:37995[0m
+2016-06-25 01:00:36.830947 computed
+2016-06-25 01:00:36.830990 consumed
+2016-06-25 01:00:36.831066 [33m/home/kevin/p2psp/core/src/core/splitter_ims.cc:204: TRACE: 49 -> 127.0.0.1:37995[0m
+2016-06-25 01:00:36.831127 computed
+2016-06-25 01:00:36.831169 consumed
+2016-06-25 01:00:36.831243 [33m/home/kevin/p2psp/core/src/core/splitter_ims.cc:204: TRACE: 50 -> 127.0.0.1:37995[0m
+2016-06-25 01:00:36.831302 computed
+2016-06-25 01:00:36.831341 consumed
+2016-06-25 01:00:36.831408 [33m/home/kevin/p2psp/core/src/core/splitter_ims.cc:204: TRACE: 51 -> 127.0.0.1:37995[0m
+2016-06-25 01:00:36.831469 computed
+2016-06-25 01:00:36.831511 consumed
+2016-06-25 01:00:36.831582 [33m/home/kevin/p2psp/core/src/core/splitter_ims.cc:204: TRACE: 52 -> 127.0.0.1:37995[0m
+2016-06-25 01:00:36.831641 computed
+2016-06-25 01:00:36.831678 consumed
+2016-06-25 01:00:36.831750 [33m/home/kevin/p2psp/core/src/core/splitter_ims.cc:204: TRACE: 53 -> 127.0.0.1:37995[0m
+2016-06-25 01:00:36.831811 computed
+2016-06-25 01:00:36.831853 consumed
+2016-06-25 01:00:36.831925 [33m/home/kevin/p2psp/core/src/core/splitter_ims.cc:204: TRACE: 54 -> 127.0.0.1:37995[0m
+2016-06-25 01:00:36.831986 computed
+2016-06-25 01:00:36.832028 consumed
+2016-06-25 01:00:36.832115 [33m/home/kevin/p2psp/core/src/core/splitter_ims.cc:204: TRACE: 55 -> 127.0.0.1:37995[0m
+2016-06-25 01:00:36.832212 computed
+2016-06-25 01:00:36.832260 consumed
+2016-06-25 01:00:36.832337 [33m/home/kevin/p2psp/core/src/core/splitter_ims.cc:204: TRACE: 56 -> 127.0.0.1:37995[0m
+2016-06-25 01:00:36.832397 computed
+2016-06-25 01:00:36.832443 consumed
+2016-06-25 01:00:36.832542 [33m/home/kevin/p2psp/core/src/core/splitter_ims.cc:204: TRACE: 57 -> 127.0.0.1:37995[0m
+2016-06-25 01:00:36.832610 computed
+2016-06-25 01:00:36.832656 consumed
+2016-06-25 01:00:36.832728 [33m/home/kevin/p2psp/core/src/core/splitter_ims.cc:204: TRACE: 58 -> 127.0.0.1:37995[0m
+2016-06-25 01:00:36.832790 computed
+2016-06-25 01:00:36.832835 consumed
+2016-06-25 01:00:36.832910 [33m/home/kevin/p2psp/core/src/core/splitter_ims.cc:204: TRACE: 59 -> 127.0.0.1:37995[0m
+2016-06-25 01:00:36.832977 computed
+2016-06-25 01:00:36.833020 consumed
+2016-06-25 01:00:36.833098 [33m/home/kevin/p2psp/core/src/core/splitter_ims.cc:204: TRACE: 60 -> 127.0.0.1:37995[0m
+2016-06-25 01:00:36.833161 computed
+2016-06-25 01:00:36.833205 consumed
+2016-06-25 01:00:36.833282 [33m/home/kevin/p2psp/core/src/core/splitter_ims.cc:204: TRACE: 61 -> 127.0.0.1:37995[0m
+2016-06-25 01:00:36.833355 computed
+2016-06-25 01:00:36.833396 consumed
+2016-06-25 01:00:36.833473 [33m/home/kevin/p2psp/core/src/core/splitter_ims.cc:204: TRACE: 62 -> 127.0.0.1:37995[0m
+2016-06-25 01:00:36.833539 computed
+2016-06-25 01:00:36.833584 consumed
+2016-06-25 01:00:36.833661 [33m/home/kevin/p2psp/core/src/core/splitter_ims.cc:204: TRACE: 63 -> 127.0.0.1:37995[0m
+2016-06-25 01:00:36.833726 computed
+2016-06-25 01:00:36.833770 consumed
+2016-06-25 01:00:36.833850 [33m/home/kevin/p2psp/core/src/core/splitter_ims.cc:204: TRACE: 64 -> 127.0.0.1:37995[0m
+2016-06-25 01:00:36.833918 computed
+2016-06-25 01:00:36.833964 consumed
+2016-06-25 01:00:36.834037 [33m/home/kevin/p2psp/core/src/core/splitter_ims.cc:204: TRACE: 65 -> 127.0.0.1:37995[0m
+2016-06-25 01:00:36.834099 computed
+2016-06-25 01:00:36.834143 consumed
+2016-06-25 01:00:36.834220 [33m/home/kevin/p2psp/core/src/core/splitter_ims.cc:204: TRACE: 66 -> 127.0.0.1:37995[0m
+2016-06-25 01:00:36.834285 computed
+2016-06-25 01:00:36.834330 consumed
+2016-06-25 01:00:36.834408 [33m/home/kevin/p2psp/core/src/core/splitter_ims.cc:204: TRACE: 67 -> 127.0.0.1:37995[0m
+2016-06-25 01:00:36.834472 computed
+2016-06-25 01:00:36.834518 consumed
+2016-06-25 01:00:36.834597 [33m/home/kevin/p2psp/core/src/core/splitter_ims.cc:204: TRACE: 68 -> 127.0.0.1:37995[0m
+2016-06-25 01:00:36.834663 computed
+2016-06-25 01:00:36.834705 consumed
+2016-06-25 01:00:36.834784 [33m/home/kevin/p2psp/core/src/core/splitter_ims.cc:204: TRACE: 69 -> 127.0.0.1:37995[0m
+2016-06-25 01:00:36.834851 computed
+2016-06-25 01:00:36.834896 consumed
+2016-06-25 01:00:36.834974 [33m/home/kevin/p2psp/core/src/core/splitter_ims.cc:204: TRACE: 70 -> 127.0.0.1:37995[0m
+2016-06-25 01:00:36.835039 computed
+2016-06-25 01:00:36.835084 consumed
+2016-06-25 01:00:36.835163 [33m/home/kevin/p2psp/core/src/core/splitter_ims.cc:204: TRACE: 71 -> 127.0.0.1:37995[0m
+2016-06-25 01:00:36.835227 computed
+2016-06-25 01:00:36.835273 consumed
+2016-06-25 01:00:36.835351 [33m/home/kevin/p2psp/core/src/core/splitter_ims.cc:204: TRACE: 72 -> 127.0.0.1:37995[0m
+2016-06-25 01:00:36.835416 computed
+2016-06-25 01:00:36.835462 consumed
+2016-06-25 01:00:36.835540 [33m/home/kevin/p2psp/core/src/core/splitter_ims.cc:204: TRACE: 73 -> 127.0.0.1:37995[0m
+2016-06-25 01:00:36.835606 computed
+2016-06-25 01:00:36.835650 consumed
+2016-06-25 01:00:36.835725 [33m/home/kevin/p2psp/core/src/core/splitter_ims.cc:204: TRACE: 74 -> 127.0.0.1:37995[0m
+2016-06-25 01:00:36.835793 computed
+2016-06-25 01:00:36.835849 consumed
+2016-06-25 01:00:36.835930 [33m/home/kevin/p2psp/core/src/core/splitter_ims.cc:204: TRACE: 75 -> 127.0.0.1:37995[0m
+2016-06-25 01:00:36.835996 computed
+2016-06-25 01:00:36.836042 consumed
+2016-06-25 01:00:36.836129 [33m/home/kevin/p2psp/core/src/core/splitter_ims.cc:204: TRACE: 76 -> 127.0.0.1:37995[0m
+2016-06-25 01:00:36.836195 computed
+2016-06-25 01:00:36.836241 consumed
+2016-06-25 01:00:36.836321 [33m/home/kevin/p2psp/core/src/core/splitter_ims.cc:204: TRACE: 77 -> 127.0.0.1:37995[0m
+2016-06-25 01:00:36.836387 computed
+2016-06-25 01:00:36.836434 consumed
+2016-06-25 01:00:36.836511 [33m/home/kevin/p2psp/core/src/core/splitter_ims.cc:204: TRACE: 78 -> 127.0.0.1:37995[0m
+2016-06-25 01:00:36.836576 computed
+2016-06-25 01:00:36.836622 consumed
+2016-06-25 01:00:36.836700 [33m/home/kevin/p2psp/core/src/core/splitter_ims.cc:204: TRACE: 79 -> 127.0.0.1:37995[0m
+2016-06-25 01:00:36.836766 computed
+2016-06-25 01:00:36.836813 consumed
+2016-06-25 01:00:36.836892 [33m/home/kevin/p2psp/core/src/core/splitter_ims.cc:204: TRACE: 80 -> 127.0.0.1:37995[0m
+2016-06-25 01:00:36.836958 computed
+2016-06-25 01:00:36.837003 consumed
+2016-06-25 01:00:36.837077 [33m/home/kevin/p2psp/core/src/core/splitter_ims.cc:204: TRACE: 81 -> 127.0.0.1:37995[0m
+2016-06-25 01:00:36.837141 computed
+2016-06-25 01:00:36.837186 consumed
+2016-06-25 01:00:36.837267 [33m/home/kevin/p2psp/core/src/core/splitter_ims.cc:204: TRACE: 82 -> 127.0.0.1:37995[0m
+2016-06-25 01:00:36.837329 computed
+2016-06-25 01:00:36.837376 consumed
+2016-06-25 01:00:36.837452 [33m/home/kevin/p2psp/core/src/core/splitter_ims.cc:204: TRACE: 83 -> 127.0.0.1:37995[0m
+2016-06-25 01:00:36.837516 computed
+2016-06-25 01:00:36.837562 consumed
+2016-06-25 01:00:36.837640 [33m/home/kevin/p2psp/core/src/core/splitter_ims.cc:204: TRACE: 84 -> 127.0.0.1:37995[0m
+2016-06-25 01:00:36.837705 computed
+2016-06-25 01:00:36.837748 consumed
+2016-06-25 01:00:36.837826 [33m/home/kevin/p2psp/core/src/core/splitter_ims.cc:204: TRACE: 85 -> 127.0.0.1:37995[0m
+2016-06-25 01:00:36.837893 computed
+2016-06-25 01:00:36.837939 consumed
+2016-06-25 01:00:36.838017 [33m/home/kevin/p2psp/core/src/core/splitter_ims.cc:204: TRACE: 86 -> 127.0.0.1:37995[0m
+2016-06-25 01:00:36.838084 computed
+2016-06-25 01:00:36.838128 consumed
+2016-06-25 01:00:36.838201 [33m/home/kevin/p2psp/core/src/core/splitter_ims.cc:204: TRACE: 87 -> 127.0.0.1:37995[0m
+2016-06-25 01:00:36.838262 computed
+2016-06-25 01:00:36.838302 consumed
+2016-06-25 01:00:36.838370 [33m/home/kevin/p2psp/core/src/core/splitter_ims.cc:204: TRACE: 88 -> 127.0.0.1:37995[0m
+2016-06-25 01:00:36.838479 computed
+2016-06-25 01:00:36.838524 consumed
+2016-06-25 01:00:36.839107 [33m/home/kevin/p2psp/core/src/core/splitter_ims.cc:204: TRACE: 89 -> 127.0.0.1:37995[0m
+2016-06-25 01:00:36.839183 computed
+2016-06-25 01:00:36.839229 consumed
+2016-06-25 01:00:36.839308 [33m/home/kevin/p2psp/core/src/core/splitter_ims.cc:204: TRACE: 90 -> 127.0.0.1:37995[0m
+2016-06-25 01:00:36.839372 computed
+2016-06-25 01:00:36.839416 consumed
+2016-06-25 01:00:36.839493 [33m/home/kevin/p2psp/core/src/core/splitter_ims.cc:204: TRACE: 91 -> 127.0.0.1:37995[0m
+2016-06-25 01:00:36.839558 computed
+2016-06-25 01:00:36.839602 consumed
+2016-06-25 01:00:36.839680 [33m/home/kevin/p2psp/core/src/core/splitter_ims.cc:204: TRACE: 92 -> 127.0.0.1:37995[0m
+2016-06-25 01:00:36.839743 computed
+2016-06-25 01:00:36.839788 consumed
+2016-06-25 01:00:36.839867 [33m/home/kevin/p2psp/core/src/core/splitter_ims.cc:204: TRACE: 93 -> 127.0.0.1:37995[0m
+2016-06-25 01:00:36.839932 computed
+2016-06-25 01:00:36.839978 consumed
+2016-06-25 01:00:36.840055 [33m/home/kevin/p2psp/core/src/core/splitter_ims.cc:204: TRACE: 94 -> 127.0.0.1:37995[0m
+2016-06-25 01:00:36.840149 computed
+2016-06-25 01:00:36.840193 consumed
+2016-06-25 01:00:36.840268 [33m/home/kevin/p2psp/core/src/core/splitter_ims.cc:204: TRACE: 95 -> 127.0.0.1:37995[0m
+2016-06-25 01:00:36.840333 computed
+2016-06-25 01:00:36.840379 consumed
+2016-06-25 01:00:36.840455 [33m/home/kevin/p2psp/core/src/core/splitter_ims.cc:204: TRACE: 96 -> 127.0.0.1:37995[0m
+2016-06-25 01:00:36.840524 computed
+2016-06-25 01:00:36.840570 consumed
+2016-06-25 01:00:36.840649 [33m/home/kevin/p2psp/core/src/core/splitter_ims.cc:204: TRACE: 97 -> 127.0.0.1:37995[0m
+2016-06-25 01:00:36.840715 computed
+2016-06-25 01:00:36.840761 consumed
+2016-06-25 01:00:36.840835 [33m/home/kevin/p2psp/core/src/core/splitter_ims.cc:204: TRACE: 98 -> 127.0.0.1:37995[0m
+2016-06-25 01:00:36.841044 computed
+2016-06-25 01:00:36.841095 consumed
+2016-06-25 01:00:36.841173 [33m/home/kevin/p2psp/core/src/core/splitter_ims.cc:204: TRACE: 99 -> 127.0.0.1:37995[0m
+2016-06-25 01:00:36.841235 computed
+2016-06-25 01:00:36.841276 consumed
+2016-06-25 01:00:36.841528 [33m/home/kevin/p2psp/core/src/core/splitter_ims.cc:204: TRACE: 100 -> 127.0.0.1:37995[0m
+2016-06-25 01:00:36.841595 computed
+2016-06-25 01:00:36.841642 consumed
+2016-06-25 01:00:36.841717 [33m/home/kevin/p2psp/core/src/core/splitter_ims.cc:204: TRACE: 101 -> 127.0.0.1:37995[0m
+2016-06-25 01:00:36.841782 computed
+2016-06-25 01:00:36.841828 consumed
+2016-06-25 01:00:36.841906 [33m/home/kevin/p2psp/core/src/core/splitter_ims.cc:204: TRACE: 102 -> 127.0.0.1:37995[0m
+2016-06-25 01:00:36.841969 computed
+2016-06-25 01:00:36.842014 consumed
+2016-06-25 01:00:36.842884 [33m/home/kevin/p2psp/core/src/core/splitter_ims.cc:204: TRACE: 103 -> 127.0.0.1:37995[0m
+2016-06-25 01:00:36.842982 computed
+2016-06-25 01:00:36.843028 consumed
+2016-06-25 01:00:36.843108 [33m/home/kevin/p2psp/core/src/core/splitter_ims.cc:204: TRACE: 104 -> 127.0.0.1:37995[0m
+2016-06-25 01:00:36.843174 computed
+2016-06-25 01:00:36.843216 consumed
+2016-06-25 01:00:36.843291 [33m/home/kevin/p2psp/core/src/core/splitter_ims.cc:204: TRACE: 105 -> 127.0.0.1:37995[0m
+2016-06-25 01:00:36.843356 computed
+2016-06-25 01:00:36.843650 consumed
+2016-06-25 01:00:36.843745 [33m/home/kevin/p2psp/core/src/core/splitter_ims.cc:204: TRACE: 106 -> 127.0.0.1:37995[0m
+2016-06-25 01:00:36.844034 computed
+2016-06-25 01:00:36.844099 consumed
+2016-06-25 01:00:36.844185 [33m/home/kevin/p2psp/core/src/core/splitter_ims.cc:204: TRACE: 107 -> 127.0.0.1:37995[0m
+2016-06-25 01:00:36.844254 computed
+2016-06-25 01:00:36.844300 consumed
+2016-06-25 01:00:36.844376 [33m/home/kevin/p2psp/core/src/core/splitter_ims.cc:204: TRACE: 108 -> 127.0.0.1:37995[0m
+2016-06-25 01:00:36.844683 computed
+2016-06-25 01:00:36.844733 consumed
+2016-06-25 01:00:36.844823 [33m/home/kevin/p2psp/core/src/core/splitter_ims.cc:204: TRACE: 109 -> 127.0.0.1:37995[0m
+2016-06-25 01:00:36.845132 computed
+2016-06-25 01:00:36.845181 consumed
+2016-06-25 01:00:36.845274 [33m/home/kevin/p2psp/core/src/core/splitter_ims.cc:204: TRACE: 110 -> 127.0.0.1:37995[0m
+2016-06-25 01:00:36.845348 computed
+2016-06-25 01:00:36.845394 consumed
+2016-06-25 01:00:36.845478 [33m/home/kevin/p2psp/core/src/core/splitter_ims.cc:204: TRACE: 111 -> 127.0.0.1:37995[0m
+2016-06-25 01:00:36.845546 computed
+2016-06-25 01:00:36.845590 consumed
+2016-06-25 01:00:36.845670 [33m/home/kevin/p2psp/core/src/core/splitter_ims.cc:204: TRACE: 112 -> 127.0.0.1:37995[0m
+2016-06-25 01:00:36.845737 computed
+2016-06-25 01:00:36.845783 consumed
+2016-06-25 01:00:36.845866 [33m/home/kevin/p2psp/core/src/core/splitter_ims.cc:204: TRACE: 113 -> 127.0.0.1:37995[0m
+2016-06-25 01:00:36.845934 computed
+2016-06-25 01:00:36.845979 consumed
+2016-06-25 01:00:36.846062 [33m/home/kevin/p2psp/core/src/core/splitter_ims.cc:204: TRACE: 114 -> 127.0.0.1:37995[0m
+2016-06-25 01:00:36.846124 computed
+2016-06-25 01:00:36.846169 consumed
+2016-06-25 01:00:36.846280 [33m/home/kevin/p2psp/core/src/core/splitter_ims.cc:204: TRACE: 115 -> 127.0.0.1:37995[0m
+2016-06-25 01:00:36.846352 computed
+2016-06-25 01:00:36.846396 consumed
+2016-06-25 01:00:36.846478 [33m/home/kevin/p2psp/core/src/core/splitter_ims.cc:204: TRACE: 116 -> 127.0.0.1:37995[0m
+2016-06-25 01:00:36.846729 computed
+2016-06-25 01:00:36.846777 consumed
+2016-06-25 01:00:36.846864 [33m/home/kevin/p2psp/core/src/core/splitter_ims.cc:204: TRACE: 117 -> 127.0.0.1:37995[0m
+2016-06-25 01:00:36.846928 computed
+2016-06-25 01:00:36.846972 consumed
+2016-06-25 01:00:36.851177 [33m/home/kevin/p2psp/core/src/core/splitter_ims.cc:204: TRACE: 118 -> 127.0.0.1:37995[0m
+2016-06-25 01:00:36.851287 computed
+2016-06-25 01:00:36.851331 consumed
+2016-06-25 01:00:36.851412 [33m/home/kevin/p2psp/core/src/core/splitter_ims.cc:204: TRACE: 119 -> 127.0.0.1:37995[0m
+2016-06-25 01:00:36.851479 computed
+2016-06-25 01:00:36.851523 consumed
+2016-06-25 01:00:36.851599 [33m/home/kevin/p2psp/core/src/core/splitter_ims.cc:204: TRACE: 120 -> 127.0.0.1:37995[0m
+2016-06-25 01:00:36.851663 computed
+2016-06-25 01:00:36.851707 consumed
+2016-06-25 01:00:36.851781 [33m/home/kevin/p2psp/core/src/core/splitter_ims.cc:204: TRACE: 121 -> 127.0.0.1:37995[0m
+2016-06-25 01:00:36.851844 computed
+2016-06-25 01:00:36.851887 consumed
+2016-06-25 01:00:36.851963 [33m/home/kevin/p2psp/core/src/core/splitter_ims.cc:204: TRACE: 122 -> 127.0.0.1:37995[0m
+2016-06-25 01:00:36.852025 computed
+2016-06-25 01:00:36.852068 consumed
+2016-06-25 01:00:36.852182 [33m/home/kevin/p2psp/core/src/core/splitter_ims.cc:204: TRACE: 123 -> 127.0.0.1:37995[0m
+2016-06-25 01:00:36.852255 computed
+2016-06-25 01:00:36.852314 consumed
+2016-06-25 01:00:36.852402 [33m/home/kevin/p2psp/core/src/core/splitter_ims.cc:204: TRACE: 124 -> 127.0.0.1:37995[0m
+2016-06-25 01:00:36.852476 computed
+2016-06-25 01:00:36.852530 consumed
+2016-06-25 01:00:36.852618 [33m/home/kevin/p2psp/core/src/core/splitter_ims.cc:204: TRACE: 125 -> 127.0.0.1:37995[0m
+2016-06-25 01:00:36.852691 computed
+2016-06-25 01:00:36.852745 consumed
+2016-06-25 01:00:36.852835 [33m/home/kevin/p2psp/core/src/core/splitter_ims.cc:204: TRACE: 126 -> 127.0.0.1:37995[0m
+2016-06-25 01:00:36.852915 computed
+2016-06-25 01:00:36.852977 consumed
+2016-06-25 01:00:36.853074 [33m/home/kevin/p2psp/core/src/core/splitter_ims.cc:204: TRACE: 127 -> 127.0.0.1:37995[0m
+2016-06-25 01:00:36.853157 computed
+2016-06-25 01:00:36.853216 consumed
+2016-06-25 01:00:36.853308 [33m/home/kevin/p2psp/core/src/core/splitter_ims.cc:204: TRACE: 128 -> 127.0.0.1:37995[0m
+2016-06-25 01:00:36.853389 computed
+2016-06-25 01:00:36.853449 consumed
+2016-06-25 01:00:36.853543 [33m/home/kevin/p2psp/core/src/core/splitter_ims.cc:204: TRACE: 129 -> 127.0.0.1:37995[0m
+2016-06-25 01:00:36.853622 computed
+2016-06-25 01:00:36.853676 consumed
+2016-06-25 01:00:36.853757 [33m/home/kevin/p2psp/core/src/core/splitter_ims.cc:204: TRACE: 130 -> 127.0.0.1:37995[0m
+2016-06-25 01:00:36.853832 computed
+2016-06-25 01:00:36.853886 consumed
+2016-06-25 01:00:36.853969 [33m/home/kevin/p2psp/core/src/core/splitter_ims.cc:204: TRACE: 131 -> 127.0.0.1:37995[0m
+2016-06-25 01:00:36.854058 computed
+2016-06-25 01:00:36.854115 consumed
+2016-06-25 01:00:36.854205 [33m/home/kevin/p2psp/core/src/core/splitter_ims.cc:204: TRACE: 132 -> 127.0.0.1:37995[0m
+2016-06-25 01:00:36.854280 computed
+2016-06-25 01:00:36.854377 consumed
+2016-06-25 01:00:36.854472 [33m/home/kevin/p2psp/core/src/core/splitter_ims.cc:204: TRACE: 133 -> 127.0.0.1:37995[0m
+2016-06-25 01:00:36.854553 computed
+2016-06-25 01:00:36.854609 consumed
+2016-06-25 01:00:36.854693 [33m/home/kevin/p2psp/core/src/core/splitter_ims.cc:204: TRACE: 134 -> 127.0.0.1:37995[0m
+2016-06-25 01:00:36.854772 computed
+2016-06-25 01:00:36.854831 consumed
+2016-06-25 01:00:36.854921 [33m/home/kevin/p2psp/core/src/core/splitter_ims.cc:204: TRACE: 135 -> 127.0.0.1:37995[0m
+2016-06-25 01:00:36.855002 computed
+2016-06-25 01:00:36.855060 consumed
+2016-06-25 01:00:36.855157 [33m/home/kevin/p2psp/core/src/core/splitter_ims.cc:204: TRACE: 136 -> 127.0.0.1:37995[0m
+2016-06-25 01:00:36.855237 computed
+2016-06-25 01:00:36.855297 consumed
+2016-06-25 01:00:36.855391 [33m/home/kevin/p2psp/core/src/core/splitter_ims.cc:204: TRACE: 137 -> 127.0.0.1:37995[0m
+2016-06-25 01:00:36.855472 computed
+2016-06-25 01:00:36.855528 consumed
+2016-06-25 01:00:36.855613 [33m/home/kevin/p2psp/core/src/core/splitter_ims.cc:204: TRACE: 138 -> 127.0.0.1:37995[0m
+2016-06-25 01:00:36.855697 computed
+2016-06-25 01:00:36.855747 consumed
+2016-06-25 01:00:36.855824 [33m/home/kevin/p2psp/core/src/core/splitter_ims.cc:204: TRACE: 139 -> 127.0.0.1:37995[0m
+2016-06-25 01:00:36.855893 computed
+2016-06-25 01:00:36.855942 consumed
+2016-06-25 01:00:36.856021 [33m/home/kevin/p2psp/core/src/core/splitter_ims.cc:204: TRACE: 140 -> 127.0.0.1:37995[0m
+2016-06-25 01:00:36.856109 computed
+2016-06-25 01:00:36.856164 consumed
+2016-06-25 01:00:36.856254 [33m/home/kevin/p2psp/core/src/core/splitter_ims.cc:204: TRACE: 141 -> 127.0.0.1:37995[0m
+2016-06-25 01:00:36.856331 computed
+2016-06-25 01:00:36.856389 consumed
+2016-06-25 01:00:36.856482 [33m/home/kevin/p2psp/core/src/core/splitter_ims.cc:204: TRACE: 142 -> 127.0.0.1:37995[0m
+2016-06-25 01:00:36.856564 computed
+2016-06-25 01:00:36.856625 consumed
+2016-06-25 01:00:36.856717 [33m/home/kevin/p2psp/core/src/core/splitter_ims.cc:204: TRACE: 143 -> 127.0.0.1:37995[0m
+2016-06-25 01:00:36.856874 computed
+2016-06-25 01:00:36.856928 consumed
+2016-06-25 01:00:36.857013 [33m/home/kevin/p2psp/core/src/core/splitter_ims.cc:204: TRACE: 144 -> 127.0.0.1:37995[0m
+2016-06-25 01:00:36.857087 computed
+2016-06-25 01:00:36.857137 consumed
+2016-06-25 01:00:36.857215 [33m/home/kevin/p2psp/core/src/core/splitter_ims.cc:204: TRACE: 145 -> 127.0.0.1:37995[0m
+2016-06-25 01:00:36.857283 computed
+2016-06-25 01:00:36.857334 consumed
+2016-06-25 01:00:36.857411 [33m/home/kevin/p2psp/core/src/core/splitter_ims.cc:204: TRACE: 146 -> 127.0.0.1:37995[0m
+2016-06-25 01:00:36.857481 computed
+2016-06-25 01:00:36.857531 consumed
+2016-06-25 01:00:36.857609 [33m/home/kevin/p2psp/core/src/core/splitter_ims.cc:204: TRACE: 147 -> 127.0.0.1:37995[0m
+2016-06-25 01:00:36.857679 computed
+2016-06-25 01:00:36.857727 consumed
+2016-06-25 01:00:36.857804 [33m/home/kevin/p2psp/core/src/core/splitter_ims.cc:204: TRACE: 148 -> 127.0.0.1:37995[0m
+2016-06-25 01:00:36.857873 computed
+2016-06-25 01:00:36.857922 consumed
+2016-06-25 01:00:36.857997 [33m/home/kevin/p2psp/core/src/core/splitter_ims.cc:204: TRACE: 149 -> 127.0.0.1:37995[0m
+2016-06-25 01:00:36.858066 computed
+2016-06-25 01:00:36.858114 consumed
+2016-06-25 01:00:36.858192 [33m/home/kevin/p2psp/core/src/core/splitter_ims.cc:204: TRACE: 150 -> 127.0.0.1:37995[0m
+2016-06-25 01:00:36.858262 computed
+2016-06-25 01:00:36.858310 consumed
+2016-06-25 01:00:36.858387 [33m/home/kevin/p2psp/core/src/core/splitter_ims.cc:204: TRACE: 151 -> 127.0.0.1:37995[0m
+2016-06-25 01:00:36.858456 computed
+2016-06-25 01:00:36.858505 consumed
+2016-06-25 01:00:36.858581 [33m/home/kevin/p2psp/core/src/core/splitter_ims.cc:204: TRACE: 152 -> 127.0.0.1:37995[0m
+2016-06-25 01:00:36.858708 computed
+2016-06-25 01:00:36.858763 consumed
+2016-06-25 01:00:36.858851 [33m/home/kevin/p2psp/core/src/core/splitter_ims.cc:204: TRACE: 153 -> 127.0.0.1:37995[0m
+2016-06-25 01:00:36.858923 computed
+2016-06-25 01:00:36.859009 consumed
+2016-06-25 01:00:36.859100 [33m/home/kevin/p2psp/core/src/core/splitter_ims.cc:204: TRACE: 154 -> 127.0.0.1:37995[0m
+2016-06-25 01:00:36.859173 computed
+2016-06-25 01:00:36.859226 consumed
+2016-06-25 01:00:36.859316 [33m/home/kevin/p2psp/core/src/core/splitter_ims.cc:204: TRACE: 155 -> 127.0.0.1:37995[0m
+2016-06-25 01:00:36.859394 computed
+2016-06-25 01:00:36.859448 consumed
+2016-06-25 01:00:36.862824 [33m/home/kevin/p2psp/core/src/core/splitter_ims.cc:204: TRACE: 156 -> 127.0.0.1:37995[0m
+2016-06-25 01:00:36.862945 computed
+2016-06-25 01:00:36.863000 consumed
+2016-06-25 01:00:36.863090 [33m/home/kevin/p2psp/core/src/core/splitter_ims.cc:204: TRACE: 157 -> 127.0.0.1:37995[0m
+2016-06-25 01:00:36.863171 computed
+2016-06-25 01:00:36.863225 consumed
+2016-06-25 01:00:36.863312 [33m/home/kevin/p2psp/core/src/core/splitter_ims.cc:204: TRACE: 158 -> 127.0.0.1:37995[0m
+2016-06-25 01:00:36.863389 computed
+2016-06-25 01:00:36.863438 consumed
+2016-06-25 01:00:36.863518 [33m/home/kevin/p2psp/core/src/core/splitter_ims.cc:204: TRACE: 159 -> 127.0.0.1:37995[0m
+2016-06-25 01:00:36.863758 computed
+2016-06-25 01:00:36.863822 consumed
+2016-06-25 01:00:36.863922 [33m/home/kevin/p2psp/core/src/core/splitter_ims.cc:204: TRACE: 160 -> 127.0.0.1:37995[0m
+2016-06-25 01:00:36.864004 computed
+2016-06-25 01:00:36.864059 consumed
+2016-06-25 01:00:36.864197 [33m/home/kevin/p2psp/core/src/core/splitter_ims.cc:204: TRACE: 161 -> 127.0.0.1:37995[0m
+2016-06-25 01:00:36.864289 computed
+2016-06-25 01:00:36.864374 consumed
+2016-06-25 01:00:36.864506 [33m/home/kevin/p2psp/core/src/core/splitter_ims.cc:204: TRACE: 162 -> 127.0.0.1:37995[0m
+2016-06-25 01:00:36.864596 computed
+2016-06-25 01:00:36.864669 consumed
+2016-06-25 01:00:36.864995 [33m/home/kevin/p2psp/core/src/core/splitter_ims.cc:204: TRACE: 163 -> 127.0.0.1:37995[0m
+2016-06-25 01:00:36.866085 computed
+2016-06-25 01:00:36.866169 consumed
+2016-06-25 01:00:36.866310 [33m/home/kevin/p2psp/core/src/core/splitter_ims.cc:204: TRACE: 164 -> 127.0.0.1:37995[0m
+2016-06-25 01:00:36.866402 computed
+2016-06-25 01:00:36.866484 consumed
+2016-06-25 01:00:36.866586 [33m/home/kevin/p2psp/core/src/core/splitter_ims.cc:204: TRACE: 165 -> 127.0.0.1:37995[0m
+2016-06-25 01:00:36.866682 computed
+2016-06-25 01:00:36.866742 consumed
+2016-06-25 01:00:36.866848 [33m/home/kevin/p2psp/core/src/core/splitter_ims.cc:204: TRACE: 166 -> 127.0.0.1:37995[0m
+2016-06-25 01:00:36.866930 computed
+2016-06-25 01:00:36.866998 consumed
+2016-06-25 01:00:36.867116 [33m/home/kevin/p2psp/core/src/core/splitter_ims.cc:204: TRACE: 167 -> 127.0.0.1:37995[0m
+2016-06-25 01:00:36.867248 computed
+2016-06-25 01:00:36.867321 consumed
+2016-06-25 01:00:36.867440 [33m/home/kevin/p2psp/core/src/core/splitter_ims.cc:204: TRACE: 168 -> 127.0.0.1:37995[0m
+2016-06-25 01:00:36.867536 computed
+2016-06-25 01:00:36.867596 consumed
+2016-06-25 01:00:36.867687 [33m/home/kevin/p2psp/core/src/core/splitter_ims.cc:204: TRACE: 169 -> 127.0.0.1:37995[0m
+2016-06-25 01:00:36.867762 computed
+2016-06-25 01:00:36.867812 consumed
+2016-06-25 01:00:36.867893 [33m/home/kevin/p2psp/core/src/core/splitter_ims.cc:204: TRACE: 170 -> 127.0.0.1:37995[0m
+2016-06-25 01:00:36.867973 computed
+2016-06-25 01:00:36.868022 consumed
+2016-06-25 01:00:36.868120 [33m/home/kevin/p2psp/core/src/core/splitter_ims.cc:204: TRACE: 171 -> 127.0.0.1:37995[0m
+2016-06-25 01:00:36.868189 computed
+2016-06-25 01:00:36.868237 consumed
+2016-06-25 01:00:36.868320 [33m/home/kevin/p2psp/core/src/core/splitter_ims.cc:204: TRACE: 172 -> 127.0.0.1:37995[0m
+2016-06-25 01:00:36.868391 computed
+2016-06-25 01:00:36.868440 consumed
+2016-06-25 01:00:36.868516 [33m/home/kevin/p2psp/core/src/core/splitter_ims.cc:204: TRACE: 173 -> 127.0.0.1:37995[0m
+2016-06-25 01:00:36.868583 computed
+2016-06-25 01:00:36.868630 consumed
+2016-06-25 01:00:36.868703 [33m/home/kevin/p2psp/core/src/core/splitter_ims.cc:204: TRACE: 174 -> 127.0.0.1:37995[0m
+2016-06-25 01:00:36.868768 computed
+2016-06-25 01:00:36.868815 consumed
+2016-06-25 01:00:36.868919 [33m/home/kevin/p2psp/core/src/core/splitter_ims.cc:204: TRACE: 175 -> 127.0.0.1:37995[0m
+2016-06-25 01:00:36.868987 computed
+2016-06-25 01:00:36.869034 consumed
+2016-06-25 01:00:36.869110 [33m/home/kevin/p2psp/core/src/core/splitter_ims.cc:204: TRACE: 176 -> 127.0.0.1:37995[0m
+2016-06-25 01:00:36.869176 computed
+2016-06-25 01:00:36.869223 consumed
+2016-06-25 01:00:36.869295 [33m/home/kevin/p2psp/core/src/core/splitter_ims.cc:204: TRACE: 177 -> 127.0.0.1:37995[0m
+2016-06-25 01:00:36.869362 computed
+2016-06-25 01:00:36.869408 consumed
+2016-06-25 01:00:36.869481 [33m/home/kevin/p2psp/core/src/core/splitter_ims.cc:204: TRACE: 178 -> 127.0.0.1:37995[0m
+2016-06-25 01:00:36.869546 computed
+2016-06-25 01:00:36.869593 consumed
+2016-06-25 01:00:36.869668 [33m/home/kevin/p2psp/core/src/core/splitter_ims.cc:204: TRACE: 179 -> 127.0.0.1:37995[0m
+2016-06-25 01:00:36.869734 computed
+2016-06-25 01:00:36.869780 consumed
+2016-06-25 01:00:36.869854 [33m/home/kevin/p2psp/core/src/core/splitter_ims.cc:204: TRACE: 180 -> 127.0.0.1:37995[0m
+2016-06-25 01:00:36.869920 computed
+2016-06-25 01:00:36.869967 consumed
+2016-06-25 01:00:36.870041 [33m/home/kevin/p2psp/core/src/core/splitter_ims.cc:204: TRACE: 181 -> 127.0.0.1:37995[0m
+2016-06-25 01:00:36.870108 computed
+2016-06-25 01:00:36.870155 consumed
+2016-06-25 01:00:36.870229 [33m/home/kevin/p2psp/core/src/core/splitter_ims.cc:204: TRACE: 182 -> 127.0.0.1:37995[0m
+2016-06-25 01:00:36.870295 computed
+2016-06-25 01:00:36.870341 consumed
+2016-06-25 01:00:36.870414 [33m/home/kevin/p2psp/core/src/core/splitter_ims.cc:204: TRACE: 183 -> 127.0.0.1:37995[0m
+2016-06-25 01:00:36.870480 computed
+2016-06-25 01:00:36.870528 consumed
+2016-06-25 01:00:36.870601 [33m/home/kevin/p2psp/core/src/core/splitter_ims.cc:204: TRACE: 184 -> 127.0.0.1:37995[0m
+2016-06-25 01:00:36.870668 computed
+2016-06-25 01:00:36.870715 consumed
+2016-06-25 01:00:36.870789 [33m/home/kevin/p2psp/core/src/core/splitter_ims.cc:204: TRACE: 185 -> 127.0.0.1:37995[0m
+2016-06-25 01:00:36.870856 computed
+2016-06-25 01:00:36.870903 consumed
+2016-06-25 01:00:36.870978 [33m/home/kevin/p2psp/core/src/core/splitter_ims.cc:204: TRACE: 186 -> 127.0.0.1:37995[0m
+2016-06-25 01:00:36.871044 computed
+2016-06-25 01:00:36.871090 consumed
+2016-06-25 01:00:36.871165 [33m/home/kevin/p2psp/core/src/core/splitter_ims.cc:204: TRACE: 187 -> 127.0.0.1:37995[0m
+2016-06-25 01:00:36.871232 computed
+2016-06-25 01:00:36.871279 consumed
+2016-06-25 01:00:36.871352 [33m/home/kevin/p2psp/core/src/core/splitter_ims.cc:204: TRACE: 188 -> 127.0.0.1:37995[0m
+2016-06-25 01:00:36.871422 computed
+2016-06-25 01:00:36.871469 consumed
+2016-06-25 01:00:36.871542 [33m/home/kevin/p2psp/core/src/core/splitter_ims.cc:204: TRACE: 189 -> 127.0.0.1:37995[0m
+2016-06-25 01:00:36.871607 computed
+2016-06-25 01:00:36.871654 consumed
+2016-06-25 01:00:36.871729 [33m/home/kevin/p2psp/core/src/core/splitter_ims.cc:204: TRACE: 190 -> 127.0.0.1:37995[0m
+2016-06-25 01:00:36.871795 computed
+2016-06-25 01:00:36.871841 consumed
+2016-06-25 01:00:36.871918 [33m/home/kevin/p2psp/core/src/core/splitter_ims.cc:204: TRACE: 191 -> 127.0.0.1:37995[0m
+2016-06-25 01:00:36.871984 computed
+2016-06-25 01:00:36.872032 consumed
+2016-06-25 01:00:36.872143 [33m/home/kevin/p2psp/core/src/core/splitter_ims.cc:204: TRACE: 192 -> 127.0.0.1:37995[0m
+2016-06-25 01:00:36.872227 computed
+2016-06-25 01:00:36.872286 consumed
+2016-06-25 01:00:36.872400 [33m/home/kevin/p2psp/core/src/core/splitter_ims.cc:204: TRACE: 193 -> 127.0.0.1:37995[0m
+2016-06-25 01:00:36.872496 computed
+2016-06-25 01:00:36.872561 consumed
+2016-06-25 01:00:36.872659 [33m/home/kevin/p2psp/core/src/core/splitter_ims.cc:204: TRACE: 194 -> 127.0.0.1:37995[0m
+2016-06-25 01:00:36.872752 computed
+2016-06-25 01:00:36.872813 consumed
+2016-06-25 01:00:36.872904 [33m/home/kevin/p2psp/core/src/core/splitter_ims.cc:204: TRACE: 195 -> 127.0.0.1:37995[0m
+2016-06-25 01:00:36.872997 computed
+2016-06-25 01:00:36.873056 consumed
+2016-06-25 01:00:36.873148 [33m/home/kevin/p2psp/core/src/core/splitter_ims.cc:204: TRACE: 196 -> 127.0.0.1:37995[0m
+2016-06-25 01:00:36.873353 computed
+2016-06-25 01:00:36.873420 consumed
+2016-06-25 01:00:36.873528 [33m/home/kevin/p2psp/core/src/core/splitter_ims.cc:204: TRACE: 197 -> 127.0.0.1:37995[0m
+2016-06-25 01:00:36.873610 computed
+2016-06-25 01:00:36.873671 consumed
+2016-06-25 01:00:36.873800 [33m/home/kevin/p2psp/core/src/core/splitter_ims.cc:204: TRACE: 198 -> 127.0.0.1:37995[0m
+2016-06-25 01:00:36.873903 computed
+2016-06-25 01:00:36.873966 consumed
+2016-06-25 01:00:36.874069 [33m/home/kevin/p2psp/core/src/core/splitter_ims.cc:204: TRACE: 199 -> 127.0.0.1:37995[0m
+2016-06-25 01:00:36.874152 computed
+2016-06-25 01:00:36.874212 consumed
+2016-06-25 01:00:36.874316 [33m/home/kevin/p2psp/core/src/core/splitter_ims.cc:204: TRACE: 200 -> 127.0.0.1:37995[0m
+2016-06-25 01:00:36.874404 computed
+2016-06-25 01:00:36.874473 consumed
+2016-06-25 01:00:36.874591 [33m/home/kevin/p2psp/core/src/core/splitter_ims.cc:204: TRACE: 201 -> 127.0.0.1:37995[0m
+2016-06-25 01:00:36.874688 computed
+2016-06-25 01:00:36.874752 consumed
+2016-06-25 01:00:36.874844 [33m/home/kevin/p2psp/core/src/core/splitter_ims.cc:204: TRACE: 202 -> 127.0.0.1:37995[0m
+2016-06-25 01:00:36.874936 computed
+2016-06-25 01:00:36.874995 consumed
+2016-06-25 01:00:36.875087 [33m/home/kevin/p2psp/core/src/core/splitter_ims.cc:204: TRACE: 203 -> 127.0.0.1:37995[0m
+2016-06-25 01:00:36.875181 computed
+2016-06-25 01:00:36.875241 consumed
+2016-06-25 01:00:36.875334 [33m/home/kevin/p2psp/core/src/core/splitter_ims.cc:204: TRACE: 204 -> 127.0.0.1:37995[0m
+2016-06-25 01:00:36.875431 computed
+2016-06-25 01:00:36.875498 consumed
+2016-06-25 01:00:36.875608 [33m/home/kevin/p2psp/core/src/core/splitter_ims.cc:204: TRACE: 205 -> 127.0.0.1:37995[0m
+2016-06-25 01:00:36.875722 computed
+2016-06-25 01:00:36.875787 consumed
+2016-06-25 01:00:36.875891 [33m/home/kevin/p2psp/core/src/core/splitter_ims.cc:204: TRACE: 206 -> 127.0.0.1:37995[0m
+2016-06-25 01:00:36.875969 computed
+2016-06-25 01:00:36.876028 consumed
+2016-06-25 01:00:36.876151 [33m/home/kevin/p2psp/core/src/core/splitter_ims.cc:204: TRACE: 207 -> 127.0.0.1:37995[0m
+2016-06-25 01:00:36.876231 computed
+2016-06-25 01:00:36.876291 consumed
+2016-06-25 01:00:36.876401 [33m/home/kevin/p2psp/core/src/core/splitter_ims.cc:204: TRACE: 208 -> 127.0.0.1:37995[0m
+2016-06-25 01:00:36.876488 computed
+2016-06-25 01:00:36.876559 consumed
+2016-06-25 01:00:36.876673 [33m/home/kevin/p2psp/core/src/core/splitter_ims.cc:204: TRACE: 209 -> 127.0.0.1:37995[0m
+2016-06-25 01:00:36.876770 computed
+2016-06-25 01:00:36.876835 consumed
+2016-06-25 01:00:36.876940 [33m/home/kevin/p2psp/core/src/core/splitter_ims.cc:204: TRACE: 210 -> 127.0.0.1:37995[0m
+2016-06-25 01:00:36.877019 computed
+2016-06-25 01:00:36.877082 consumed
+2016-06-25 01:00:36.877187 [33m/home/kevin/p2psp/core/src/core/splitter_ims.cc:204: TRACE: 211 -> 127.0.0.1:37995[0m
+2016-06-25 01:00:36.877265 computed
+2016-06-25 01:00:36.877331 consumed
+2016-06-25 01:00:36.877445 [33m/home/kevin/p2psp/core/src/core/splitter_ims.cc:204: TRACE: 212 -> 127.0.0.1:37995[0m
+2016-06-25 01:00:36.877534 computed
+2016-06-25 01:00:36.877634 consumed
+2016-06-25 01:00:36.877741 [33m/home/kevin/p2psp/core/src/core/splitter_ims.cc:204: TRACE: 213 -> 127.0.0.1:37995[0m
+2016-06-25 01:00:36.877822 computed
+2016-06-25 01:00:36.877887 consumed
+2016-06-25 01:00:36.878001 [33m/home/kevin/p2psp/core/src/core/splitter_ims.cc:204: TRACE: 214 -> 127.0.0.1:37995[0m
+2016-06-25 01:00:36.878084 computed
+2016-06-25 01:00:36.878144 consumed
+2016-06-25 01:00:36.878250 [33m/home/kevin/p2psp/core/src/core/splitter_ims.cc:204: TRACE: 215 -> 127.0.0.1:37995[0m
+2016-06-25 01:00:36.878338 computed
+2016-06-25 01:00:36.878409 consumed
+2016-06-25 01:00:36.878527 [33m/home/kevin/p2psp/core/src/core/splitter_ims.cc:204: TRACE: 216 -> 127.0.0.1:37995[0m
+2016-06-25 01:00:36.878623 computed
+2016-06-25 01:00:36.878687 consumed
+2016-06-25 01:00:36.878781 [33m/home/kevin/p2psp/core/src/core/splitter_ims.cc:204: TRACE: 217 -> 127.0.0.1:37995[0m
+2016-06-25 01:00:36.878896 computed
+2016-06-25 01:00:36.878981 consumed
+2016-06-25 01:00:36.879080 [33m/home/kevin/p2psp/core/src/core/splitter_ims.cc:204: TRACE: 218 -> 127.0.0.1:37995[0m
+2016-06-25 01:00:36.879184 computed
+2016-06-25 01:00:36.879244 consumed
+2016-06-25 01:00:36.879352 [33m/home/kevin/p2psp/core/src/core/splitter_ims.cc:204: TRACE: 219 -> 127.0.0.1:37995[0m
+2016-06-25 01:00:36.879432 computed
+2016-06-25 01:00:36.879496 consumed
+2016-06-25 01:00:36.879579 [33m/home/kevin/p2psp/core/src/core/splitter_ims.cc:204: TRACE: 220 -> 127.0.0.1:37995[0m
+2016-06-25 01:00:36.879655 computed
+2016-06-25 01:00:36.879755 consumed
+2016-06-25 01:00:36.879854 [33m/home/kevin/p2psp/core/src/core/splitter_ims.cc:204: TRACE: 221 -> 127.0.0.1:37995[0m
+2016-06-25 01:00:36.879935 computed
+2016-06-25 01:00:36.880000 consumed
+2016-06-25 01:00:36.880102 [33m/home/kevin/p2psp/core/src/core/splitter_ims.cc:204: TRACE: 222 -> 127.0.0.1:37995[0m
+2016-06-25 01:00:36.880177 computed
+2016-06-25 01:00:36.880232 consumed
+2016-06-25 01:00:36.880317 [33m/home/kevin/p2psp/core/src/core/splitter_ims.cc:204: TRACE: 223 -> 127.0.0.1:37995[0m
+2016-06-25 01:00:36.880390 computed
+2016-06-25 01:00:36.880442 consumed
+2016-06-25 01:00:36.880536 [33m/home/kevin/p2psp/core/src/core/splitter_ims.cc:204: TRACE: 224 -> 127.0.0.1:37995[0m
+2016-06-25 01:00:36.880607 computed
+2016-06-25 01:00:36.880660 consumed
+2016-06-25 01:00:36.880740 [33m/home/kevin/p2psp/core/src/core/splitter_ims.cc:204: TRACE: 225 -> 127.0.0.1:37995[0m
+2016-06-25 01:00:36.880812 computed
+2016-06-25 01:00:36.880864 consumed
+2016-06-25 01:00:36.880947 [33m/home/kevin/p2psp/core/src/core/splitter_ims.cc:204: TRACE: 226 -> 127.0.0.1:37995[0m
+2016-06-25 01:00:36.881019 computed
+2016-06-25 01:00:36.881071 consumed
+2016-06-25 01:00:36.881151 [33m/home/kevin/p2psp/core/src/core/splitter_ims.cc:204: TRACE: 227 -> 127.0.0.1:37995[0m
+2016-06-25 01:00:36.881223 computed
+2016-06-25 01:00:36.881274 consumed
+2016-06-25 01:00:36.881354 [33m/home/kevin/p2psp/core/src/core/splitter_ims.cc:204: TRACE: 228 -> 127.0.0.1:37995[0m
+2016-06-25 01:00:36.881426 computed
+2016-06-25 01:00:36.881477 consumed
+2016-06-25 01:00:36.881556 [33m/home/kevin/p2psp/core/src/core/splitter_ims.cc:204: TRACE: 229 -> 127.0.0.1:37995[0m
+2016-06-25 01:00:36.881630 computed
+2016-06-25 01:00:36.881682 consumed
+2016-06-25 01:00:36.881764 [33m/home/kevin/p2psp/core/src/core/splitter_ims.cc:204: TRACE: 230 -> 127.0.0.1:37995[0m
+2016-06-25 01:00:36.881836 computed
+2016-06-25 01:00:36.881888 consumed
+2016-06-25 01:00:36.881968 [33m/home/kevin/p2psp/core/src/core/splitter_ims.cc:204: TRACE: 231 -> 127.0.0.1:37995[0m
+2016-06-25 01:00:36.882040 computed
+2016-06-25 01:00:36.882106 consumed
+2016-06-25 01:00:36.882186 [33m/home/kevin/p2psp/core/src/core/splitter_ims.cc:204: TRACE: 232 -> 127.0.0.1:37995[0m
+2016-06-25 01:00:36.882257 computed
+2016-06-25 01:00:36.882309 consumed
+2016-06-25 01:00:36.882389 [33m/home/kevin/p2psp/core/src/core/splitter_ims.cc:204: TRACE: 233 -> 127.0.0.1:37995[0m
+2016-06-25 01:00:36.882462 computed
+2016-06-25 01:00:36.882513 consumed
+2016-06-25 01:00:36.882591 [33m/home/kevin/p2psp/core/src/core/splitter_ims.cc:204: TRACE: 234 -> 127.0.0.1:37995[0m
+2016-06-25 01:00:36.882663 computed
+2016-06-25 01:00:36.882719 consumed
+2016-06-25 01:00:36.882801 [33m/home/kevin/p2psp/core/src/core/splitter_ims.cc:204: TRACE: 235 -> 127.0.0.1:37995[0m
+2016-06-25 01:00:36.882874 computed
+2016-06-25 01:00:36.882926 consumed
+2016-06-25 01:00:36.883006 [33m/home/kevin/p2psp/core/src/core/splitter_ims.cc:204: TRACE: 236 -> 127.0.0.1:37995[0m
+2016-06-25 01:00:36.883078 computed
+2016-06-25 01:00:36.883130 consumed
+2016-06-25 01:00:36.883211 [33m/home/kevin/p2psp/core/src/core/splitter_ims.cc:204: TRACE: 237 -> 127.0.0.1:37995[0m
+2016-06-25 01:00:36.883282 computed
+2016-06-25 01:00:36.883334 consumed
+2016-06-25 01:00:36.883413 [33m/home/kevin/p2psp/core/src/core/splitter_ims.cc:204: TRACE: 238 -> 127.0.0.1:37995[0m
+2016-06-25 01:00:36.883533 computed
+2016-06-25 01:00:36.883588 consumed
+2016-06-25 01:00:36.883669 [33m/home/kevin/p2psp/core/src/core/splitter_ims.cc:204: TRACE: 239 -> 127.0.0.1:37995[0m
+2016-06-25 01:00:36.883742 computed
+2016-06-25 01:00:36.883794 consumed
+2016-06-25 01:00:36.883877 [33m/home/kevin/p2psp/core/src/core/splitter_ims.cc:204: TRACE: 240 -> 127.0.0.1:37995[0m
+2016-06-25 01:00:36.883950 computed
+2016-06-25 01:00:36.884002 consumed
+2016-06-25 01:00:36.884099 [33m/home/kevin/p2psp/core/src/core/splitter_ims.cc:204: TRACE: 241 -> 127.0.0.1:37995[0m
+2016-06-25 01:00:36.884184 computed
+2016-06-25 01:00:36.884252 consumed
+2016-06-25 01:00:36.898149 [33m/home/kevin/p2psp/core/src/core/splitter_ims.cc:204: TRACE: 242 -> 127.0.0.1:37995[0m
+2016-06-25 01:00:36.898502 computed
+2016-06-25 01:00:36.898569 consumed
+2016-06-25 01:00:36.898670 [33m/home/kevin/p2psp/core/src/core/splitter_ims.cc:204: TRACE: 243 -> 127.0.0.1:37995[0m
+2016-06-25 01:00:36.898953 computed
+2016-06-25 01:00:36.899016 consumed
+2016-06-25 01:00:36.899114 [33m/home/kevin/p2psp/core/src/core/splitter_ims.cc:204: TRACE: 244 -> 127.0.0.1:37995[0m
+2016-06-25 01:00:36.899409 computed
+2016-06-25 01:00:36.899472 consumed
+2016-06-25 01:00:36.899776 [33m/home/kevin/p2psp/core/src/core/splitter_ims.cc:204: TRACE: 245 -> 127.0.0.1:37995[0m
+2016-06-25 01:00:36.899862 computed
+2016-06-25 01:00:36.899924 consumed
+2016-06-25 01:00:36.900012 [33m/home/kevin/p2psp/core/src/core/splitter_ims.cc:204: TRACE: 246 -> 127.0.0.1:37995[0m
+2016-06-25 01:00:36.902278 computed
+2016-06-25 01:00:36.902713 consumed
+2016-06-25 01:00:36.902871 [33m/home/kevin/p2psp/core/src/core/splitter_ims.cc:204: TRACE: 247 -> 127.0.0.1:37995[0m
+2016-06-25 01:00:36.903219 computed
+2016-06-25 01:00:36.903288 consumed
+2016-06-25 01:00:36.903620 [33m/home/kevin/p2psp/core/src/core/splitter_ims.cc:204: TRACE: 248 -> 127.0.0.1:37995[0m
+2016-06-25 01:00:36.903956 computed
+2016-06-25 01:00:36.904025 consumed
+2016-06-25 01:00:36.907894 [33m/home/kevin/p2psp/core/src/core/splitter_ims.cc:204: TRACE: 249 -> 127.0.0.1:37995[0m
+2016-06-25 01:00:36.908045 computed
+2016-06-25 01:00:36.908135 consumed
+2016-06-25 01:00:36.908259 [33m/home/kevin/p2psp/core/src/core/splitter_ims.cc:204: TRACE: 250 -> 127.0.0.1:37995[0m
+2016-06-25 01:00:36.908352 computed
+2016-06-25 01:00:36.908420 consumed
+2016-06-25 01:00:36.908776 [33m/home/kevin/p2psp/core/src/core/splitter_ims.cc:204: TRACE: 251 -> 127.0.0.1:37995[0m
+2016-06-25 01:00:36.908887 computed
+2016-06-25 01:00:36.909256 consumed
+2016-06-25 01:00:36.909432 [33m/home/kevin/p2psp/core/src/core/splitter_ims.cc:204: TRACE: 252 -> 127.0.0.1:37995[0m
+2016-06-25 01:00:36.909617 computed
+2016-06-25 01:00:36.909684 consumed
+2016-06-25 01:00:36.909859 [33m/home/kevin/p2psp/core/src/core/splitter_ims.cc:204: TRACE: 253 -> 127.0.0.1:37995[0m
+2016-06-25 01:00:36.910060 computed
+2016-06-25 01:00:36.910129 consumed
+2016-06-25 01:00:36.910302 [33m/home/kevin/p2psp/core/src/core/splitter_ims.cc:204: TRACE: 254 -> 127.0.0.1:37995[0m
+2016-06-25 01:00:36.910456 computed
+2016-06-25 01:00:36.910598 consumed
+2016-06-25 01:00:36.910708 [33m/home/kevin/p2psp/core/src/core/splitter_ims.cc:204: TRACE: 255 -> 127.0.0.1:37995[0m
+2016-06-25 01:00:36.910936 computed
+2016-06-25 01:00:36.911010 consumed
+2016-06-25 01:00:36.911187 [33m/home/kevin/p2psp/core/src/core/splitter_ims.cc:204: TRACE: 256 -> 127.0.0.1:37995[0m
+2016-06-25 01:00:36.911344 computed
+2016-06-25 01:00:36.911437 consumed
+2016-06-25 01:00:36.911620 [33m/home/kevin/p2psp/core/src/core/splitter_ims.cc:204: TRACE: 257 -> 127.0.0.1:37995[0m
+2016-06-25 01:00:36.912190 computed
+2016-06-25 01:00:36.912271 consumed
+2016-06-25 01:00:36.912581 [33m/home/kevin/p2psp/core/src/core/splitter_ims.cc:204: TRACE: 258 -> 127.0.0.1:37995[0m
+2016-06-25 01:00:36.912975 computed
+2016-06-25 01:00:36.913046 consumed
+2016-06-25 01:00:36.913235 [33m/home/kevin/p2psp/core/src/core/splitter_ims.cc:204: TRACE: 259 -> 127.0.0.1:37995[0m
+2016-06-25 01:00:36.913424 computed
+2016-06-25 01:00:36.913500 consumed
+2016-06-25 01:00:36.913729 [33m/home/kevin/p2psp/core/src/core/splitter_ims.cc:204: TRACE: 260 -> 127.0.0.1:37995[0m
+2016-06-25 01:00:36.913821 computed
+2016-06-25 01:00:36.913943 consumed
+2016-06-25 01:00:36.914115 [33m/home/kevin/p2psp/core/src/core/splitter_ims.cc:204: TRACE: 261 -> 127.0.0.1:37995[0m
+2016-06-25 01:00:36.914300 computed
+2016-06-25 01:00:36.914370 consumed
+2016-06-25 01:00:36.914549 [33m/home/kevin/p2psp/core/src/core/splitter_ims.cc:204: TRACE: 262 -> 127.0.0.1:37995[0m
+2016-06-25 01:00:36.914692 computed
+2016-06-25 01:00:36.914766 consumed
+2016-06-25 01:00:36.914944 [33m/home/kevin/p2psp/core/src/core/splitter_ims.cc:204: TRACE: 263 -> 127.0.0.1:37995[0m
+2016-06-25 01:00:36.915100 computed
+2016-06-25 01:00:36.915191 consumed
+2016-06-25 01:00:36.915378 [33m/home/kevin/p2psp/core/src/core/splitter_ims.cc:204: TRACE: 264 -> 127.0.0.1:37995[0m
+2016-06-25 01:00:36.915735 computed
+2016-06-25 01:00:36.915866 consumed
+2016-06-25 01:00:36.915974 [33m/home/kevin/p2psp/core/src/core/splitter_ims.cc:204: TRACE: 265 -> 127.0.0.1:37995[0m
+2016-06-25 01:00:36.916502 computed
+2016-06-25 01:00:36.918034 consumed
+2016-06-25 01:00:36.918206 [33m/home/kevin/p2psp/core/src/core/splitter_ims.cc:204: TRACE: 266 -> 127.0.0.1:37995[0m
+2016-06-25 01:00:36.918303 computed
+2016-06-25 01:00:36.918366 consumed
+2016-06-25 01:00:36.918463 [33m/home/kevin/p2psp/core/src/core/splitter_ims.cc:204: TRACE: 267 -> 127.0.0.1:37995[0m
+2016-06-25 01:00:36.918547 computed
+2016-06-25 01:00:36.918607 consumed
+2016-06-25 01:00:36.918704 [33m/home/kevin/p2psp/core/src/core/splitter_ims.cc:204: TRACE: 268 -> 127.0.0.1:37995[0m
+2016-06-25 01:00:36.918785 computed
+2016-06-25 01:00:36.918844 consumed
+2016-06-25 01:00:36.918936 [33m/home/kevin/p2psp/core/src/core/splitter_ims.cc:204: TRACE: 269 -> 127.0.0.1:37995[0m
+2016-06-25 01:00:36.919016 computed
+2016-06-25 01:00:36.919076 consumed
+2016-06-25 01:00:36.919188 [33m/home/kevin/p2psp/core/src/core/splitter_ims.cc:204: TRACE: 270 -> 127.0.0.1:37995[0m
+2016-06-25 01:00:36.921917 computed
+2016-06-25 01:00:36.922009 consumed
+2016-06-25 01:00:36.922127 [33m/home/kevin/p2psp/core/src/core/splitter_ims.cc:204: TRACE: 271 -> 127.0.0.1:37995[0m
+2016-06-25 01:00:36.922215 computed
+2016-06-25 01:00:36.922267 consumed
+2016-06-25 01:00:36.922353 [33m/home/kevin/p2psp/core/src/core/splitter_ims.cc:204: TRACE: 272 -> 127.0.0.1:37995[0m
+2016-06-25 01:00:36.922428 computed
+2016-06-25 01:00:36.922480 consumed
+2016-06-25 01:00:36.922567 [33m/home/kevin/p2psp/core/src/core/splitter_ims.cc:204: TRACE: 273 -> 127.0.0.1:37995[0m
+2016-06-25 01:00:36.922641 computed
+2016-06-25 01:00:36.922696 consumed
+2016-06-25 01:00:36.922798 [33m/home/kevin/p2psp/core/src/core/splitter_ims.cc:204: TRACE: 274 -> 127.0.0.1:37995[0m
+2016-06-25 01:00:36.923667 computed
+2016-06-25 01:00:36.923731 consumed
+2016-06-25 01:00:36.923823 [33m/home/kevin/p2psp/core/src/core/splitter_ims.cc:204: TRACE: 275 -> 127.0.0.1:37995[0m
+2016-06-25 01:00:36.923897 computed
+2016-06-25 01:00:36.923945 consumed
+2016-06-25 01:00:36.924022 [33m/home/kevin/p2psp/core/src/core/splitter_ims.cc:204: TRACE: 276 -> 127.0.0.1:37995[0m
+2016-06-25 01:00:36.924129 computed
+2016-06-25 01:00:36.924460 consumed
+2016-06-25 01:00:36.924583 [33m/home/kevin/p2psp/core/src/core/splitter_ims.cc:204: TRACE: 277 -> 127.0.0.1:37995[0m
+2016-06-25 01:00:36.924661 computed
+2016-06-25 01:00:36.924740 consumed
+2016-06-25 01:00:36.924835 [33m/home/kevin/p2psp/core/src/core/splitter_ims.cc:204: TRACE: 278 -> 127.0.0.1:37995[0m
+2016-06-25 01:00:36.924919 computed
+2016-06-25 01:00:36.924983 consumed
+2016-06-25 01:00:36.925074 [33m/home/kevin/p2psp/core/src/core/splitter_ims.cc:204: TRACE: 279 -> 127.0.0.1:37995[0m
+2016-06-25 01:00:36.925161 computed
+2016-06-25 01:00:36.925227 consumed
+2016-06-25 01:00:36.925331 [33m/home/kevin/p2psp/core/src/core/splitter_ims.cc:204: TRACE: 280 -> 127.0.0.1:37995[0m
+2016-06-25 01:00:36.928720 computed
+2016-06-25 01:00:36.932139 consumed
+2016-06-25 01:00:36.932331 [33m/home/kevin/p2psp/core/src/core/splitter_ims.cc:204: TRACE: 281 -> 127.0.0.1:37995[0m
+2016-06-25 01:00:36.932639 computed
+2016-06-25 01:00:36.932705 consumed
+2016-06-25 01:00:36.932798 [33m/home/kevin/p2psp/core/src/core/splitter_ims.cc:204: TRACE: 282 -> 127.0.0.1:37995[0m
+2016-06-25 01:00:36.932879 computed
+2016-06-25 01:00:36.932939 consumed
+2016-06-25 01:00:36.933101 [33m/home/kevin/p2psp/core/src/core/splitter_ims.cc:204: TRACE: 283 -> 127.0.0.1:37995[0m
+2016-06-25 01:00:36.933221 computed
+2016-06-25 01:00:36.933278 consumed
+2016-06-25 01:00:36.933378 [33m/home/kevin/p2psp/core/src/core/splitter_ims.cc:204: TRACE: 284 -> 127.0.0.1:37995[0m
+2016-06-25 01:00:36.933452 computed
+2016-06-25 01:00:36.933503 consumed
+2016-06-25 01:00:36.933603 [33m/home/kevin/p2psp/core/src/core/splitter_ims.cc:204: TRACE: 285 -> 127.0.0.1:37995[0m
+2016-06-25 01:00:36.933718 computed
+2016-06-25 01:00:36.933786 consumed
+2016-06-25 01:00:36.933885 [33m/home/kevin/p2psp/core/src/core/splitter_ims.cc:204: TRACE: 286 -> 127.0.0.1:37995[0m
+2016-06-25 01:00:36.933966 computed
+2016-06-25 01:00:36.934032 consumed
+2016-06-25 01:00:36.934133 [33m/home/kevin/p2psp/core/src/core/splitter_ims.cc:204: TRACE: 287 -> 127.0.0.1:37995[0m
+2016-06-25 01:00:36.934422 computed
+2016-06-25 01:00:36.934484 consumed
+2016-06-25 01:00:36.934589 [33m/home/kevin/p2psp/core/src/core/splitter_ims.cc:204: TRACE: 288 -> 127.0.0.1:37995[0m
+2016-06-25 01:00:36.934671 computed
+2016-06-25 01:00:36.934728 consumed
+2016-06-25 01:00:36.934837 [33m/home/kevin/p2psp/core/src/core/splitter_ims.cc:204: TRACE: 289 -> 127.0.0.1:37995[0m
+2016-06-25 01:00:36.934932 computed
+2016-06-25 01:00:36.935016 consumed
+2016-06-25 01:00:36.935125 [33m/home/kevin/p2psp/core/src/core/splitter_ims.cc:204: TRACE: 290 -> 127.0.0.1:37995[0m
+2016-06-25 01:00:36.935228 computed
+2016-06-25 01:00:36.935295 consumed
+2016-06-25 01:00:36.935398 [33m/home/kevin/p2psp/core/src/core/splitter_ims.cc:204: TRACE: 291 -> 127.0.0.1:37995[0m
+2016-06-25 01:00:36.935481 computed
+2016-06-25 01:00:36.935540 consumed
+2016-06-25 01:00:36.935637 [33m/home/kevin/p2psp/core/src/core/splitter_ims.cc:204: TRACE: 292 -> 127.0.0.1:37995[0m
+2016-06-25 01:00:36.935715 computed
+2016-06-25 01:00:36.935775 consumed
+2016-06-25 01:00:36.935867 [33m/home/kevin/p2psp/core/src/core/splitter_ims.cc:204: TRACE: 293 -> 127.0.0.1:37995[0m
+2016-06-25 01:00:36.935947 computed
+2016-06-25 01:00:36.936007 consumed
+2016-06-25 01:00:36.936137 [33m/home/kevin/p2psp/core/src/core/splitter_ims.cc:204: TRACE: 294 -> 127.0.0.1:37995[0m
+2016-06-25 01:00:36.936233 computed
+2016-06-25 01:00:36.936318 consumed
+2016-06-25 01:00:36.936427 [33m/home/kevin/p2psp/core/src/core/splitter_ims.cc:204: TRACE: 295 -> 127.0.0.1:37995[0m
+2016-06-25 01:00:36.936530 computed
+2016-06-25 01:00:36.936594 consumed
+2016-06-25 01:00:36.936695 [33m/home/kevin/p2psp/core/src/core/splitter_ims.cc:204: TRACE: 296 -> 127.0.0.1:37995[0m
+2016-06-25 01:00:36.936783 computed
+2016-06-25 01:00:36.936878 consumed
+2016-06-25 01:00:36.936994 [33m/home/kevin/p2psp/core/src/core/splitter_ims.cc:204: TRACE: 297 -> 127.0.0.1:37995[0m
+2016-06-25 01:00:36.938603 computed
+2016-06-25 01:00:36.939310 consumed
+2016-06-25 01:00:36.939891 [33m/home/kevin/p2psp/core/src/core/splitter_ims.cc:204: TRACE: 298 -> 127.0.0.1:37995[0m
+2016-06-25 01:00:36.940120 computed
+2016-06-25 01:00:36.942046 consumed
+2016-06-25 01:00:36.942234 [33m/home/kevin/p2psp/core/src/core/splitter_ims.cc:204: TRACE: 299 -> 127.0.0.1:37995[0m
+2016-06-25 01:00:36.942331 computed
+2016-06-25 01:00:36.942390 consumed
+2016-06-25 01:00:36.942481 [33m/home/kevin/p2psp/core/src/core/splitter_ims.cc:204: TRACE: 300 -> 127.0.0.1:37995[0m
+2016-06-25 01:00:36.942559 computed
+2016-06-25 01:00:36.942616 consumed
+2016-06-25 01:00:36.942706 [33m/home/kevin/p2psp/core/src/core/splitter_ims.cc:204: TRACE: 301 -> 127.0.0.1:37995[0m
+2016-06-25 01:00:36.942821 computed
+2016-06-25 01:00:36.942876 consumed
+2016-06-25 01:00:36.942964 [33m/home/kevin/p2psp/core/src/core/splitter_ims.cc:204: TRACE: 302 -> 127.0.0.1:37995[0m
+2016-06-25 01:00:36.943037 computed
+2016-06-25 01:00:36.943089 consumed
+2016-06-25 01:00:36.943174 [33m/home/kevin/p2psp/core/src/core/splitter_ims.cc:204: TRACE: 303 -> 127.0.0.1:37995[0m
+2016-06-25 01:00:36.943247 computed
+2016-06-25 01:00:36.943298 consumed
+2016-06-25 01:00:36.943381 [33m/home/kevin/p2psp/core/src/core/splitter_ims.cc:204: TRACE: 304 -> 127.0.0.1:37995[0m
+2016-06-25 01:00:36.943451 computed
+2016-06-25 01:00:36.943502 consumed
+2016-06-25 01:00:36.943584 [33m/home/kevin/p2psp/core/src/core/splitter_ims.cc:204: TRACE: 305 -> 127.0.0.1:37995[0m
+2016-06-25 01:00:36.943655 computed
+2016-06-25 01:00:36.943705 consumed
+2016-06-25 01:00:36.943789 [33m/home/kevin/p2psp/core/src/core/splitter_ims.cc:204: TRACE: 306 -> 127.0.0.1:37995[0m
+2016-06-25 01:00:36.943861 computed
+2016-06-25 01:00:36.943911 consumed
+2016-06-25 01:00:36.943994 [33m/home/kevin/p2psp/core/src/core/splitter_ims.cc:204: TRACE: 307 -> 127.0.0.1:37995[0m
+2016-06-25 01:00:36.944065 computed
+2016-06-25 01:00:36.944134 consumed
+2016-06-25 01:00:36.944220 [33m/home/kevin/p2psp/core/src/core/splitter_ims.cc:204: TRACE: 308 -> 127.0.0.1:37995[0m
+2016-06-25 01:00:36.944293 computed
+2016-06-25 01:00:36.944345 consumed
+2016-06-25 01:00:36.944428 [33m/home/kevin/p2psp/core/src/core/splitter_ims.cc:204: TRACE: 309 -> 127.0.0.1:37995[0m
+2016-06-25 01:00:36.944500 computed
+2016-06-25 01:00:36.944556 consumed
+2016-06-25 01:00:36.944644 [33m/home/kevin/p2psp/core/src/core/splitter_ims.cc:204: TRACE: 310 -> 127.0.0.1:37995[0m
+2016-06-25 01:00:36.944717 computed
+2016-06-25 01:00:36.944769 consumed
+2016-06-25 01:00:36.944855 [33m/home/kevin/p2psp/core/src/core/splitter_ims.cc:204: TRACE: 311 -> 127.0.0.1:37995[0m
+2016-06-25 01:00:36.947586 computed
+2016-06-25 01:00:36.947693 consumed
+2016-06-25 01:00:36.947802 [33m/home/kevin/p2psp/core/src/core/splitter_ims.cc:204: TRACE: 312 -> 127.0.0.1:37995[0m
+2016-06-25 01:00:36.947863 computed
+2016-06-25 01:00:36.947901 consumed
+2016-06-25 01:00:36.947963 [33m/home/kevin/p2psp/core/src/core/splitter_ims.cc:204: TRACE: 313 -> 127.0.0.1:37995[0m
+2016-06-25 01:00:36.948012 computed
+2016-06-25 01:00:36.948048 consumed
+2016-06-25 01:00:36.948123 [33m/home/kevin/p2psp/core/src/core/splitter_ims.cc:204: TRACE: 314 -> 127.0.0.1:37995[0m
+2016-06-25 01:00:36.948172 computed
+2016-06-25 01:00:36.948207 consumed
+2016-06-25 01:00:36.948263 [33m/home/kevin/p2psp/core/src/core/splitter_ims.cc:204: TRACE: 315 -> 127.0.0.1:37995[0m
+2016-06-25 01:00:36.948311 computed
+2016-06-25 01:00:36.948346 consumed
+2016-06-25 01:00:36.948402 [33m/home/kevin/p2psp/core/src/core/splitter_ims.cc:204: TRACE: 316 -> 127.0.0.1:37995[0m
+2016-06-25 01:00:36.948451 computed
+2016-06-25 01:00:36.948486 consumed
+2016-06-25 01:00:36.948545 [33m/home/kevin/p2psp/core/src/core/splitter_ims.cc:204: TRACE: 317 -> 127.0.0.1:37995[0m
+2016-06-25 01:00:36.948592 computed
+2016-06-25 01:00:36.948627 consumed
+2016-06-25 01:00:36.948683 [33m/home/kevin/p2psp/core/src/core/splitter_ims.cc:204: TRACE: 318 -> 127.0.0.1:37995[0m
+2016-06-25 01:00:36.948730 computed
+2016-06-25 01:00:36.948764 consumed
+2016-06-25 01:00:36.948820 [33m/home/kevin/p2psp/core/src/core/splitter_ims.cc:204: TRACE: 319 -> 127.0.0.1:37995[0m
+2016-06-25 01:00:36.948867 computed
+2016-06-25 01:00:36.948901 consumed
+2016-06-25 01:00:36.948957 [33m/home/kevin/p2psp/core/src/core/splitter_ims.cc:204: TRACE: 320 -> 127.0.0.1:37995[0m
+2016-06-25 01:00:36.949004 computed
+2016-06-25 01:00:36.949038 consumed
+2016-06-25 01:00:36.949094 [33m/home/kevin/p2psp/core/src/core/splitter_ims.cc:204: TRACE: 321 -> 127.0.0.1:37995[0m
+2016-06-25 01:00:36.949141 computed
+2016-06-25 01:00:36.949176 consumed
+2016-06-25 01:00:36.949243 [33m/home/kevin/p2psp/core/src/core/splitter_ims.cc:204: TRACE: 322 -> 127.0.0.1:37995[0m
+2016-06-25 01:00:36.949303 computed
+2016-06-25 01:00:36.949341 consumed
+2016-06-25 01:00:36.949410 [33m/home/kevin/p2psp/core/src/core/splitter_ims.cc:204: TRACE: 323 -> 127.0.0.1:37995[0m
+2016-06-25 01:00:36.949469 computed
+2016-06-25 01:00:36.949511 consumed
+2016-06-25 01:00:36.949570 [33m/home/kevin/p2psp/core/src/core/splitter_ims.cc:204: TRACE: 324 -> 127.0.0.1:37995[0m
+2016-06-25 01:00:36.949618 computed
+2016-06-25 01:00:36.949653 consumed
+2016-06-25 01:00:36.949708 [33m/home/kevin/p2psp/core/src/core/splitter_ims.cc:204: TRACE: 325 -> 127.0.0.1:37995[0m
+2016-06-25 01:00:36.949755 computed
+2016-06-25 01:00:36.949790 consumed
+2016-06-25 01:00:36.949844 [33m/home/kevin/p2psp/core/src/core/splitter_ims.cc:204: TRACE: 326 -> 127.0.0.1:37995[0m
+2016-06-25 01:00:36.949891 computed
+2016-06-25 01:00:36.949926 consumed
+2016-06-25 01:00:36.949981 [33m/home/kevin/p2psp/core/src/core/splitter_ims.cc:204: TRACE: 327 -> 127.0.0.1:37995[0m
+2016-06-25 01:00:36.950028 computed
+2016-06-25 01:00:36.950062 consumed
+2016-06-25 01:00:36.950118 [33m/home/kevin/p2psp/core/src/core/splitter_ims.cc:204: TRACE: 328 -> 127.0.0.1:37995[0m
+2016-06-25 01:00:36.950165 computed
+2016-06-25 01:00:36.950200 consumed
+2016-06-25 01:00:36.950255 [33m/home/kevin/p2psp/core/src/core/splitter_ims.cc:204: TRACE: 329 -> 127.0.0.1:37995[0m
+2016-06-25 01:00:36.950302 computed
+2016-06-25 01:00:36.950337 consumed
+2016-06-25 01:00:36.950392 [33m/home/kevin/p2psp/core/src/core/splitter_ims.cc:204: TRACE: 330 -> 127.0.0.1:37995[0m
+2016-06-25 01:00:36.950439 computed
+2016-06-25 01:00:36.950473 consumed
+2016-06-25 01:00:36.950529 [33m/home/kevin/p2psp/core/src/core/splitter_ims.cc:204: TRACE: 331 -> 127.0.0.1:37995[0m
+2016-06-25 01:00:36.950582 computed
+2016-06-25 01:00:36.950616 consumed
+2016-06-25 01:00:36.950671 [33m/home/kevin/p2psp/core/src/core/splitter_ims.cc:204: TRACE: 332 -> 127.0.0.1:37995[0m
+2016-06-25 01:00:36.950718 computed
+2016-06-25 01:00:36.950752 consumed
+2016-06-25 01:00:36.950807 [33m/home/kevin/p2psp/core/src/core/splitter_ims.cc:204: TRACE: 333 -> 127.0.0.1:37995[0m
+2016-06-25 01:00:36.950854 computed
+2016-06-25 01:00:36.950888 consumed
+2016-06-25 01:00:37.023936 [33m/home/kevin/p2psp/core/src/core/splitter_ims.cc:204: TRACE: 334 -> 127.0.0.1:37995[0m
+2016-06-25 01:00:37.024033 computed
+2016-06-25 01:00:37.024068 consumed
+2016-06-25 01:00:37.024150 [33m/home/kevin/p2psp/core/src/core/splitter_ims.cc:204: TRACE: 335 -> 127.0.0.1:37995[0m
+2016-06-25 01:00:37.024207 computed
+2016-06-25 01:00:37.024241 consumed
+2016-06-25 01:00:37.025136 [33m/home/kevin/p2psp/core/src/core/splitter_ims.cc:204: TRACE: 336 -> 127.0.0.1:37995[0m
+2016-06-25 01:00:37.025220 computed
+2016-06-25 01:00:37.025255 consumed
+2016-06-25 01:00:37.026543 [33m/home/kevin/p2psp/core/src/core/splitter_ims.cc:204: TRACE: 337 -> 127.0.0.1:37995[0m
+2016-06-25 01:00:37.026640 computed
+2016-06-25 01:00:37.026674 consumed
+2016-06-25 01:00:37.026741 [33m/home/kevin/p2psp/core/src/core/splitter_ims.cc:204: TRACE: 338 -> 127.0.0.1:37995[0m
+2016-06-25 01:00:37.026794 computed
+2016-06-25 01:00:37.026828 consumed
+2016-06-25 01:00:37.026891 [33m/home/kevin/p2psp/core/src/core/splitter_ims.cc:204: TRACE: 339 -> 127.0.0.1:37995[0m
+2016-06-25 01:00:37.026943 computed
+2016-06-25 01:00:37.026976 consumed
+2016-06-25 01:00:37.029319 [33m/home/kevin/p2psp/core/src/core/splitter_ims.cc:204: TRACE: 340 -> 127.0.0.1:37995[0m
+2016-06-25 01:00:37.029417 computed
+2016-06-25 01:00:37.029452 consumed
+2016-06-25 01:00:37.029517 [33m/home/kevin/p2psp/core/src/core/splitter_ims.cc:204: TRACE: 341 -> 127.0.0.1:37995[0m
+2016-06-25 01:00:37.029572 computed
+2016-06-25 01:00:37.029606 consumed
+2016-06-25 01:00:37.029737 [33m/home/kevin/p2psp/core/src/core/splitter_ims.cc:204: TRACE: 342 -> 127.0.0.1:37995[0m
+2016-06-25 01:00:37.029796 computed
+2016-06-25 01:00:37.029828 consumed
+2016-06-25 01:00:37.029892 [33m/home/kevin/p2psp/core/src/core/splitter_ims.cc:204: TRACE: 343 -> 127.0.0.1:37995[0m
+2016-06-25 01:00:37.029947 computed
+2016-06-25 01:00:37.029980 consumed
+2016-06-25 01:00:37.030043 [33m/home/kevin/p2psp/core/src/core/splitter_ims.cc:204: TRACE: 344 -> 127.0.0.1:37995[0m
+2016-06-25 01:00:37.030097 computed
+2016-06-25 01:00:37.030127 consumed
+2016-06-25 01:00:37.030190 [33m/home/kevin/p2psp/core/src/core/splitter_ims.cc:204: TRACE: 345 -> 127.0.0.1:37995[0m
+2016-06-25 01:00:37.030240 computed
+2016-06-25 01:00:37.030274 consumed
+2016-06-25 01:00:37.030336 [33m/home/kevin/p2psp/core/src/core/splitter_ims.cc:204: TRACE: 346 -> 127.0.0.1:37995[0m
+2016-06-25 01:00:37.030388 computed
+2016-06-25 01:00:37.030418 consumed
+2016-06-25 01:00:37.041966 [33m/home/kevin/p2psp/core/src/core/splitter_ims.cc:204: TRACE: 347 -> 127.0.0.1:37995[0m
+2016-06-25 01:00:37.042068 computed
+2016-06-25 01:00:37.042102 consumed
+2016-06-25 01:00:37.219728 [33m/home/kevin/p2psp/core/src/core/splitter_ims.cc:204: TRACE: 348 -> 127.0.0.1:37995[0m
+2016-06-25 01:00:37.219829 computed
+2016-06-25 01:00:37.219863 consumed
+2016-06-25 01:00:37.219936 [33m/home/kevin/p2psp/core/src/core/splitter_ims.cc:204: TRACE: 349 -> 127.0.0.1:37995[0m
+2016-06-25 01:00:37.219987 computed
+2016-06-25 01:00:37.220020 consumed
+2016-06-25 01:00:37.221680 [33m/home/kevin/p2psp/core/src/core/splitter_ims.cc:204: TRACE: 350 -> 127.0.0.1:37995[0m
+2016-06-25 01:00:37.221769 computed
+2016-06-25 01:00:37.221804 consumed
+2016-06-25 01:00:37.223673 [33m/home/kevin/p2psp/core/src/core/splitter_ims.cc:204: TRACE: 351 -> 127.0.0.1:37995[0m
+2016-06-25 01:00:37.223758 computed
+2016-06-25 01:00:37.223792 consumed
+2016-06-25 01:00:37.223857 [33m/home/kevin/p2psp/core/src/core/splitter_ims.cc:204: TRACE: 352 -> 127.0.0.1:37995[0m
+2016-06-25 01:00:37.223908 computed
+2016-06-25 01:00:37.223942 consumed
+2016-06-25 01:00:37.224006 [33m/home/kevin/p2psp/core/src/core/splitter_ims.cc:204: TRACE: 353 -> 127.0.0.1:37995[0m
+2016-06-25 01:00:37.224060 computed
+2016-06-25 01:00:37.224107 consumed
+2016-06-25 01:00:37.227003 [33m/home/kevin/p2psp/core/src/core/splitter_ims.cc:204: TRACE: 354 -> 127.0.0.1:37995[0m
+2016-06-25 01:00:37.227092 computed
+2016-06-25 01:00:37.227126 consumed
+2016-06-25 01:00:37.227193 [33m/home/kevin/p2psp/core/src/core/splitter_ims.cc:204: TRACE: 355 -> 127.0.0.1:37995[0m
+2016-06-25 01:00:37.227243 computed
+2016-06-25 01:00:37.227277 consumed
+2016-06-25 01:00:37.227342 [33m/home/kevin/p2psp/core/src/core/splitter_ims.cc:204: TRACE: 356 -> 127.0.0.1:37995[0m
+2016-06-25 01:00:37.227397 computed
+2016-06-25 01:00:37.227426 consumed
+2016-06-25 01:00:37.227490 [33m/home/kevin/p2psp/core/src/core/splitter_ims.cc:204: TRACE: 357 -> 127.0.0.1:37995[0m
+2016-06-25 01:00:37.227541 computed
+2016-06-25 01:00:37.227575 consumed
+2016-06-25 01:00:37.229839 [33m/home/kevin/p2psp/core/src/core/splitter_ims.cc:204: TRACE: 358 -> 127.0.0.1:37995[0m
+2016-06-25 01:00:37.229931 computed
+2016-06-25 01:00:37.229966 consumed
+2016-06-25 01:00:37.230033 [33m/home/kevin/p2psp/core/src/core/splitter_ims.cc:204: TRACE: 359 -> 127.0.0.1:37995[0m
+2016-06-25 01:00:37.230086 computed
+2016-06-25 01:00:37.230119 consumed
+2016-06-25 01:00:37.230182 [33m/home/kevin/p2psp/core/src/core/splitter_ims.cc:204: TRACE: 360 -> 127.0.0.1:37995[0m
+2016-06-25 01:00:37.230237 computed
+2016-06-25 01:00:37.230266 consumed
+2016-06-25 01:00:37.230331 [33m/home/kevin/p2psp/core/src/core/splitter_ims.cc:204: TRACE: 361 -> 127.0.0.1:37995[0m
+2016-06-25 01:00:37.230382 computed
+2016-06-25 01:00:37.230417 consumed
+2016-06-25 01:00:37.230479 [33m/home/kevin/p2psp/core/src/core/splitter_ims.cc:204: TRACE: 362 -> 127.0.0.1:37995[0m
+2016-06-25 01:00:37.230530 computed
+2016-06-25 01:00:37.230561 consumed
+2016-06-25 01:00:37.230625 [33m/home/kevin/p2psp/core/src/core/splitter_ims.cc:204: TRACE: 363 -> 127.0.0.1:37995[0m
+2016-06-25 01:00:37.230679 computed
+2016-06-25 01:00:37.230710 consumed
+2016-06-25 01:00:37.230772 [33m/home/kevin/p2psp/core/src/core/splitter_ims.cc:204: TRACE: 364 -> 127.0.0.1:37995[0m
+2016-06-25 01:00:37.230820 computed
+2016-06-25 01:00:37.230853 consumed
+2016-06-25 01:00:37.230916 [33m/home/kevin/p2psp/core/src/core/splitter_ims.cc:204: TRACE: 365 -> 127.0.0.1:37995[0m
+2016-06-25 01:00:37.230971 computed
+2016-06-25 01:00:37.231002 consumed
+2016-06-25 01:00:37.231064 [33m/home/kevin/p2psp/core/src/core/splitter_ims.cc:204: TRACE: 366 -> 127.0.0.1:37995[0m
+2016-06-25 01:00:37.231115 computed
+2016-06-25 01:00:37.231149 consumed
+2016-06-25 01:00:37.231671 [33m/home/kevin/p2psp/core/src/core/splitter_ims.cc:204: TRACE: 367 -> 127.0.0.1:37995[0m
+2016-06-25 01:00:37.231731 computed
+2016-06-25 01:00:37.231758 consumed
+2016-06-25 01:00:37.231814 [33m/home/kevin/p2psp/core/src/core/splitter_ims.cc:204: TRACE: 368 -> 127.0.0.1:37995[0m
+2016-06-25 01:00:37.231866 computed
+2016-06-25 01:00:37.231896 consumed
+2016-06-25 01:00:37.231957 [33m/home/kevin/p2psp/core/src/core/splitter_ims.cc:204: TRACE: 369 -> 127.0.0.1:37995[0m
+2016-06-25 01:00:37.232006 computed
+2016-06-25 01:00:37.232035 consumed
+2016-06-25 01:00:37.232105 [33m/home/kevin/p2psp/core/src/core/splitter_ims.cc:204: TRACE: 370 -> 127.0.0.1:37995[0m
+2016-06-25 01:00:37.232149 computed
+2016-06-25 01:00:37.232176 consumed
+2016-06-25 01:00:37.232234 [33m/home/kevin/p2psp/core/src/core/splitter_ims.cc:204: TRACE: 371 -> 127.0.0.1:37995[0m
+2016-06-25 01:00:37.232286 computed
+2016-06-25 01:00:37.232314 consumed
+2016-06-25 01:00:37.233455 [33m/home/kevin/p2psp/Test/lib/p2psp/src/core/splitter_dbs.cc:178: TRACE: 127.0.0.1:37995 complains about lost chunk 237 sent to 127.0.0.1:37995[0m
+2016-06-25 01:00:37.233613 [33m/home/kevin/p2psp/Test/lib/p2psp/src/core/splitter_dbs.cc:164: TRACE: 127.0.0.1:37995 has lost 1 chunks[0m
+2016-06-25 01:00:37.233706 [33m/home/kevin/p2psp/Test/lib/p2psp/src/core/splitter_dbs.cc:178: TRACE: 127.0.0.1:37995 complains about lost chunk 238 sent to 127.0.0.1:37995[0m
+2016-06-25 01:00:37.233785 [33m/home/kevin/p2psp/Test/lib/p2psp/src/core/splitter_dbs.cc:164: TRACE: 127.0.0.1:37995 has lost 2 chunks[0m
+2016-06-25 01:00:37.233867 [33m/home/kevin/p2psp/Test/lib/p2psp/src/core/splitter_dbs.cc:178: TRACE: 127.0.0.1:37995 complains about lost chunk 239 sent to 127.0.0.1:37995[0m
+2016-06-25 01:00:37.233945 [33m/home/kevin/p2psp/Test/lib/p2psp/src/core/splitter_dbs.cc:164: TRACE: 127.0.0.1:37995 has lost 3 chunks[0m
+2016-06-25 01:00:37.234028 [33m/home/kevin/p2psp/Test/lib/p2psp/src/core/splitter_dbs.cc:178: TRACE: 127.0.0.1:37995 complains about lost chunk 240 sent to 127.0.0.1:37995[0m
+2016-06-25 01:00:37.234105 [33m/home/kevin/p2psp/Test/lib/p2psp/src/core/splitter_dbs.cc:164: TRACE: 127.0.0.1:37995 has lost 4 chunks[0m
+2016-06-25 01:00:37.234191 [33m/home/kevin/p2psp/Test/lib/p2psp/src/core/splitter_dbs.cc:178: TRACE: 127.0.0.1:37995 complains about lost chunk 241 sent to 127.0.0.1:37995[0m
+2016-06-25 01:00:37.234266 [33m/home/kevin/p2psp/Test/lib/p2psp/src/core/splitter_dbs.cc:164: TRACE: 127.0.0.1:37995 has lost 5 chunks[0m
+2016-06-25 01:00:37.245120 [33m/home/kevin/p2psp/core/src/core/splitter_ims.cc:204: TRACE: 372 -> 127.0.0.1:37995[0m
+2016-06-25 01:00:37.245215 computed
+2016-06-25 01:00:37.245235 consumed
+2016-06-25 01:00:37.245281 [33m/home/kevin/p2psp/core/src/core/splitter_ims.cc:204: TRACE: 373 -> 127.0.0.1:37995[0m
+2016-06-25 01:00:37.245321 computed
+2016-06-25 01:00:37.245349 consumed
+2016-06-25 01:00:37.245974 [33m/home/kevin/p2psp/core/src/core/splitter_ims.cc:204: TRACE: 374 -> 127.0.0.1:37995[0m
+2016-06-25 01:00:37.246043 computed
+2016-06-25 01:00:37.246063 consumed
+2016-06-25 01:00:37.299198 [33m/home/kevin/p2psp/core/src/core/splitter_ims.cc:204: TRACE: 375 -> 127.0.0.1:37995[0m
+2016-06-25 01:00:37.299308 computed
+2016-06-25 01:00:37.299341 consumed
+2016-06-25 01:00:37.299409 [33m/home/kevin/p2psp/core/src/core/splitter_ims.cc:204: TRACE: 376 -> 127.0.0.1:37995[0m
+2016-06-25 01:00:37.299460 computed
+2016-06-25 01:00:37.299488 consumed
+2016-06-25 01:00:37.416981 [33m/home/kevin/p2psp/core/src/core/splitter_ims.cc:204: TRACE: 377 -> 127.0.0.1:37995[0m
+2016-06-25 01:00:37.417079 computed
+2016-06-25 01:00:37.417099 consumed
+2016-06-25 01:00:37.417964 [33m/home/kevin/p2psp/core/src/core/splitter_ims.cc:204: TRACE: 378 -> 127.0.0.1:37995[0m
+2016-06-25 01:00:37.418055 computed
+2016-06-25 01:00:37.418089 consumed
+2016-06-25 01:00:37.418158 [33m/home/kevin/p2psp/core/src/core/splitter_ims.cc:204: TRACE: 379 -> 127.0.0.1:37995[0m
+2016-06-25 01:00:37.418210 computed
+2016-06-25 01:00:37.418241 consumed
+2016-06-25 01:00:37.418908 [33m/home/kevin/p2psp/core/src/core/splitter_ims.cc:204: TRACE: 380 -> 127.0.0.1:37995[0m
+2016-06-25 01:00:37.418982 computed
+2016-06-25 01:00:37.419016 consumed
+2016-06-25 01:00:37.421772 [33m/home/kevin/p2psp/core/src/core/splitter_ims.cc:204: TRACE: 381 -> 127.0.0.1:37995[0m
+2016-06-25 01:00:37.421872 computed
+2016-06-25 01:00:37.421892 consumed
+2016-06-25 01:00:37.422793 [33m/home/kevin/p2psp/core/src/core/splitter_ims.cc:204: TRACE: 382 -> 127.0.0.1:37995[0m
+2016-06-25 01:00:37.422888 computed
+2016-06-25 01:00:37.422922 consumed
+2016-06-25 01:00:37.422993 [33m/home/kevin/p2psp/core/src/core/splitter_ims.cc:204: TRACE: 383 -> 127.0.0.1:37995[0m
+2016-06-25 01:00:37.423050 computed
+2016-06-25 01:00:37.423082 consumed
+2016-06-25 01:00:37.424089 [33m/home/kevin/p2psp/core/src/core/splitter_ims.cc:204: TRACE: 384 -> 127.0.0.1:37995[0m
+2016-06-25 01:00:37.424177 computed
+2016-06-25 01:00:37.424212 consumed
+2016-06-25 01:00:37.424284 [33m/home/kevin/p2psp/core/src/core/splitter_ims.cc:204: TRACE: 385 -> 127.0.0.1:37995[0m
+2016-06-25 01:00:37.424336 computed
+2016-06-25 01:00:37.424366 consumed
+2016-06-25 01:00:37.424430 [33m/home/kevin/p2psp/core/src/core/splitter_ims.cc:204: TRACE: 386 -> 127.0.0.1:37995[0m
+2016-06-25 01:00:37.424484 computed
+2016-06-25 01:00:37.424516 consumed
+2016-06-25 01:00:37.426553 [33m/home/kevin/p2psp/core/src/core/splitter_ims.cc:204: TRACE: 387 -> 127.0.0.1:37995[0m
+2016-06-25 01:00:37.426658 computed
+2016-06-25 01:00:37.426694 consumed
+2016-06-25 01:00:37.428363 [33m/home/kevin/p2psp/core/src/core/splitter_ims.cc:204: TRACE: 388 -> 127.0.0.1:37995[0m
+2016-06-25 01:00:37.428457 computed
+2016-06-25 01:00:37.428490 consumed
+2016-06-25 01:00:37.428559 [33m/home/kevin/p2psp/core/src/core/splitter_ims.cc:204: TRACE: 389 -> 127.0.0.1:37995[0m
+2016-06-25 01:00:37.428612 computed
+2016-06-25 01:00:37.428645 consumed
+2016-06-25 01:00:37.428708 [33m/home/kevin/p2psp/core/src/core/splitter_ims.cc:204: TRACE: 390 -> 127.0.0.1:37995[0m
+2016-06-25 01:00:37.428761 computed
+2016-06-25 01:00:37.428791 consumed
+2016-06-25 01:00:37.430284 [33m/home/kevin/p2psp/core/src/core/splitter_ims.cc:204: TRACE: 391 -> 127.0.0.1:37995[0m
+2016-06-25 01:00:37.430378 computed
+2016-06-25 01:00:37.430413 consumed
+2016-06-25 01:00:37.430483 [33m/home/kevin/p2psp/core/src/core/splitter_ims.cc:204: TRACE: 392 -> 127.0.0.1:37995[0m
+2016-06-25 01:00:37.430536 computed
+2016-06-25 01:00:37.430568 consumed
+2016-06-25 01:00:37.430631 [33m/home/kevin/p2psp/core/src/core/splitter_ims.cc:204: TRACE: 393 -> 127.0.0.1:37995[0m
+2016-06-25 01:00:37.430683 computed
+2016-06-25 01:00:37.430713 consumed
+2016-06-25 01:00:37.430774 [33m/home/kevin/p2psp/core/src/core/splitter_ims.cc:204: TRACE: 394 -> 127.0.0.1:37995[0m
+2016-06-25 01:00:37.430824 computed
+2016-06-25 01:00:37.430851 consumed
+2016-06-25 01:00:37.430912 [33m/home/kevin/p2psp/core/src/core/splitter_ims.cc:204: TRACE: 395 -> 127.0.0.1:37995[0m
+2016-06-25 01:00:37.430966 computed
+2016-06-25 01:00:37.430998 consumed
+2016-06-25 01:00:37.431061 [33m/home/kevin/p2psp/core/src/core/splitter_ims.cc:204: TRACE: 396 -> 127.0.0.1:37995[0m
+2016-06-25 01:00:37.431112 computed
+2016-06-25 01:00:37.431142 consumed
+2016-06-25 01:00:37.432733 [33m/home/kevin/p2psp/core/src/core/splitter_ims.cc:204: TRACE: 397 -> 127.0.0.1:37995[0m
+2016-06-25 01:00:37.432827 computed
+2016-06-25 01:00:37.432862 consumed
+2016-06-25 01:00:37.432931 [33m/home/kevin/p2psp/core/src/core/splitter_ims.cc:204: TRACE: 398 -> 127.0.0.1:37995[0m
+2016-06-25 01:00:37.432983 computed
+2016-06-25 01:00:37.433014 consumed
+2016-06-25 01:00:37.433076 [33m/home/kevin/p2psp/core/src/core/splitter_ims.cc:204: TRACE: 399 -> 127.0.0.1:37995[0m
+2016-06-25 01:00:37.433125 computed
+2016-06-25 01:00:37.433153 consumed
+2016-06-25 01:00:37.433207 [33m/home/kevin/p2psp/core/src/core/splitter_ims.cc:204: TRACE: 400 -> 127.0.0.1:37995[0m
+2016-06-25 01:00:37.433255 computed
+2016-06-25 01:00:37.433288 consumed
+2016-06-25 01:00:37.433350 [33m/home/kevin/p2psp/core/src/core/splitter_ims.cc:204: TRACE: 401 -> 127.0.0.1:37995[0m
+2016-06-25 01:00:37.433400 computed
+2016-06-25 01:00:37.433431 consumed
+2016-06-25 01:00:37.435869 [33m/home/kevin/p2psp/core/src/core/splitter_ims.cc:204: TRACE: 402 -> 127.0.0.1:37995[0m
+2016-06-25 01:00:37.435964 computed
+2016-06-25 01:00:37.435986 consumed
+2016-06-25 01:00:37.436035 [33m/home/kevin/p2psp/core/src/core/splitter_ims.cc:204: TRACE: 403 -> 127.0.0.1:37995[0m
+2016-06-25 01:00:37.436071 computed
+2016-06-25 01:00:37.436108 consumed
+2016-06-25 01:00:37.436152 [33m/home/kevin/p2psp/core/src/core/splitter_ims.cc:204: TRACE: 404 -> 127.0.0.1:37995[0m
+2016-06-25 01:00:37.436185 computed
+2016-06-25 01:00:37.436202 consumed
+2016-06-25 01:00:37.436238 [33m/home/kevin/p2psp/core/src/core/splitter_ims.cc:204: TRACE: 405 -> 127.0.0.1:37995[0m
+2016-06-25 01:00:37.436270 computed
+2016-06-25 01:00:37.436287 consumed
+2016-06-25 01:00:37.436322 [33m/home/kevin/p2psp/core/src/core/splitter_ims.cc:204: TRACE: 406 -> 127.0.0.1:37995[0m
+2016-06-25 01:00:37.436354 computed
+2016-06-25 01:00:37.436371 consumed
+2016-06-25 01:00:37.436405 [33m/home/kevin/p2psp/core/src/core/splitter_ims.cc:204: TRACE: 407 -> 127.0.0.1:37995[0m
+2016-06-25 01:00:37.436436 computed
+2016-06-25 01:00:37.436453 consumed
+2016-06-25 01:00:37.436488 [33m/home/kevin/p2psp/core/src/core/splitter_ims.cc:204: TRACE: 408 -> 127.0.0.1:37995[0m
+2016-06-25 01:00:37.436519 computed
+2016-06-25 01:00:37.436535 consumed
+2016-06-25 01:00:37.436570 [33m/home/kevin/p2psp/core/src/core/splitter_ims.cc:204: TRACE: 409 -> 127.0.0.1:37995[0m
+2016-06-25 01:00:37.436601 computed
+2016-06-25 01:00:37.436618 consumed
+2016-06-25 01:00:37.436652 [33m/home/kevin/p2psp/core/src/core/splitter_ims.cc:204: TRACE: 410 -> 127.0.0.1:37995[0m
+2016-06-25 01:00:37.436683 computed
+2016-06-25 01:00:37.436700 consumed
+2016-06-25 01:00:37.438616 [33m/home/kevin/p2psp/core/src/core/splitter_ims.cc:204: TRACE: 411 -> 127.0.0.1:37995[0m
+2016-06-25 01:00:37.438693 computed
+2016-06-25 01:00:37.438715 consumed
+2016-06-25 01:00:37.438759 [33m/home/kevin/p2psp/core/src/core/splitter_ims.cc:204: TRACE: 412 -> 127.0.0.1:37995[0m
+2016-06-25 01:00:37.438794 computed
+2016-06-25 01:00:37.438812 consumed
+2016-06-25 01:00:37.438851 [33m/home/kevin/p2psp/core/src/core/splitter_ims.cc:204: TRACE: 413 -> 127.0.0.1:37995[0m
+2016-06-25 01:00:37.438884 computed
+2016-06-25 01:00:37.438902 consumed
+2016-06-25 01:00:37.438938 [33m/home/kevin/p2psp/core/src/core/splitter_ims.cc:204: TRACE: 414 -> 127.0.0.1:37995[0m
+2016-06-25 01:00:37.438971 computed
+2016-06-25 01:00:37.438988 consumed
+2016-06-25 01:00:37.439023 [33m/home/kevin/p2psp/core/src/core/splitter_ims.cc:204: TRACE: 415 -> 127.0.0.1:37995[0m
+2016-06-25 01:00:37.439056 computed
+2016-06-25 01:00:37.439073 consumed
+2016-06-25 01:00:37.439108 [33m/home/kevin/p2psp/core/src/core/splitter_ims.cc:204: TRACE: 416 -> 127.0.0.1:37995[0m
+2016-06-25 01:00:37.439140 computed
+2016-06-25 01:00:37.439156 consumed
+2016-06-25 01:00:37.439192 [33m/home/kevin/p2psp/core/src/core/splitter_ims.cc:204: TRACE: 417 -> 127.0.0.1:37995[0m
+2016-06-25 01:00:37.439223 computed
+2016-06-25 01:00:37.439240 consumed
+2016-06-25 01:00:37.439276 [33m/home/kevin/p2psp/core/src/core/splitter_ims.cc:204: TRACE: 418 -> 127.0.0.1:37995[0m
+2016-06-25 01:00:37.439308 computed
+2016-06-25 01:00:37.439325 consumed
+2016-06-25 01:00:37.439360 [33m/home/kevin/p2psp/core/src/core/splitter_ims.cc:204: TRACE: 419 -> 127.0.0.1:37995[0m
+2016-06-25 01:00:37.439392 computed
+2016-06-25 01:00:37.439409 consumed
+2016-06-25 01:00:37.439444 [33m/home/kevin/p2psp/core/src/core/splitter_ims.cc:204: TRACE: 420 -> 127.0.0.1:37995[0m
+2016-06-25 01:00:37.439475 computed
+2016-06-25 01:00:37.439492 consumed
+2016-06-25 01:00:37.445223 [33m/home/kevin/p2psp/core/src/core/splitter_ims.cc:204: TRACE: 421 -> 127.0.0.1:37995[0m
+2016-06-25 01:00:37.445345 computed
+2016-06-25 01:00:37.445372 consumed
+2016-06-25 01:00:37.448206 [33m/home/kevin/p2psp/core/src/core/splitter_ims.cc:204: TRACE: 422 -> 127.0.0.1:37995[0m
+2016-06-25 01:00:37.448299 computed
+2016-06-25 01:00:37.448331 consumed
+2016-06-25 01:00:37.448400 [33m/home/kevin/p2psp/core/src/core/splitter_ims.cc:204: TRACE: 423 -> 127.0.0.1:37995[0m
+2016-06-25 01:00:37.448455 computed
+2016-06-25 01:00:37.448486 consumed
+2016-06-25 01:00:37.448550 [33m/home/kevin/p2psp/core/src/core/splitter_ims.cc:204: TRACE: 424 -> 127.0.0.1:37995[0m
+2016-06-25 01:00:37.448603 computed
+2016-06-25 01:00:37.448636 consumed
+2016-06-25 01:00:37.451906 [33m/home/kevin/p2psp/core/src/core/splitter_ims.cc:204: TRACE: 425 -> 127.0.0.1:37995[0m
+2016-06-25 01:00:37.452017 computed
+2016-06-25 01:00:37.452054 consumed
+2016-06-25 01:00:37.452155 [33m/home/kevin/p2psp/core/src/core/splitter_ims.cc:204: TRACE: 426 -> 127.0.0.1:37995[0m
+2016-06-25 01:00:37.452236 computed
+2016-06-25 01:00:37.452284 consumed
+2016-06-25 01:00:37.452380 [33m/home/kevin/p2psp/core/src/core/splitter_ims.cc:204: TRACE: 427 -> 127.0.0.1:37995[0m
+2016-06-25 01:00:37.452462 computed
+2016-06-25 01:00:37.452506 consumed
+2016-06-25 01:00:37.452603 [33m/home/kevin/p2psp/core/src/core/splitter_ims.cc:204: TRACE: 428 -> 127.0.0.1:37995[0m
+2016-06-25 01:00:37.452677 computed
+2016-06-25 01:00:37.452728 consumed
+2016-06-25 01:00:37.494695 [33m/home/kevin/p2psp/core/src/core/splitter_ims.cc:204: TRACE: 429 -> 127.0.0.1:37995[0m
+2016-06-25 01:00:37.494794 computed
+2016-06-25 01:00:37.494829 consumed
+2016-06-25 01:00:37.495721 [33m/home/kevin/p2psp/core/src/core/splitter_ims.cc:204: TRACE: 430 -> 127.0.0.1:37995[0m
+2016-06-25 01:00:37.495834 computed
+2016-06-25 01:00:37.495866 consumed
+2016-06-25 01:00:37.495939 [33m/home/kevin/p2psp/core/src/core/splitter_ims.cc:204: TRACE: 431 -> 127.0.0.1:37995[0m
+2016-06-25 01:00:37.495994 computed
+2016-06-25 01:00:37.496023 consumed
+2016-06-25 01:00:37.552187 [33m/home/kevin/p2psp/core/src/core/splitter_ims.cc:204: TRACE: 432 -> 127.0.0.1:37995[0m
+2016-06-25 01:00:37.552284 computed
+2016-06-25 01:00:37.552318 consumed
+2016-06-25 01:00:37.612454 [33m/home/kevin/p2psp/core/src/core/splitter_ims.cc:204: TRACE: 433 -> 127.0.0.1:37995[0m
+2016-06-25 01:00:37.612557 computed
+2016-06-25 01:00:37.612591 consumed
+2016-06-25 01:00:37.612660 [33m/home/kevin/p2psp/core/src/core/splitter_ims.cc:204: TRACE: 434 -> 127.0.0.1:37995[0m
+2016-06-25 01:00:37.612715 computed
+2016-06-25 01:00:37.612749 consumed
+2016-06-25 01:00:37.613600 [33m/home/kevin/p2psp/core/src/core/splitter_ims.cc:204: TRACE: 435 -> 127.0.0.1:37995[0m
+2016-06-25 01:00:37.613693 computed
+2016-06-25 01:00:37.613728 consumed
+2016-06-25 01:00:37.614571 [33m/home/kevin/p2psp/core/src/core/splitter_ims.cc:204: TRACE: 436 -> 127.0.0.1:37995[0m
+2016-06-25 01:00:37.614682 computed
+2016-06-25 01:00:37.614715 consumed
+2016-06-25 01:00:37.614786 [33m/home/kevin/p2psp/core/src/core/splitter_ims.cc:204: TRACE: 437 -> 127.0.0.1:37995[0m
+2016-06-25 01:00:37.614837 computed
+2016-06-25 01:00:37.614870 consumed
+2016-06-25 01:00:37.617488 [33m/home/kevin/p2psp/core/src/core/splitter_ims.cc:204: TRACE: 438 -> 127.0.0.1:37995[0m
+2016-06-25 01:00:37.617582 computed
+2016-06-25 01:00:37.617617 consumed
+2016-06-25 01:00:37.618394 [33m/home/kevin/p2psp/core/src/core/splitter_ims.cc:204: TRACE: 439 -> 127.0.0.1:37995[0m
+2016-06-25 01:00:37.618483 computed
+2016-06-25 01:00:37.618504 consumed
+2016-06-25 01:00:37.619565 [33m/home/kevin/p2psp/core/src/core/splitter_ims.cc:204: TRACE: 440 -> 127.0.0.1:37995[0m
+2016-06-25 01:00:37.619677 computed
+2016-06-25 01:00:37.619711 consumed
+2016-06-25 01:00:37.619784 [33m/home/kevin/p2psp/core/src/core/splitter_ims.cc:204: TRACE: 441 -> 127.0.0.1:37995[0m
+2016-06-25 01:00:37.619836 computed
+2016-06-25 01:00:37.619864 consumed
+2016-06-25 01:00:37.619925 [33m/home/kevin/p2psp/core/src/core/splitter_ims.cc:204: TRACE: 442 -> 127.0.0.1:37995[0m
+2016-06-25 01:00:37.619974 computed
+2016-06-25 01:00:37.620002 consumed
+2016-06-25 01:00:37.621233 [33m/home/kevin/p2psp/core/src/core/splitter_ims.cc:204: TRACE: 443 -> 127.0.0.1:37995[0m
+2016-06-25 01:00:37.621348 computed
+2016-06-25 01:00:37.621385 consumed
+2016-06-25 01:00:37.621454 [33m/home/kevin/p2psp/core/src/core/splitter_ims.cc:204: TRACE: 444 -> 127.0.0.1:37995[0m
+2016-06-25 01:00:37.621504 computed
+2016-06-25 01:00:37.621537 consumed
+2016-06-25 01:00:37.622921 [33m/home/kevin/p2psp/core/src/core/splitter_ims.cc:204: TRACE: 445 -> 127.0.0.1:37995[0m
+2016-06-25 01:00:37.623017 computed
+2016-06-25 01:00:37.623052 consumed
+2016-06-25 01:00:37.623122 [33m/home/kevin/p2psp/core/src/core/splitter_ims.cc:204: TRACE: 446 -> 127.0.0.1:37995[0m
+2016-06-25 01:00:37.623177 computed
+2016-06-25 01:00:37.623211 consumed
+2016-06-25 01:00:37.623800 [33m/home/kevin/p2psp/core/src/core/splitter_ims.cc:204: TRACE: 447 -> 127.0.0.1:37995[0m
+2016-06-25 01:00:37.623892 computed
+2016-06-25 01:00:37.623926 consumed
+2016-06-25 01:00:37.623999 [33m/home/kevin/p2psp/core/src/core/splitter_ims.cc:204: TRACE: 448 -> 127.0.0.1:37995[0m
+2016-06-25 01:00:37.624052 computed
+2016-06-25 01:00:37.624095 consumed
+2016-06-25 01:00:37.624851 [33m/home/kevin/p2psp/core/src/core/splitter_ims.cc:204: TRACE: 449 -> 127.0.0.1:37995[0m
+2016-06-25 01:00:37.624940 computed
+2016-06-25 01:00:37.624973 consumed
+2016-06-25 01:00:37.628019 [33m/home/kevin/p2psp/core/src/core/splitter_ims.cc:204: TRACE: 450 -> 127.0.0.1:37995[0m
+2016-06-25 01:00:37.628127 computed
+2016-06-25 01:00:37.628162 consumed
+2016-06-25 01:00:37.628228 [33m/home/kevin/p2psp/core/src/core/splitter_ims.cc:204: TRACE: 451 -> 127.0.0.1:37995[0m
+2016-06-25 01:00:37.628282 computed
+2016-06-25 01:00:37.628315 consumed
+2016-06-25 01:00:37.630291 [33m/home/kevin/p2psp/core/src/core/splitter_ims.cc:204: TRACE: 452 -> 127.0.0.1:37995[0m
+2016-06-25 01:00:37.630383 computed
+2016-06-25 01:00:37.630417 consumed
+2016-06-25 01:00:37.630481 [33m/home/kevin/p2psp/core/src/core/splitter_ims.cc:204: TRACE: 453 -> 127.0.0.1:37995[0m
+2016-06-25 01:00:37.630533 computed
+2016-06-25 01:00:37.630566 consumed
+2016-06-25 01:00:37.630629 [33m/home/kevin/p2psp/core/src/core/splitter_ims.cc:204: TRACE: 454 -> 127.0.0.1:37995[0m
+2016-06-25 01:00:37.630683 computed
+2016-06-25 01:00:37.630713 consumed
+2016-06-25 01:00:37.630776 [33m/home/kevin/p2psp/core/src/core/splitter_ims.cc:204: TRACE: 455 -> 127.0.0.1:37995[0m
+2016-06-25 01:00:37.630826 computed
+2016-06-25 01:00:37.630860 consumed
+2016-06-25 01:00:37.630922 [33m/home/kevin/p2psp/core/src/core/splitter_ims.cc:204: TRACE: 456 -> 127.0.0.1:37995[0m
+2016-06-25 01:00:37.630974 computed
+2016-06-25 01:00:37.631004 consumed
+2016-06-25 01:00:37.631773 [33m/home/kevin/p2psp/core/src/core/splitter_ims.cc:204: TRACE: 457 -> 127.0.0.1:37995[0m
+2016-06-25 01:00:37.631852 computed
+2016-06-25 01:00:37.631885 consumed
+2016-06-25 01:00:37.631954 [33m/home/kevin/p2psp/core/src/core/splitter_ims.cc:204: TRACE: 458 -> 127.0.0.1:37995[0m
+2016-06-25 01:00:37.632007 computed
+2016-06-25 01:00:37.632041 consumed
+2016-06-25 01:00:37.633710 [33m/home/kevin/p2psp/core/src/core/splitter_ims.cc:204: TRACE: 459 -> 127.0.0.1:37995[0m
+2016-06-25 01:00:37.633803 computed
+2016-06-25 01:00:37.633837 consumed
+2016-06-25 01:00:37.634796 [33m/home/kevin/p2psp/core/src/core/splitter_ims.cc:204: TRACE: 460 -> 127.0.0.1:37995[0m
+2016-06-25 01:00:37.634883 computed
+2016-06-25 01:00:37.634917 consumed
+2016-06-25 01:00:37.634981 [33m/home/kevin/p2psp/core/src/core/splitter_ims.cc:204: TRACE: 461 -> 127.0.0.1:37995[0m
+2016-06-25 01:00:37.635034 computed
+2016-06-25 01:00:37.635068 consumed
+2016-06-25 01:00:37.636107 [33m/home/kevin/p2psp/core/src/core/splitter_ims.cc:204: TRACE: 462 -> 127.0.0.1:37995[0m
+2016-06-25 01:00:37.636192 computed
+2016-06-25 01:00:37.636226 consumed
+2016-06-25 01:00:37.636293 [33m/home/kevin/p2psp/core/src/core/splitter_ims.cc:204: TRACE: 463 -> 127.0.0.1:37995[0m
+2016-06-25 01:00:37.636346 computed
+2016-06-25 01:00:37.636379 consumed
+2016-06-25 01:00:37.637425 [33m/home/kevin/p2psp/core/src/core/splitter_ims.cc:204: TRACE: 464 -> 127.0.0.1:37995[0m
+2016-06-25 01:00:37.637511 computed
+2016-06-25 01:00:37.637545 consumed
+2016-06-25 01:00:37.637611 [33m/home/kevin/p2psp/core/src/core/splitter_ims.cc:204: TRACE: 465 -> 127.0.0.1:37995[0m
+2016-06-25 01:00:37.637661 computed
+2016-06-25 01:00:37.637694 consumed
+2016-06-25 01:00:37.640111 [33m/home/kevin/p2psp/core/src/core/splitter_ims.cc:204: TRACE: 466 -> 127.0.0.1:37995[0m
+2016-06-25 01:00:37.640227 computed
+2016-06-25 01:00:37.640262 consumed
+2016-06-25 01:00:37.640331 [33m/home/kevin/p2psp/core/src/core/splitter_ims.cc:204: TRACE: 467 -> 127.0.0.1:37995[0m
+2016-06-25 01:00:37.640387 computed
+2016-06-25 01:00:37.640421 consumed
+2016-06-25 01:00:37.640486 [33m/home/kevin/p2psp/core/src/core/splitter_ims.cc:204: TRACE: 468 -> 127.0.0.1:37995[0m
+2016-06-25 01:00:37.640542 computed
+2016-06-25 01:00:37.640573 consumed
+2016-06-25 01:00:37.640638 [33m/home/kevin/p2psp/core/src/core/splitter_ims.cc:204: TRACE: 469 -> 127.0.0.1:37995[0m
+2016-06-25 01:00:37.640689 computed
+2016-06-25 01:00:37.640723 consumed
+2016-06-25 01:00:37.640784 [33m/home/kevin/p2psp/core/src/core/splitter_ims.cc:204: TRACE: 470 -> 127.0.0.1:37995[0m
+2016-06-25 01:00:37.640836 computed
+2016-06-25 01:00:37.640866 consumed
+2016-06-25 01:00:37.640932 [33m/home/kevin/p2psp/core/src/core/splitter_ims.cc:204: TRACE: 471 -> 127.0.0.1:37995[0m
+2016-06-25 01:00:37.640986 computed
+2016-06-25 01:00:37.641020 consumed
+2016-06-25 01:00:37.641082 [33m/home/kevin/p2psp/core/src/core/splitter_ims.cc:204: TRACE: 472 -> 127.0.0.1:37995[0m
+2016-06-25 01:00:37.641130 computed
+2016-06-25 01:00:37.641163 consumed
+2016-06-25 01:00:37.642688 [33m/home/kevin/p2psp/core/src/core/splitter_ims.cc:204: TRACE: 473 -> 127.0.0.1:37995[0m
+2016-06-25 01:00:37.642779 computed
+2016-06-25 01:00:37.642813 consumed
+2016-06-25 01:00:37.642877 [33m/home/kevin/p2psp/core/src/core/splitter_ims.cc:204: TRACE: 474 -> 127.0.0.1:37995[0m
+2016-06-25 01:00:37.642930 computed
+2016-06-25 01:00:37.642963 consumed
+2016-06-25 01:00:37.643026 [33m/home/kevin/p2psp/core/src/core/splitter_ims.cc:204: TRACE: 475 -> 127.0.0.1:37995[0m
+2016-06-25 01:00:37.643081 computed
+2016-06-25 01:00:37.643111 consumed
+2016-06-25 01:00:37.643174 [33m/home/kevin/p2psp/core/src/core/splitter_ims.cc:204: TRACE: 476 -> 127.0.0.1:37995[0m
+2016-06-25 01:00:37.643225 computed
+2016-06-25 01:00:37.643259 consumed
+2016-06-25 01:00:37.643878 [33m/home/kevin/p2psp/core/src/core/splitter_ims.cc:204: TRACE: 477 -> 127.0.0.1:37995[0m
+2016-06-25 01:00:37.643974 computed
+2016-06-25 01:00:37.644009 consumed
+2016-06-25 01:00:37.644090 [33m/home/kevin/p2psp/core/src/core/splitter_ims.cc:204: TRACE: 478 -> 127.0.0.1:37995[0m
+2016-06-25 01:00:37.644143 computed
+2016-06-25 01:00:37.644175 consumed
+2016-06-25 01:00:37.644233 [33m/home/kevin/p2psp/core/src/core/splitter_ims.cc:204: TRACE: 479 -> 127.0.0.1:37995[0m
+2016-06-25 01:00:37.644284 computed
+2016-06-25 01:00:37.644314 consumed
+2016-06-25 01:00:37.644376 [33m/home/kevin/p2psp/core/src/core/splitter_ims.cc:204: TRACE: 480 -> 127.0.0.1:37995[0m
+2016-06-25 01:00:37.644428 computed
+2016-06-25 01:00:37.644460 consumed
+2016-06-25 01:00:37.646752 [33m/home/kevin/p2psp/core/src/core/splitter_ims.cc:204: TRACE: 481 -> 127.0.0.1:37995[0m
+2016-06-25 01:00:37.646867 computed
+2016-06-25 01:00:37.646900 consumed
+2016-06-25 01:00:37.646969 [33m/home/kevin/p2psp/core/src/core/splitter_ims.cc:204: TRACE: 482 -> 127.0.0.1:37995[0m
+2016-06-25 01:00:37.647019 computed
+2016-06-25 01:00:37.647051 consumed
+2016-06-25 01:00:37.647111 [33m/home/kevin/p2psp/core/src/core/splitter_ims.cc:204: TRACE: 483 -> 127.0.0.1:37995[0m
+2016-06-25 01:00:37.647163 computed
+2016-06-25 01:00:37.647196 consumed
+2016-06-25 01:00:37.647261 [33m/home/kevin/p2psp/core/src/core/splitter_ims.cc:204: TRACE: 484 -> 127.0.0.1:37995[0m
+2016-06-25 01:00:37.647314 computed
+2016-06-25 01:00:37.647344 consumed
+2016-06-25 01:00:37.647408 [33m/home/kevin/p2psp/core/src/core/splitter_ims.cc:204: TRACE: 485 -> 127.0.0.1:37995[0m
+2016-06-25 01:00:37.647458 computed
+2016-06-25 01:00:37.647492 consumed
+2016-06-25 01:00:37.647553 [33m/home/kevin/p2psp/core/src/core/splitter_ims.cc:204: TRACE: 486 -> 127.0.0.1:37995[0m
+2016-06-25 01:00:37.647605 computed
+2016-06-25 01:00:37.647636 consumed
+2016-06-25 01:00:37.647722 [33m/home/kevin/p2psp/core/src/core/splitter_ims.cc:204: TRACE: 487 -> 127.0.0.1:37995[0m
+2016-06-25 01:00:37.647820 computed
+2016-06-25 01:00:37.647866 consumed
+2016-06-25 01:00:37.647942 [33m/home/kevin/p2psp/core/src/core/splitter_ims.cc:204: TRACE: 488 -> 127.0.0.1:37995[0m
+2016-06-25 01:00:37.648004 computed
+2016-06-25 01:00:37.648049 consumed
+2016-06-25 01:00:37.648133 [33m/home/kevin/p2psp/core/src/core/splitter_ims.cc:204: TRACE: 489 -> 127.0.0.1:37995[0m
+2016-06-25 01:00:37.648194 computed
+2016-06-25 01:00:37.648238 consumed
+2016-06-25 01:00:37.648311 [33m/home/kevin/p2psp/core/src/core/splitter_ims.cc:204: TRACE: 490 -> 127.0.0.1:37995[0m
+2016-06-25 01:00:37.648371 computed
+2016-06-25 01:00:37.648415 consumed
+2016-06-25 01:00:37.648489 [33m/home/kevin/p2psp/core/src/core/splitter_ims.cc:204: TRACE: 491 -> 127.0.0.1:37995[0m
+2016-06-25 01:00:37.648550 computed
+2016-06-25 01:00:37.648595 consumed
+2016-06-25 01:00:37.648667 [33m/home/kevin/p2psp/core/src/core/splitter_ims.cc:204: TRACE: 492 -> 127.0.0.1:37995[0m
+2016-06-25 01:00:37.648729 computed
+2016-06-25 01:00:37.648775 consumed
+2016-06-25 01:00:37.648850 [33m/home/kevin/p2psp/core/src/core/splitter_ims.cc:204: TRACE: 493 -> 127.0.0.1:37995[0m
+2016-06-25 01:00:37.648916 computed
+2016-06-25 01:00:37.648963 consumed
+2016-06-25 01:00:37.652028 [33m/home/kevin/p2psp/core/src/core/splitter_ims.cc:204: TRACE: 494 -> 127.0.0.1:37995[0m
+2016-06-25 01:00:37.652156 computed
+2016-06-25 01:00:37.652189 consumed
+2016-06-25 01:00:37.652242 [33m/home/kevin/p2psp/core/src/core/splitter_ims.cc:204: TRACE: 495 -> 127.0.0.1:37995[0m
+2016-06-25 01:00:37.652278 computed
+2016-06-25 01:00:37.652295 consumed
+2016-06-25 01:00:37.652332 [33m/home/kevin/p2psp/core/src/core/splitter_ims.cc:204: TRACE: 496 -> 127.0.0.1:37995[0m
+2016-06-25 01:00:37.652370 computed
+2016-06-25 01:00:37.652400 consumed
+2016-06-25 01:00:37.652441 [33m/home/kevin/p2psp/core/src/core/splitter_ims.cc:204: TRACE: 497 -> 127.0.0.1:37995[0m
+2016-06-25 01:00:37.652475 computed
+2016-06-25 01:00:37.652491 consumed
+2016-06-25 01:00:37.652527 [33m/home/kevin/p2psp/core/src/core/splitter_ims.cc:204: TRACE: 498 -> 127.0.0.1:37995[0m
+2016-06-25 01:00:37.652559 computed
+2016-06-25 01:00:37.652576 consumed
+2016-06-25 01:00:37.652611 [33m/home/kevin/p2psp/core/src/core/splitter_ims.cc:204: TRACE: 499 -> 127.0.0.1:37995[0m
+2016-06-25 01:00:37.652642 computed
+2016-06-25 01:00:37.652659 consumed
+2016-06-25 01:00:37.653689 [33m/home/kevin/p2psp/core/src/core/splitter_ims.cc:204: TRACE: 500 -> 127.0.0.1:37995[0m
+2016-06-25 01:00:37.653757 computed
+2016-06-25 01:00:37.653776 consumed
+2016-06-25 01:00:37.653818 [33m/home/kevin/p2psp/core/src/core/splitter_ims.cc:204: TRACE: 501 -> 127.0.0.1:37995[0m
+2016-06-25 01:00:37.653851 computed
+2016-06-25 01:00:37.653868 consumed
+2016-06-25 01:00:37.653904 [33m/home/kevin/p2psp/core/src/core/splitter_ims.cc:204: TRACE: 502 -> 127.0.0.1:37995[0m
+2016-06-25 01:00:37.653936 computed
+2016-06-25 01:00:37.653953 consumed
+2016-06-25 01:00:37.653989 [33m/home/kevin/p2psp/core/src/core/splitter_ims.cc:204: TRACE: 503 -> 127.0.0.1:37995[0m
+2016-06-25 01:00:37.654021 computed
+2016-06-25 01:00:37.654039 consumed
+2016-06-25 01:00:37.654077 [33m/home/kevin/p2psp/core/src/core/splitter_ims.cc:204: TRACE: 504 -> 127.0.0.1:37995[0m
+2016-06-25 01:00:37.654125 computed
+2016-06-25 01:00:37.654146 consumed
+2016-06-25 01:00:37.654185 [33m/home/kevin/p2psp/core/src/core/splitter_ims.cc:204: TRACE: 505 -> 127.0.0.1:37995[0m
+2016-06-25 01:00:37.654218 computed
+2016-06-25 01:00:37.654234 consumed
+2016-06-25 01:00:37.654272 [33m/home/kevin/p2psp/core/src/core/splitter_ims.cc:204: TRACE: 506 -> 127.0.0.1:37995[0m
+2016-06-25 01:00:37.654316 computed
+2016-06-25 01:00:37.654334 consumed
+2016-06-25 01:00:37.654388 [33m/home/kevin/p2psp/core/src/core/splitter_ims.cc:204: TRACE: 507 -> 127.0.0.1:37995[0m
+2016-06-25 01:00:37.654439 computed
+2016-06-25 01:00:37.654469 consumed
+2016-06-25 01:00:37.656622 [33m/home/kevin/p2psp/core/src/core/splitter_ims.cc:204: TRACE: 508 -> 127.0.0.1:37995[0m
+2016-06-25 01:00:37.656732 computed
+2016-06-25 01:00:37.656781 consumed
+2016-06-25 01:00:37.656862 [33m/home/kevin/p2psp/core/src/core/splitter_ims.cc:204: TRACE: 509 -> 127.0.0.1:37995[0m
+2016-06-25 01:00:37.656929 computed
+2016-06-25 01:00:37.656973 consumed
+2016-06-25 01:00:37.657048 [33m/home/kevin/p2psp/core/src/core/splitter_ims.cc:204: TRACE: 510 -> 127.0.0.1:37995[0m
+2016-06-25 01:00:37.657111 computed
+2016-06-25 01:00:37.657153 consumed
+2016-06-25 01:00:37.657231 [33m/home/kevin/p2psp/core/src/core/splitter_ims.cc:204: TRACE: 511 -> 127.0.0.1:37995[0m
+2016-06-25 01:00:37.657295 computed
+2016-06-25 01:00:37.657336 consumed
+2016-06-25 01:00:37.657405 [33m/home/kevin/p2psp/core/src/core/splitter_ims.cc:204: TRACE: 512 -> 127.0.0.1:37995[0m
+2016-06-25 01:00:37.657466 computed
+2016-06-25 01:00:37.657506 consumed
+2016-06-25 01:00:37.657581 [33m/home/kevin/p2psp/core/src/core/splitter_ims.cc:204: TRACE: 513 -> 127.0.0.1:37995[0m
+2016-06-25 01:00:37.657647 computed
+2016-06-25 01:00:37.657691 consumed
+2016-06-25 01:00:37.657769 [33m/home/kevin/p2psp/core/src/core/splitter_ims.cc:204: TRACE: 514 -> 127.0.0.1:37995[0m
+2016-06-25 01:00:37.657835 computed
+2016-06-25 01:00:37.657877 consumed
+2016-06-25 01:00:37.657952 [33m/home/kevin/p2psp/core/src/core/splitter_ims.cc:204: TRACE: 515 -> 127.0.0.1:37995[0m
+2016-06-25 01:00:37.658016 computed
+2016-06-25 01:00:37.658055 consumed
+2016-06-25 01:00:37.658128 [33m/home/kevin/p2psp/core/src/core/splitter_ims.cc:204: TRACE: 516 -> 127.0.0.1:37995[0m
+2016-06-25 01:00:37.658189 computed
+2016-06-25 01:00:37.658230 consumed
+2016-06-25 01:00:37.658301 [33m/home/kevin/p2psp/core/src/core/splitter_ims.cc:204: TRACE: 517 -> 127.0.0.1:37995[0m
+2016-06-25 01:00:37.658362 computed
+2016-06-25 01:00:37.658509 consumed
+2016-06-25 01:00:37.658597 [33m/home/kevin/p2psp/core/src/core/splitter_ims.cc:204: TRACE: 518 -> 127.0.0.1:37995[0m
+2016-06-25 01:00:37.658669 computed
+2016-06-25 01:00:37.658716 consumed
+2016-06-25 01:00:37.658796 [33m/home/kevin/p2psp/core/src/core/splitter_ims.cc:204: TRACE: 519 -> 127.0.0.1:37995[0m
+2016-06-25 01:00:37.658960 computed
+2016-06-25 01:00:37.659009 consumed
+2016-06-25 01:00:37.659236 [33m/home/kevin/p2psp/core/src/core/splitter_ims.cc:204: TRACE: 520 -> 127.0.0.1:37995[0m
+2016-06-25 01:00:37.659397 computed
+2016-06-25 01:00:37.659447 consumed
+2016-06-25 01:00:37.659630 [33m/home/kevin/p2psp/core/src/core/splitter_ims.cc:204: TRACE: 521 -> 127.0.0.1:37995[0m
+2016-06-25 01:00:37.659831 computed
+2016-06-25 01:00:37.659879 consumed
+2016-06-25 01:00:37.660050 [33m/home/kevin/p2psp/core/src/core/splitter_ims.cc:204: TRACE: 522 -> 127.0.0.1:37995[0m
+2016-06-25 01:00:37.660223 computed
+2016-06-25 01:00:37.660389 consumed
+2016-06-25 01:00:37.660483 [33m/home/kevin/p2psp/core/src/core/splitter_ims.cc:204: TRACE: 523 -> 127.0.0.1:37995[0m
+2016-06-25 01:00:37.660716 computed
+2016-06-25 01:00:37.660771 consumed
+2016-06-25 01:00:37.660963 [33m/home/kevin/p2psp/core/src/core/splitter_ims.cc:204: TRACE: 524 -> 127.0.0.1:37995[0m
+2016-06-25 01:00:37.661108 computed
+2016-06-25 01:00:37.661235 consumed
+2016-06-25 01:00:37.674611 [33m/home/kevin/p2psp/core/src/core/splitter_ims.cc:204: TRACE: 525 -> 127.0.0.1:37995[0m
+2016-06-25 01:00:37.674712 computed
+2016-06-25 01:00:37.674747 consumed
+2016-06-25 01:00:37.674815 [33m/home/kevin/p2psp/core/src/core/splitter_ims.cc:204: TRACE: 526 -> 127.0.0.1:37995[0m
+2016-06-25 01:00:37.674870 computed
+2016-06-25 01:00:37.674903 consumed
+2016-06-25 01:00:37.675917 [33m/home/kevin/p2psp/core/src/core/splitter_ims.cc:204: TRACE: 527 -> 127.0.0.1:37995[0m
+2016-06-25 01:00:37.676002 computed
+2016-06-25 01:00:37.676036 consumed
+2016-06-25 01:00:37.678294 [33m/home/kevin/p2psp/core/src/core/splitter_ims.cc:204: TRACE: 528 -> 127.0.0.1:37995[0m
+2016-06-25 01:00:37.678391 computed
+2016-06-25 01:00:37.678425 consumed
+2016-06-25 01:00:37.678493 [33m/home/kevin/p2psp/core/src/core/splitter_ims.cc:204: TRACE: 529 -> 127.0.0.1:37995[0m
+2016-06-25 01:00:37.678547 computed
+2016-06-25 01:00:37.678581 consumed
+2016-06-25 01:00:37.678645 [33m/home/kevin/p2psp/core/src/core/splitter_ims.cc:204: TRACE: 530 -> 127.0.0.1:37995[0m
+2016-06-25 01:00:37.678699 computed
+2016-06-25 01:00:37.678729 consumed
+2016-06-25 01:00:37.678793 [33m/home/kevin/p2psp/core/src/core/splitter_ims.cc:204: TRACE: 531 -> 127.0.0.1:37995[0m
+2016-06-25 01:00:37.678844 computed
+2016-06-25 01:00:37.678879 consumed
+2016-06-25 01:00:37.678940 [33m/home/kevin/p2psp/core/src/core/splitter_ims.cc:204: TRACE: 532 -> 127.0.0.1:37995[0m
+2016-06-25 01:00:37.678993 computed
+2016-06-25 01:00:37.679024 consumed
+2016-06-25 01:00:37.679848 [33m/home/kevin/p2psp/core/src/core/splitter_ims.cc:204: TRACE: 533 -> 127.0.0.1:37995[0m
+2016-06-25 01:00:37.679916 computed
+2016-06-25 01:00:37.679950 consumed
+2016-06-25 01:00:37.680015 [33m/home/kevin/p2psp/core/src/core/splitter_ims.cc:204: TRACE: 534 -> 127.0.0.1:37995[0m
+2016-06-25 01:00:37.680065 computed
+2016-06-25 01:00:37.680108 consumed
+2016-06-25 01:00:37.680174 [33m/home/kevin/p2psp/core/src/core/splitter_ims.cc:204: TRACE: 535 -> 127.0.0.1:37995[0m
+2016-06-25 01:00:37.680230 computed
+2016-06-25 01:00:37.680264 consumed
+2016-06-25 01:00:37.680327 [33m/home/kevin/p2psp/core/src/core/splitter_ims.cc:204: TRACE: 536 -> 127.0.0.1:37995[0m
+2016-06-25 01:00:37.680381 computed
+2016-06-25 01:00:37.680413 consumed
+2016-06-25 01:00:37.680475 [33m/home/kevin/p2psp/core/src/core/splitter_ims.cc:204: TRACE: 537 -> 127.0.0.1:37995[0m
+2016-06-25 01:00:37.680524 computed
+2016-06-25 01:00:37.680557 consumed
+2016-06-25 01:00:37.695167 [33m/home/kevin/p2psp/core/src/core/splitter_ims.cc:204: TRACE: 538 -> 127.0.0.1:37995[0m
+2016-06-25 01:00:37.695268 computed
+2016-06-25 01:00:37.695303 consumed
+2016-06-25 01:00:37.698079 [33m/home/kevin/p2psp/core/src/core/splitter_ims.cc:204: TRACE: 539 -> 127.0.0.1:37995[0m
+2016-06-25 01:00:37.698170 computed
+2016-06-25 01:00:37.698204 consumed
+2016-06-25 01:00:37.698269 [33m/home/kevin/p2psp/core/src/core/splitter_ims.cc:204: TRACE: 540 -> 127.0.0.1:37995[0m
+2016-06-25 01:00:37.698320 computed
+2016-06-25 01:00:37.698354 consumed
+2016-06-25 01:00:37.698417 [33m/home/kevin/p2psp/core/src/core/splitter_ims.cc:204: TRACE: 541 -> 127.0.0.1:37995[0m
+2016-06-25 01:00:37.698472 computed
+2016-06-25 01:00:37.698502 consumed
+2016-06-25 01:00:37.698566 [33m/home/kevin/p2psp/core/src/core/splitter_ims.cc:204: TRACE: 542 -> 127.0.0.1:37995[0m
+2016-06-25 01:00:37.698616 computed
+2016-06-25 01:00:37.698650 consumed
+2016-06-25 01:00:37.753398 [33m/home/kevin/p2psp/core/src/core/splitter_ims.cc:204: TRACE: 543 -> 127.0.0.1:37995[0m
+2016-06-25 01:00:37.753499 computed
+2016-06-25 01:00:37.753533 consumed
+2016-06-25 01:00:37.753601 [33m/home/kevin/p2psp/core/src/core/splitter_ims.cc:204: TRACE: 544 -> 127.0.0.1:37995[0m
+2016-06-25 01:00:37.753655 computed
+2016-06-25 01:00:37.753688 consumed
+2016-06-25 01:00:37.755175 [33m/home/kevin/p2psp/core/src/core/splitter_ims.cc:204: TRACE: 545 -> 127.0.0.1:37995[0m
+2016-06-25 01:00:37.755281 computed
+2016-06-25 01:00:37.755312 consumed
+
+Script done on Sat 25 Jun 2016 01:00:38 AM PDT
