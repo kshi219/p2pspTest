@@ -18,7 +18,7 @@
 
 namespace p2psp {
 
-class MonitorEMS : public MonitorNTS {
+class MonitorEMS : public PeerEMS {
  public:
   MonitorEMS();
   ~MonitorEMS();
