@@ -14,6 +14,7 @@
 #define P2PSP_CORE_MONITOR_EMS_H
 
 #include "monitor_nts.h"
+#include "peer_ems.h"
 #include "../util/trace.h"
 
 namespace p2psp {
