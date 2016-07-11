@@ -13,18 +13,15 @@
 #ifndef P2PSP_CORE_MONITOR_EMS_H
 #define P2PSP_CORE_MONITOR_EMS_H
 
-#include "peer_ems.h"
+#include "monitor_nts.h"
 #include "../util/trace.h"
 
 namespace p2psp {
 
-class MonitorEMS : public PeerEMS {
+class MonitorEMS : public MonitorNTS {
  public:
   MonitorEMS();
   ~MonitorEMS();
-  virtual void Init() override;
-  virtual void Complain(uint16_t);
-  virtual int FindNextChunk() override;
 };
 }
 

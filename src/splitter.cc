@@ -185,7 +185,9 @@ int main(int argc, const char *argv[]) {
     //splitter_ptr.reset(new p2psp::SplitterSTRPE());
   } else if (vm.count("NTS")) {
     splitter_ptr.reset(new p2psp::SplitterNTS());
-  } else if (vm.count("LRS")) {
+  } else if (vm.count("EMS")) {
+    splitter_ptr.reset(new p2psp::SplitterEMS());
+  }else if (vm.count("LRS")) {
     splitter_ptr.reset(new p2psp::SplitterLRS());
   } else if (vm.count("ACS")) {
     splitter_ptr.reset(new p2psp::SplitterACS());
