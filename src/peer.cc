@@ -160,13 +160,13 @@ namespace p2psp {
     if (vm.count("monitor")) {
       // Monitor enabled
       LOG("Monitor enabled.");
-      peer.reset(new p2psp::MonitorEMS);
+      peer.reset(new p2psp::MonitorNTS);
     } else {
       p2psp::PeerSYMSP* peer_ptr = new p2psp::PeerSYMSP();
       if (vm.count("source_port_step")) {
         peer_ptr->SetPortStep(vm["source_port_step"].as<int>());
       }
-      peer.reset(new p2psp::PeerEMS());
+      peer.reset(new p2psp::PeerNTS());
     }
     peer->Init();
 

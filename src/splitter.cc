@@ -195,7 +195,7 @@ int main(int argc, const char *argv[]) {
     is_IMS_only = true;
     splitter_ptr.reset(new p2psp::SplitterIMS());
   } else {
-    splitter_ptr.reset(new p2psp::SplitterEMS());
+    splitter_ptr.reset(new p2psp::SplitterNTS());
   }
 
   if (vm.count("buffer_size")) {
