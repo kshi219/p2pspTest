@@ -185,7 +185,7 @@ namespace p2psp {
   }
 
 
-
+  //mostly identical to same method in NTS, with addition EMS checks
   void SplitterEMS::SendNewPeer(const std::string& peer_id,
                                 const ip::udp::endpoint& new_peer,
                                 const std::vector<uint16_t>& source_ports_to_monitors, uint16_t port_step) {
