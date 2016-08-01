@@ -1,0 +1,62 @@
+/home/kevin/p2psp/Test/bin/peer --player_port 10000 --splitter_addr 150.214.150.68 --splitter_port 4554 --team_port 41666
+2016-07-19 00:00:41.634362 Initialized
+2016-07-19 00:00:41.634859 /home/kevin/p2psp/Test/lib/p2psp/src/core/peer_ims.cc:79: TRACE: Waiting for the player at (0.0.0.0,10000)
+2016-07-19 00:00:51.062945 /home/kevin/p2psp/Test/lib/p2psp/src/core/peer_ims.cc:84: TRACE: The player is (127.0.0.1,46073)
+2016-07-19 00:00:51.063070 /home/kevin/p2psp/Test/lib/p2psp/src/core/peer_ims.cc:98: TRACE: use_localhost = False
+2016-07-19 00:00:51.063183 /home/kevin/p2psp/Test/lib/p2psp/src/core/peer_ims.cc:117: TRACE: Connecting to the splitter at (150.214.150.68,4554) from 192.168.1.118
+2016-07-19 00:00:51.063231 /home/kevin/p2psp/Test/lib/p2psp/src/core/peer_ims.cc:119: TRACE: I'm using port41666
+2016-07-19 00:00:51.266088 /home/kevin/p2psp/Test/lib/p2psp/src/core/peer_ims.cc:133: TRACE: Connected to the splitter at (150.214.150.68,4554)
+2016-07-19 00:00:51.468965 /home/kevin/p2psp/Test/lib/p2psp/src/core/peer_ims.cc:149: TRACE: mcast_endpoint = (0.0.0.0,4554)
+2016-07-19 00:00:51.469754 /home/kevin/p2psp/Test/lib/p2psp/src/core/peer_ims.cc:158: TRACE: header_size (in chunks) = 10
+2016-07-19 00:00:51.470015 /home/kevin/p2psp/Test/lib/p2psp/src/core/peer_ims.cc:168: TRACE: chunk_size (bytes) = 1024
+2016-07-19 00:00:51.671044 /home/kevin/p2psp/Test/lib/p2psp/src/core/peer_ims.cc:193: TRACE: Received 10240bytes of header
+2016-07-19 00:00:51.671453 /home/kevin/p2psp/Test/lib/p2psp/src/core/peer_ims.cc:202: TRACE: buffer_size_ = 256
+2016-07-19 00:00:51.671665 Using IP Multicast address = 0.0.0.0
+2016-07-19 00:00:51.671822 /home/kevin/p2psp/Test/lib/p2psp/src/core/peer_dbs.cc:132: TRACE: me = (207.81.36.166,41666)
+2016-07-19 00:00:51.672009 /home/kevin/p2psp/Test/lib/p2psp/src/core/peer_dbs.cc:51: TRACE: Magic flags = 00000100
+2016-07-19 00:00:51.672214 /home/kevin/p2psp/Test/lib/p2psp/src/core/peer_dbs.cc:68: TRACE: Requesting the number of monitors and peers to (150.214.150.68,4554)
+2016-07-19 00:00:51.672386 /home/kevin/p2psp/Test/lib/p2psp/src/core/peer_dbs.cc:71: TRACE: The number of monitors is 1
+2016-07-19 00:00:51.672440 /home/kevin/p2psp/Test/lib/p2psp/src/core/peer_dbs.cc:74: TRACE: The size of the team is 1 (apart from me)
+2016-07-19 00:00:51.672651 Number of peers in the team (excluding me) =1
+2016-07-19 00:00:51.672698 Am I a monitor peer? =False
+2016-07-19 00:00:51.672800 /home/kevin/p2psp/Test/lib/p2psp/src/core/peer_dbs.cc:89: TRACE: Requesting1 peers to (150.214.150.68,4554)
+2016-07-19 00:00:51.673032 /home/kevin/p2psp/Test/lib/p2psp/src/core/peer_dbs.cc:103: TRACE: [hello] sent to (150.214.150.68,42051)
+2016-07-19 00:00:51.673092 /home/kevin/p2psp/Test/lib/p2psp/src/core/peer_dbs.cc:106: TRACE: 0
+2016-07-19 00:00:51.673409 /home/kevin/p2psp/Test/lib/p2psp/src/core/peer_dbs.cc:114: TRACE: List of peers received
+2016-07-19 00:00:51.673463 List of peers received
+2016-07-19 00:00:51.673503 Peer DBS enabled
+2016-07-19 00:00:51.673804 Requesting peer ID from splitter
+2016-07-19 00:00:51.674046 ID received: U86QGIN
+2016-07-19 00:00:51.674295 Requesting the number of peers from splitter
+2016-07-19 00:00:51.676163 /home/kevin/p2psp/Test/lib/p2psp/src/core/peer_nts.cc:100: DEBUG: Sending [hello (U86QGIN)] to 150.214.150.68:4554 (trying 1 ports)
+2016-07-19 00:00:51.679555 /home/kevin/p2psp/Test/lib/p2psp/src/core/peer_nts.cc:100: DEBUG: Sending [hello (U86QGIN)] to 150.214.150.68:42051 (trying 1 ports)
+2016-07-19 00:00:52.681206 /home/kevin/p2psp/Test/lib/p2psp/src/core/peer_nts.cc:100: DEBUG: Sending [hello (U86QGIN)] to 150.214.150.68:4554 (trying 1 ports)
+2016-07-19 00:00:52.682647 /home/kevin/p2psp/Test/lib/p2psp/src/core/peer_nts.cc:100: DEBUG: Sending [hello (U86QGIN)] to 150.214.150.68:42051 (trying 1 ports)
+2016-07-19 00:00:53.684179 /home/kevin/p2psp/Test/lib/p2psp/src/core/peer_nts.cc:100: DEBUG: Sending [hello (U86QGIN)] to 150.214.150.68:4554 (trying 1 ports)
+2016-07-19 00:00:53.685738 /home/kevin/p2psp/Test/lib/p2psp/src/core/peer_nts.cc:100: DEBUG: Sending [hello (U86QGIN)] to 150.214.150.68:42051 (trying 1 ports)
+2016-07-19 00:00:54.687214 /home/kevin/p2psp/Test/lib/p2psp/src/core/peer_nts.cc:100: DEBUG: Sending [hello (U86QGIN)] to 150.214.150.68:4554 (trying 1 ports)
+2016-07-19 00:00:54.688453 /home/kevin/p2psp/Test/lib/p2psp/src/core/peer_nts.cc:100: DEBUG: Sending [hello (U86QGIN)] to 150.214.150.68:42051 (trying 1 ports)
+2016-07-19 00:00:55.689745 /home/kevin/p2psp/Test/lib/p2psp/src/core/peer_nts.cc:100: DEBUG: Sending [hello (U86QGIN)] to 150.214.150.68:4554 (trying 1 ports)
+2016-07-19 00:00:55.690978 /home/kevin/p2psp/Test/lib/p2psp/src/core/peer_nts.cc:100: DEBUG: Sending [hello (U86QGIN)] to 150.214.150.68:42051 (trying 1 ports)
+2016-07-19 00:00:56.692256 /home/kevin/p2psp/Test/lib/p2psp/src/core/peer_nts.cc:100: DEBUG: Sending [hello (U86QGIN)] to 150.214.150.68:4554 (trying 1 ports)
+2016-07-19 00:00:56.693521 /home/kevin/p2psp/Test/lib/p2psp/src/core/peer_nts.cc:100: DEBUG: Sending [hello (U86QGIN)] to 150.214.150.68:42051 (trying 1 ports)
+2016-07-19 00:00:57.694846 /home/kevin/p2psp/Test/lib/p2psp/src/core/peer_nts.cc:100: DEBUG: Sending [hello (U86QGIN)] to 150.214.150.68:4554 (trying 1 ports)
+2016-07-19 00:00:57.696122 /home/kevin/p2psp/Test/lib/p2psp/src/core/peer_nts.cc:100: DEBUG: Sending [hello (U86QGIN)] to 150.214.150.68:42051 (trying 1 ports)
+2016-07-19 00:00:58.697421 /home/kevin/p2psp/Test/lib/p2psp/src/core/peer_nts.cc:100: DEBUG: Sending [hello (U86QGIN)] to 150.214.150.68:4554 (trying 1 ports)
+2016-07-19 00:00:58.698657 /home/kevin/p2psp/Test/lib/p2psp/src/core/peer_nts.cc:100: DEBUG: Sending [hello (U86QGIN)] to 150.214.150.68:42051 (trying 1 ports)
+2016-07-19 00:00:59.699939 /home/kevin/p2psp/Test/lib/p2psp/src/core/peer_nts.cc:100: DEBUG: Sending [hello (U86QGIN)] to 150.214.150.68:4554 (trying 1 ports)
+2016-07-19 00:00:59.701173 /home/kevin/p2psp/Test/lib/p2psp/src/core/peer_nts.cc:100: DEBUG: Sending [hello (U86QGIN)] to 150.214.150.68:42051 (trying 1 ports)
+2016-07-19 00:01:00.702452 /home/kevin/p2psp/Test/lib/p2psp/src/core/peer_nts.cc:100: DEBUG: Sending [hello (U86QGIN)] to 150.214.150.68:4554 (trying 1 ports)
+2016-07-19 00:01:00.703686 /home/kevin/p2psp/Test/lib/p2psp/src/core/peer_nts.cc:100: DEBUG: Sending [hello (U86QGIN)] to 150.214.150.68:42051 (trying 1 ports)
+2016-07-19 00:01:01.705025 /home/kevin/p2psp/Test/lib/p2psp/src/core/peer_nts.cc:100: DEBUG: Sending [hello (U86QGIN)] to 150.214.150.68:4554 (trying 1 ports)
+2016-07-19 00:01:01.706535 /home/kevin/p2psp/Test/lib/p2psp/src/core/peer_nts.cc:100: DEBUG: Sending [hello (U86QGIN)] to 150.214.150.68:42051 (trying 1 ports)
+2016-07-19 00:01:02.708067 /home/kevin/p2psp/Test/lib/p2psp/src/core/peer_nts.cc:100: DEBUG: Sending [hello (U86QGIN)] to 150.214.150.68:4554 (trying 1 ports)
+2016-07-19 00:01:02.709309 /home/kevin/p2psp/Test/lib/p2psp/src/core/peer_nts.cc:100: DEBUG: Sending [hello (U86QGIN)] to 150.214.150.68:42051 (trying 1 ports)
+2016-07-19 00:01:03.710615 /home/kevin/p2psp/Test/lib/p2psp/src/core/peer_nts.cc:100: DEBUG: Sending [hello (U86QGIN)] to 150.214.150.68:4554 (trying 1 ports)
+2016-07-19 00:01:03.711845 /home/kevin/p2psp/Test/lib/p2psp/src/core/peer_nts.cc:100: DEBUG: Sending [hello (U86QGIN)] to 150.214.150.68:42051 (trying 1 ports)
+2016-07-19 00:01:04.713115 /home/kevin/p2psp/Test/lib/p2psp/src/core/peer_nts.cc:100: DEBUG: Sending [hello (U86QGIN)] to 150.214.150.68:4554 (trying 1 ports)
+2016-07-19 00:01:04.714358 /home/kevin/p2psp/Test/lib/p2psp/src/core/peer_nts.cc:100: DEBUG: Sending [hello (U86QGIN)] to 150.214.150.68:42051 (trying 1 ports)
+2016-07-19 00:01:05.715685 /home/kevin/p2psp/Test/lib/p2psp/src/core/peer_nts.cc:100: DEBUG: Sending [hello (U86QGIN)] to 150.214.150.68:4554 (trying 1 ports)
+2016-07-19 00:01:05.716942 /home/kevin/p2psp/Test/lib/p2psp/src/core/peer_nts.cc:100: DEBUG: Sending [hello (U86QGIN)] to 150.214.150.68:42051 (trying 1 ports)
+2016-07-19 00:01:06.718244 Removed message U86QGIN to 150.214.150.68:4554 due to timeout
+2016-07-19 00:01:06.718396 Removed message U86QGIN to 150.214.150.68:42051 due to timeout
