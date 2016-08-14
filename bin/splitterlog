@@ -1,0 +1,861 @@
+2016-08-14 06:41:54.908603 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/splitter_ims.cc:59: TRACE: Initialized IMS[0m
+2016-08-14 06:41:54.909013 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/splitter_dbs.cc:34: TRACE: max_number_of_chunk_loss = 32[0m
+2016-08-14 06:41:54.909050 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/splitter_dbs.cc:35: TRACE: mcast_addr = 0.0.0.0[0m
+2016-08-14 06:41:54.909082 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/splitter_dbs.cc:36: TRACE: Initialized DBS[0m
+2016-08-14 06:41:54.909113 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/splitter_acs.cc:26: TRACE: Initialized ACS[0m
+2016-08-14 06:41:54.909186 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/splitter_lrs.cc:22: TRACE: Initialized LRS[0m
+2016-08-14 06:41:54.909541 Initialized NTS
+2016-08-14 06:41:54.909618 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/splitter_ems.cc:30: TRACE: Initialized EMS[0m
+2016-08-14 06:41:54.909697 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/splitter_dbs.cc:394: TRACE: Start[0m
+2016-08-14 06:41:54.909955 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/splitter_ims.cc:190: TRACE: Requesting the stream header ...[0m
+2016-08-14 06:41:54.910377 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/splitter_ims.cc:129: TRACE: 127.0.0.1 connected to (127.0.0.1, 4551)[0m
+2016-08-14 06:41:54.910579 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/splitter_ims.cc:134: TRACE: 127.0.0.1IMS: GET_message = GET /BBB-134.ogv HTTP/1.1
+
+[0m
+2016-08-14 06:41:54.910622 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/splitter_ims.cc:183: TRACE: Loading the video header[0m
+2016-08-14 06:41:55.960363 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/splitter_ims.cc:196: TRACE: Stream header received![0m
+2016-08-14 06:41:55.960461 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/splitter_dbs.cc:320: TRACE: waiting for the monitor peers ...[0m
+2016-08-14 06:41:58.476608 Accepted connection from peer 150.214.150.68:4555
+2016-08-14 06:41:58.476812 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/splitter_ems.cc:156: TRACE: peer local endpoint = (150.214.150.68,4555)[0m
+2016-08-14 06:41:58.476984 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/splitter_ims.cc:222: TRACE: Communicating the multicast channel (0.0.0.0, 4554)[0m
+2016-08-14 06:41:58.477064 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/splitter_ims.cc:234: TRACE: Communicating the header size 10[0m
+2016-08-14 06:41:58.477152 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/splitter_ims.cc:248: TRACE: Sending a chunk_size of 1024 bytes[0m
+2016-08-14 06:41:58.477236 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/splitter_ims.cc:262: TRACE: Sending a header of 10240 bytes[0m
+2016-08-14 06:41:58.477346 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/splitter_ims.cc:274: TRACE: Sending a buffer_size of 256 bytes[0m
+2016-08-14 06:41:58.477478 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/splitter_dbs.cc:51: TRACE: Magic flags = 00001000[0m
+2016-08-14 06:41:58.477565 Sending the monitors as the list of peers
+2016-08-14 06:41:58.478536 Sending ID OOBI0FT to peer 150.214.150.68:4555
+2016-08-14 06:41:58.478847 /home/kevin/p2pspTest/lib/p2psp/src/core/splitter_ems.cc:209: DEBUG: Listening to the extra port 59618
+2016-08-14 06:41:58.478906 /home/kevin/p2pspTest/lib/p2psp/src/core/splitter_ems.cc:210: DEBUG: Sending [send hello to 150.214.150.68:4555]
+2016-08-14 06:41:58.479166 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/splitter_dbs.cc:113: TRACE: Inserted peer 150.214.150.68:4555[0m
+2016-08-14 06:41:58.479296 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/splitter_acs.cc:37: TRACE: Inserted 150.214.150.68:4555[0m
+2016-08-14 06:41:58.479896 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/splitter_ims.cc:208: TRACE: 0 -> 150.214.150.68:4555[0m
+2016-08-14 06:41:58.480252 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/splitter_ims.cc:208: TRACE: 1 -> 150.214.150.68:4555[0m
+2016-08-14 06:41:58.480483 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/splitter_ims.cc:208: TRACE: 2 -> 150.214.150.68:4555[0m
+2016-08-14 06:41:58.480702 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/splitter_ims.cc:208: TRACE: 3 -> 150.214.150.68:4555[0m
+2016-08-14 06:41:58.480982 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/splitter_ims.cc:208: TRACE: 4 -> 150.214.150.68:4555[0m
+2016-08-14 06:41:58.481216 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/splitter_ims.cc:208: TRACE: 5 -> 150.214.150.68:4555[0m
+2016-08-14 06:41:58.481446 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/splitter_ims.cc:208: TRACE: 6 -> 150.214.150.68:4555[0m
+2016-08-14 06:41:58.481677 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/splitter_ims.cc:208: TRACE: 7 -> 150.214.150.68:4555[0m
+2016-08-14 06:41:58.481904 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/splitter_ims.cc:208: TRACE: 8 -> 150.214.150.68:4555[0m
+2016-08-14 06:41:58.482176 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/splitter_ims.cc:208: TRACE: 9 -> 150.214.150.68:4555[0m
+2016-08-14 06:41:58.482417 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/splitter_ims.cc:208: TRACE: 10 -> 150.214.150.68:4555[0m
+2016-08-14 06:41:58.482743 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/splitter_ims.cc:208: TRACE: 11 -> 150.214.150.68:4555[0m
+2016-08-14 06:41:58.482898 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/splitter_ims.cc:208: TRACE: 12 -> 150.214.150.68:4555[0m
+2016-08-14 06:41:58.483046 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/splitter_ims.cc:208: TRACE: 13 -> 150.214.150.68:4555[0m
+2016-08-14 06:41:58.483193 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/splitter_ims.cc:208: TRACE: 14 -> 150.214.150.68:4555[0m
+2016-08-14 06:41:58.483395 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/splitter_ims.cc:208: TRACE: 15 -> 150.214.150.68:4555[0m
+2016-08-14 06:41:58.483544 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/splitter_ims.cc:208: TRACE: 16 -> 150.214.150.68:4555[0m
+2016-08-14 06:41:58.483690 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/splitter_ims.cc:208: TRACE: 17 -> 150.214.150.68:4555[0m
+2016-08-14 06:41:58.483838 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/splitter_ims.cc:208: TRACE: 18 -> 150.214.150.68:4555[0m
+2016-08-14 06:41:58.483991 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/splitter_ims.cc:208: TRACE: 19 -> 150.214.150.68:4555[0m
+2016-08-14 06:41:58.484136 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/splitter_ims.cc:208: TRACE: 20 -> 150.214.150.68:4555[0m
+2016-08-14 06:41:58.484280 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/splitter_ims.cc:208: TRACE: 21 -> 150.214.150.68:4555[0m
+2016-08-14 06:41:58.484429 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/splitter_ims.cc:208: TRACE: 22 -> 150.214.150.68:4555[0m
+2016-08-14 06:41:58.484581 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/splitter_ims.cc:208: TRACE: 23 -> 150.214.150.68:4555[0m
+2016-08-14 06:41:58.484725 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/splitter_ims.cc:208: TRACE: 24 -> 150.214.150.68:4555[0m
+2016-08-14 06:41:58.484870 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/splitter_ims.cc:208: TRACE: 25 -> 150.214.150.68:4555[0m
+2016-08-14 06:41:58.485019 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/splitter_ims.cc:208: TRACE: 26 -> 150.214.150.68:4555[0m
+2016-08-14 06:41:58.485171 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/splitter_ims.cc:208: TRACE: 27 -> 150.214.150.68:4555[0m
+2016-08-14 06:41:58.485317 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/splitter_ims.cc:208: TRACE: 28 -> 150.214.150.68:4555[0m
+2016-08-14 06:41:58.485463 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/splitter_ims.cc:208: TRACE: 29 -> 150.214.150.68:4555[0m
+2016-08-14 06:41:58.485610 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/splitter_ims.cc:208: TRACE: 30 -> 150.214.150.68:4555[0m
+2016-08-14 06:41:58.485766 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/splitter_ims.cc:208: TRACE: 31 -> 150.214.150.68:4555[0m
+2016-08-14 06:41:58.485910 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/splitter_ims.cc:208: TRACE: 32 -> 150.214.150.68:4555[0m
+2016-08-14 06:41:58.486057 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/splitter_ims.cc:208: TRACE: 33 -> 150.214.150.68:4555[0m
+2016-08-14 06:41:58.486270 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/splitter_ims.cc:208: TRACE: 34 -> 150.214.150.68:4555[0m
+2016-08-14 06:41:58.486421 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/splitter_ims.cc:208: TRACE: 35 -> 150.214.150.68:4555[0m
+2016-08-14 06:41:58.486629 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/splitter_ims.cc:208: TRACE: 36 -> 150.214.150.68:4555[0m
+2016-08-14 06:41:58.486777 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/splitter_ims.cc:208: TRACE: 37 -> 150.214.150.68:4555[0m
+2016-08-14 06:41:58.486928 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/splitter_ims.cc:208: TRACE: 38 -> 150.214.150.68:4555[0m
+2016-08-14 06:41:58.487072 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/splitter_ims.cc:208: TRACE: 39 -> 150.214.150.68:4555[0m
+2016-08-14 06:41:58.487213 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/splitter_ims.cc:208: TRACE: 40 -> 150.214.150.68:4555[0m
+2016-08-14 06:41:58.487356 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/splitter_ims.cc:208: TRACE: 41 -> 150.214.150.68:4555[0m
+2016-08-14 06:41:58.487504 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/splitter_ims.cc:208: TRACE: 42 -> 150.214.150.68:4555[0m
+2016-08-14 06:41:58.487647 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/splitter_ims.cc:208: TRACE: 43 -> 150.214.150.68:4555[0m
+2016-08-14 06:41:58.487789 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/splitter_ims.cc:208: TRACE: 44 -> 150.214.150.68:4555[0m
+2016-08-14 06:41:58.583336 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/splitter_ims.cc:208: TRACE: 45 -> 150.214.150.68:4555[0m
+2016-08-14 06:41:58.584157 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/splitter_ims.cc:208: TRACE: 46 -> 150.214.150.68:4555[0m
+2016-08-14 06:41:58.584354 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/splitter_ims.cc:208: TRACE: 47 -> 150.214.150.68:4555[0m
+2016-08-14 06:41:58.584578 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/splitter_ims.cc:208: TRACE: 48 -> 150.214.150.68:4555[0m
+2016-08-14 06:41:58.584806 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/splitter_ims.cc:208: TRACE: 49 -> 150.214.150.68:4555[0m
+2016-08-14 06:41:59.002305 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/splitter_ims.cc:208: TRACE: 50 -> 150.214.150.68:4555[0m
+2016-08-14 06:41:59.002596 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/splitter_ims.cc:208: TRACE: 51 -> 150.214.150.68:4555[0m
+2016-08-14 06:41:59.002830 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/splitter_ims.cc:208: TRACE: 52 -> 150.214.150.68:4555[0m
+2016-08-14 06:41:59.003064 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/splitter_ims.cc:208: TRACE: 53 -> 150.214.150.68:4555[0m
+2016-08-14 06:41:59.003868 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/splitter_ims.cc:208: TRACE: 54 -> 150.214.150.68:4555[0m
+2016-08-14 06:41:59.004113 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/splitter_ims.cc:208: TRACE: 55 -> 150.214.150.68:4555[0m
+2016-08-14 06:41:59.004346 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/splitter_ims.cc:208: TRACE: 56 -> 150.214.150.68:4555[0m
+2016-08-14 06:41:59.004574 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/splitter_ims.cc:208: TRACE: 57 -> 150.214.150.68:4555[0m
+2016-08-14 06:41:59.004921 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/splitter_ims.cc:208: TRACE: 58 -> 150.214.150.68:4555[0m
+2016-08-14 06:41:59.005157 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/splitter_ims.cc:208: TRACE: 59 -> 150.214.150.68:4555[0m
+2016-08-14 06:41:59.005387 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/splitter_ims.cc:208: TRACE: 60 -> 150.214.150.68:4555[0m
+2016-08-14 06:41:59.005614 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/splitter_ims.cc:208: TRACE: 61 -> 150.214.150.68:4555[0m
+2016-08-14 06:41:59.167699 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/splitter_ims.cc:208: TRACE: 62 -> 150.214.150.68:4555[0m
+2016-08-14 06:41:59.168014 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/splitter_ims.cc:208: TRACE: 63 -> 150.214.150.68:4555[0m
+2016-08-14 06:41:59.168249 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/splitter_ims.cc:208: TRACE: 64 -> 150.214.150.68:4555[0m
+2016-08-14 06:41:59.168482 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/splitter_ims.cc:208: TRACE: 65 -> 150.214.150.68:4555[0m
+2016-08-14 06:41:59.169380 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/splitter_ims.cc:208: TRACE: 66 -> 150.214.150.68:4555[0m
+2016-08-14 06:41:59.169705 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/splitter_ims.cc:208: TRACE: 67 -> 150.214.150.68:4555[0m
+2016-08-14 06:41:59.169937 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/splitter_ims.cc:208: TRACE: 68 -> 150.214.150.68:4555[0m
+2016-08-14 06:41:59.170195 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/splitter_ims.cc:208: TRACE: 69 -> 150.214.150.68:4555[0m
+2016-08-14 06:41:59.170442 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/splitter_ims.cc:208: TRACE: 70 -> 150.214.150.68:4555[0m
+2016-08-14 06:41:59.170676 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/splitter_ims.cc:208: TRACE: 71 -> 150.214.150.68:4555[0m
+2016-08-14 06:41:59.170906 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/splitter_ims.cc:208: TRACE: 72 -> 150.214.150.68:4555[0m
+2016-08-14 06:41:59.171136 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/splitter_ims.cc:208: TRACE: 73 -> 150.214.150.68:4555[0m
+2016-08-14 06:41:59.171371 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/splitter_ims.cc:208: TRACE: 74 -> 150.214.150.68:4555[0m
+2016-08-14 06:41:59.209961 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/splitter_ims.cc:208: TRACE: 75 -> 150.214.150.68:4555[0m
+2016-08-14 06:41:59.210272 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/splitter_ims.cc:208: TRACE: 76 -> 150.214.150.68:4555[0m
+2016-08-14 06:41:59.210515 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/splitter_ims.cc:208: TRACE: 77 -> 150.214.150.68:4555[0m
+2016-08-14 06:41:59.210767 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/splitter_ims.cc:208: TRACE: 78 -> 150.214.150.68:4555[0m
+2016-08-14 06:41:59.223122 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/splitter_ims.cc:208: TRACE: 79 -> 150.214.150.68:4555[0m
+2016-08-14 06:41:59.223357 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/splitter_ims.cc:208: TRACE: 80 -> 150.214.150.68:4555[0m
+2016-08-14 06:41:59.223580 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/splitter_ims.cc:208: TRACE: 81 -> 150.214.150.68:4555[0m
+2016-08-14 06:41:59.223830 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/splitter_ims.cc:208: TRACE: 82 -> 150.214.150.68:4555[0m
+2016-08-14 06:41:59.252307 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/splitter_ims.cc:208: TRACE: 83 -> 150.214.150.68:4555[0m
+2016-08-14 06:41:59.252596 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/splitter_ims.cc:208: TRACE: 84 -> 150.214.150.68:4555[0m
+2016-08-14 06:41:59.252856 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/splitter_ims.cc:208: TRACE: 85 -> 150.214.150.68:4555[0m
+2016-08-14 06:41:59.253111 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/splitter_ims.cc:208: TRACE: 86 -> 150.214.150.68:4555[0m
+2016-08-14 06:41:59.253908 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/splitter_ims.cc:208: TRACE: 87 -> 150.214.150.68:4555[0m
+2016-08-14 06:41:59.254186 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/splitter_ims.cc:208: TRACE: 88 -> 150.214.150.68:4555[0m
+2016-08-14 06:41:59.254415 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/splitter_ims.cc:208: TRACE: 89 -> 150.214.150.68:4555[0m
+2016-08-14 06:41:59.254663 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/splitter_ims.cc:208: TRACE: 90 -> 150.214.150.68:4555[0m
+2016-08-14 06:41:59.254890 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/splitter_ims.cc:208: TRACE: 91 -> 150.214.150.68:4555[0m
+2016-08-14 06:41:59.292500 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/splitter_ims.cc:208: TRACE: 92 -> 150.214.150.68:4555[0m
+2016-08-14 06:41:59.292791 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/splitter_ims.cc:208: TRACE: 93 -> 150.214.150.68:4555[0m
+2016-08-14 06:41:59.293045 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/splitter_ims.cc:208: TRACE: 94 -> 150.214.150.68:4555[0m
+2016-08-14 06:41:59.293283 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/splitter_ims.cc:208: TRACE: 95 -> 150.214.150.68:4555[0m
+2016-08-14 06:41:59.334623 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/splitter_ims.cc:208: TRACE: 96 -> 150.214.150.68:4555[0m
+2016-08-14 06:41:59.334927 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/splitter_ims.cc:208: TRACE: 97 -> 150.214.150.68:4555[0m
+2016-08-14 06:41:59.335230 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/splitter_ims.cc:208: TRACE: 98 -> 150.214.150.68:4555[0m
+2016-08-14 06:41:59.335474 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/splitter_ims.cc:208: TRACE: 99 -> 150.214.150.68:4555[0m
+2016-08-14 06:41:59.376757 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/splitter_ims.cc:208: TRACE: 100 -> 150.214.150.68:4555[0m
+2016-08-14 06:41:59.377061 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/splitter_ims.cc:208: TRACE: 101 -> 150.214.150.68:4555[0m
+2016-08-14 06:41:59.377303 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/splitter_ims.cc:208: TRACE: 102 -> 150.214.150.68:4555[0m
+2016-08-14 06:41:59.377540 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/splitter_ims.cc:208: TRACE: 103 -> 150.214.150.68:4555[0m
+2016-08-14 06:41:59.378134 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/splitter_ims.cc:208: TRACE: 104 -> 150.214.150.68:4555[0m
+2016-08-14 06:41:59.378398 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/splitter_ims.cc:208: TRACE: 105 -> 150.214.150.68:4555[0m
+2016-08-14 06:41:59.378632 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/splitter_ims.cc:208: TRACE: 106 -> 150.214.150.68:4555[0m
+2016-08-14 06:41:59.378855 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/splitter_ims.cc:208: TRACE: 107 -> 150.214.150.68:4555[0m
+2016-08-14 06:41:59.417934 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/splitter_ims.cc:208: TRACE: 108 -> 150.214.150.68:4555[0m
+2016-08-14 06:41:59.418278 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/splitter_ims.cc:208: TRACE: 109 -> 150.214.150.68:4555[0m
+2016-08-14 06:41:59.418525 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/splitter_ims.cc:208: TRACE: 110 -> 150.214.150.68:4555[0m
+2016-08-14 06:41:59.418759 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/splitter_ims.cc:208: TRACE: 111 -> 150.214.150.68:4555[0m
+2016-08-14 06:41:59.460048 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/splitter_ims.cc:208: TRACE: 112 -> 150.214.150.68:4555[0m
+2016-08-14 06:41:59.460353 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/splitter_ims.cc:208: TRACE: 113 -> 150.214.150.68:4555[0m
+2016-08-14 06:41:59.460591 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/splitter_ims.cc:208: TRACE: 114 -> 150.214.150.68:4555[0m
+2016-08-14 06:41:59.460830 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/splitter_ims.cc:208: TRACE: 115 -> 150.214.150.68:4555[0m
+2016-08-14 06:41:59.461060 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/splitter_ims.cc:208: TRACE: 116 -> 150.214.150.68:4555[0m
+2016-08-14 06:41:59.502193 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/splitter_ims.cc:208: TRACE: 117 -> 150.214.150.68:4555[0m
+2016-08-14 06:41:59.502463 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/splitter_ims.cc:208: TRACE: 118 -> 150.214.150.68:4555[0m
+2016-08-14 06:41:59.502700 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/splitter_ims.cc:208: TRACE: 119 -> 150.214.150.68:4555[0m
+2016-08-14 06:41:59.502934 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/splitter_ims.cc:208: TRACE: 120 -> 150.214.150.68:4555[0m
+2016-08-14 06:41:59.543322 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/splitter_ims.cc:208: TRACE: 121 -> 150.214.150.68:4555[0m
+2016-08-14 06:41:59.543614 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/splitter_ims.cc:208: TRACE: 122 -> 150.214.150.68:4555[0m
+2016-08-14 06:41:59.543852 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/splitter_ims.cc:208: TRACE: 123 -> 150.214.150.68:4555[0m
+2016-08-14 06:41:59.544088 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/splitter_ims.cc:208: TRACE: 124 -> 150.214.150.68:4555[0m
+2016-08-14 06:41:59.584446 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/splitter_ims.cc:208: TRACE: 125 -> 150.214.150.68:4555[0m
+2016-08-14 06:41:59.584728 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/splitter_ims.cc:208: TRACE: 126 -> 150.214.150.68:4555[0m
+2016-08-14 06:41:59.584967 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/splitter_ims.cc:208: TRACE: 127 -> 150.214.150.68:4555[0m
+2016-08-14 06:41:59.585202 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/splitter_ims.cc:208: TRACE: 128 -> 150.214.150.68:4555[0m
+2016-08-14 06:41:59.709682 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/splitter_ims.cc:208: TRACE: 129 -> 150.214.150.68:4555[0m
+2016-08-14 06:41:59.709991 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/splitter_ims.cc:208: TRACE: 130 -> 150.214.150.68:4555[0m
+2016-08-14 06:41:59.710254 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/splitter_ims.cc:208: TRACE: 131 -> 150.214.150.68:4555[0m
+2016-08-14 06:41:59.710493 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/splitter_ims.cc:208: TRACE: 132 -> 150.214.150.68:4555[0m
+2016-08-14 06:41:59.876916 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/splitter_ims.cc:208: TRACE: 133 -> 150.214.150.68:4555[0m
+2016-08-14 06:41:59.877249 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/splitter_ims.cc:208: TRACE: 134 -> 150.214.150.68:4555[0m
+2016-08-14 06:41:59.877493 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/splitter_ims.cc:208: TRACE: 135 -> 150.214.150.68:4555[0m
+2016-08-14 06:41:59.877731 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/splitter_ims.cc:208: TRACE: 136 -> 150.214.150.68:4555[0m
+2016-08-14 06:41:59.948064 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/splitter_ims.cc:208: TRACE: 137 -> 150.214.150.68:4555[0m
+2016-08-14 06:41:59.948371 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/splitter_ims.cc:208: TRACE: 138 -> 150.214.150.68:4555[0m
+2016-08-14 06:41:59.948615 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/splitter_ims.cc:208: TRACE: 139 -> 150.214.150.68:4555[0m
+2016-08-14 06:41:59.948850 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/splitter_ims.cc:208: TRACE: 140 -> 150.214.150.68:4555[0m
+2016-08-14 06:42:00.335588 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/splitter_ims.cc:208: TRACE: 141 -> 150.214.150.68:4555[0m
+2016-08-14 06:42:00.335971 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/splitter_ims.cc:208: TRACE: 142 -> 150.214.150.68:4555[0m
+2016-08-14 06:42:00.336209 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/splitter_ims.cc:208: TRACE: 143 -> 150.214.150.68:4555[0m
+2016-08-14 06:42:00.336444 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/splitter_ims.cc:208: TRACE: 144 -> 150.214.150.68:4555[0m
+2016-08-14 06:42:00.673011 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/splitter_ims.cc:208: TRACE: 145 -> 150.214.150.68:4555[0m
+2016-08-14 06:42:00.673345 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/splitter_ims.cc:208: TRACE: 146 -> 150.214.150.68:4555[0m
+2016-08-14 06:42:00.673589 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/splitter_ims.cc:208: TRACE: 147 -> 150.214.150.68:4555[0m
+2016-08-14 06:42:00.673822 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/splitter_ims.cc:208: TRACE: 148 -> 150.214.150.68:4555[0m
+2016-08-14 06:42:00.674082 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/splitter_ims.cc:208: TRACE: 149 -> 150.214.150.68:4555[0m
+2016-08-14 06:42:00.793224 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/splitter_ims.cc:208: TRACE: 150 -> 150.214.150.68:4555[0m
+2016-08-14 06:42:00.793550 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/splitter_ims.cc:208: TRACE: 151 -> 150.214.150.68:4555[0m
+2016-08-14 06:42:00.793788 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/splitter_ims.cc:208: TRACE: 152 -> 150.214.150.68:4555[0m
+2016-08-14 06:42:00.794051 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/splitter_ims.cc:208: TRACE: 153 -> 150.214.150.68:4555[0m
+2016-08-14 06:42:01.126698 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/splitter_ims.cc:208: TRACE: 154 -> 150.214.150.68:4555[0m
+2016-08-14 06:42:01.127040 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/splitter_ims.cc:208: TRACE: 155 -> 150.214.150.68:4555[0m
+2016-08-14 06:42:01.127280 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/splitter_ims.cc:208: TRACE: 156 -> 150.214.150.68:4555[0m
+2016-08-14 06:42:01.127545 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/splitter_ims.cc:208: TRACE: 157 -> 150.214.150.68:4555[0m
+2016-08-14 06:42:01.313001 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/splitter_ims.cc:208: TRACE: 158 -> 150.214.150.68:4555[0m
+2016-08-14 06:42:01.313348 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/splitter_ims.cc:208: TRACE: 159 -> 150.214.150.68:4555[0m
+2016-08-14 06:42:01.313698 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/splitter_ims.cc:208: TRACE: 160 -> 150.214.150.68:4555[0m
+2016-08-14 06:42:01.313945 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/splitter_ims.cc:208: TRACE: 161 -> 150.214.150.68:4555[0m
+2016-08-14 06:42:01.418188 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/splitter_ims.cc:208: TRACE: 162 -> 150.214.150.68:4555[0m
+2016-08-14 06:42:01.418509 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/splitter_ims.cc:208: TRACE: 163 -> 150.214.150.68:4555[0m
+2016-08-14 06:42:01.418775 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/splitter_ims.cc:208: TRACE: 164 -> 150.214.150.68:4555[0m
+2016-08-14 06:42:01.419020 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/splitter_ims.cc:208: TRACE: 165 -> 150.214.150.68:4555[0m
+2016-08-14 06:42:01.668533 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/splitter_ims.cc:208: TRACE: 166 -> 150.214.150.68:4555[0m
+2016-08-14 06:42:01.668861 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/splitter_ims.cc:208: TRACE: 167 -> 150.214.150.68:4555[0m
+2016-08-14 06:42:01.669124 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/splitter_ims.cc:208: TRACE: 168 -> 150.214.150.68:4555[0m
+2016-08-14 06:42:01.669364 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/splitter_ims.cc:208: TRACE: 169 -> 150.214.150.68:4555[0m
+2016-08-14 06:42:01.834792 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/splitter_ims.cc:208: TRACE: 170 -> 150.214.150.68:4555[0m
+2016-08-14 06:42:01.835118 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/splitter_ims.cc:208: TRACE: 171 -> 150.214.150.68:4555[0m
+2016-08-14 06:42:01.835377 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/splitter_ims.cc:208: TRACE: 172 -> 150.214.150.68:4555[0m
+2016-08-14 06:42:01.835621 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/splitter_ims.cc:208: TRACE: 173 -> 150.214.150.68:4555[0m
+2016-08-14 06:42:02.002074 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/splitter_ims.cc:208: TRACE: 174 -> 150.214.150.68:4555[0m
+2016-08-14 06:42:02.002429 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/splitter_ims.cc:208: TRACE: 175 -> 150.214.150.68:4555[0m
+2016-08-14 06:42:02.002697 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/splitter_ims.cc:208: TRACE: 176 -> 150.214.150.68:4555[0m
+2016-08-14 06:42:02.002938 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/splitter_ims.cc:208: TRACE: 177 -> 150.214.150.68:4555[0m
+2016-08-14 06:42:02.039199 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/splitter_ims.cc:208: TRACE: 178 -> 150.214.150.68:4555[0m
+2016-08-14 06:42:02.039500 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/splitter_ims.cc:208: TRACE: 179 -> 150.214.150.68:4555[0m
+2016-08-14 06:42:02.039767 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/splitter_ims.cc:208: TRACE: 180 -> 150.214.150.68:4555[0m
+2016-08-14 06:42:02.040007 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/splitter_ims.cc:208: TRACE: 181 -> 150.214.150.68:4555[0m
+2016-08-14 06:42:02.040242 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/splitter_ims.cc:208: TRACE: 182 -> 150.214.150.68:4555[0m
+2016-08-14 06:42:02.126397 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/splitter_ims.cc:208: TRACE: 183 -> 150.214.150.68:4555[0m
+2016-08-14 06:42:02.126712 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/splitter_ims.cc:208: TRACE: 184 -> 150.214.150.68:4555[0m
+2016-08-14 06:42:02.126953 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/splitter_ims.cc:208: TRACE: 185 -> 150.214.150.68:4555[0m
+2016-08-14 06:42:02.127190 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/splitter_ims.cc:208: TRACE: 186 -> 150.214.150.68:4555[0m
+2016-08-14 06:42:02.292684 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/splitter_ims.cc:208: TRACE: 187 -> 150.214.150.68:4555[0m
+2016-08-14 06:42:02.293028 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/splitter_ims.cc:208: TRACE: 188 -> 150.214.150.68:4555[0m
+2016-08-14 06:42:02.293268 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/splitter_ims.cc:208: TRACE: 189 -> 150.214.150.68:4555[0m
+2016-08-14 06:42:02.293503 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/splitter_ims.cc:208: TRACE: 190 -> 150.214.150.68:4555[0m
+2016-08-14 06:42:02.376871 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/splitter_ims.cc:208: TRACE: 191 -> 150.214.150.68:4555[0m
+2016-08-14 06:42:02.377237 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/splitter_ims.cc:208: TRACE: 192 -> 150.214.150.68:4555[0m
+2016-08-14 06:42:02.377477 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/splitter_ims.cc:208: TRACE: 193 -> 150.214.150.68:4555[0m
+2016-08-14 06:42:02.377714 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/splitter_ims.cc:208: TRACE: 194 -> 150.214.150.68:4555[0m
+2016-08-14 06:42:02.460054 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/splitter_ims.cc:208: TRACE: 195 -> 150.214.150.68:4555[0m
+2016-08-14 06:42:02.460402 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/splitter_ims.cc:208: TRACE: 196 -> 150.214.150.68:4555[0m
+2016-08-14 06:42:02.460645 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/splitter_ims.cc:208: TRACE: 197 -> 150.214.150.68:4555[0m
+2016-08-14 06:42:02.460886 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/splitter_ims.cc:208: TRACE: 198 -> 150.214.150.68:4555[0m
+2016-08-14 06:42:02.585274 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/splitter_ims.cc:208: TRACE: 199 -> 150.214.150.68:4555[0m
+2016-08-14 06:42:02.585615 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/splitter_ims.cc:208: TRACE: 200 -> 150.214.150.68:4555[0m
+2016-08-14 06:42:02.585856 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/splitter_ims.cc:208: TRACE: 201 -> 150.214.150.68:4555[0m
+2016-08-14 06:42:02.586093 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/splitter_ims.cc:208: TRACE: 202 -> 150.214.150.68:4555[0m
+2016-08-14 06:42:02.586346 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/splitter_ims.cc:208: TRACE: 203 -> 150.214.150.68:4555[0m
+2016-08-14 06:42:02.709486 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/splitter_ims.cc:208: TRACE: 204 -> 150.214.150.68:4555[0m
+2016-08-14 06:42:02.709807 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/splitter_ims.cc:208: TRACE: 205 -> 150.214.150.68:4555[0m
+2016-08-14 06:42:02.710050 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/splitter_ims.cc:208: TRACE: 206 -> 150.214.150.68:4555[0m
+2016-08-14 06:42:02.710307 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/splitter_ims.cc:208: TRACE: 207 -> 150.214.150.68:4555[0m
+2016-08-14 06:42:02.720595 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/splitter_ims.cc:208: TRACE: 208 -> 150.214.150.68:4555[0m
+2016-08-14 06:42:02.720853 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/splitter_ims.cc:208: TRACE: 209 -> 150.214.150.68:4555[0m
+2016-08-14 06:42:02.721095 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/splitter_ims.cc:208: TRACE: 210 -> 150.214.150.68:4555[0m
+2016-08-14 06:42:02.721333 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/splitter_ims.cc:208: TRACE: 211 -> 150.214.150.68:4555[0m
+2016-08-14 06:42:02.751729 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/splitter_ims.cc:208: TRACE: 212 -> 150.214.150.68:4555[0m
+2016-08-14 06:42:02.752016 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/splitter_ims.cc:208: TRACE: 213 -> 150.214.150.68:4555[0m
+2016-08-14 06:42:02.752257 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/splitter_ims.cc:208: TRACE: 214 -> 150.214.150.68:4555[0m
+2016-08-14 06:42:02.752494 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/splitter_ims.cc:208: TRACE: 215 -> 150.214.150.68:4555[0m
+2016-08-14 06:42:02.792846 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/splitter_ims.cc:208: TRACE: 216 -> 150.214.150.68:4555[0m
+2016-08-14 06:42:02.793137 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/splitter_ims.cc:208: TRACE: 217 -> 150.214.150.68:4555[0m
+2016-08-14 06:42:02.793377 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/splitter_ims.cc:208: TRACE: 218 -> 150.214.150.68:4555[0m
+2016-08-14 06:42:02.793613 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/splitter_ims.cc:208: TRACE: 219 -> 150.214.150.68:4555[0m
+2016-08-14 06:42:02.834973 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/splitter_ims.cc:208: TRACE: 220 -> 150.214.150.68:4555[0m
+2016-08-14 06:42:02.835267 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/splitter_ims.cc:208: TRACE: 221 -> 150.214.150.68:4555[0m
+2016-08-14 06:42:02.835596 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/splitter_ims.cc:208: TRACE: 222 -> 150.214.150.68:4555[0m
+2016-08-14 06:42:02.835850 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/splitter_ims.cc:208: TRACE: 223 -> 150.214.150.68:4555[0m
+2016-08-14 06:42:02.836090 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/splitter_ims.cc:208: TRACE: 224 -> 150.214.150.68:4555[0m
+2016-08-14 06:42:02.918175 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/splitter_ims.cc:208: TRACE: 225 -> 150.214.150.68:4555[0m
+2016-08-14 06:42:02.918468 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/splitter_ims.cc:208: TRACE: 226 -> 150.214.150.68:4555[0m
+2016-08-14 06:42:02.918727 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/splitter_ims.cc:208: TRACE: 227 -> 150.214.150.68:4555[0m
+2016-08-14 06:42:02.918964 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/splitter_ims.cc:208: TRACE: 228 -> 150.214.150.68:4555[0m
+2016-08-14 06:42:02.960278 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/splitter_ims.cc:208: TRACE: 229 -> 150.214.150.68:4555[0m
+2016-08-14 06:42:02.960568 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/splitter_ims.cc:208: TRACE: 230 -> 150.214.150.68:4555[0m
+2016-08-14 06:42:02.960827 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/splitter_ims.cc:208: TRACE: 231 -> 150.214.150.68:4555[0m
+2016-08-14 06:42:02.961069 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/splitter_ims.cc:208: TRACE: 232 -> 150.214.150.68:4555[0m
+2016-08-14 06:42:03.042452 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/splitter_ims.cc:208: TRACE: 233 -> 150.214.150.68:4555[0m
+2016-08-14 06:42:03.042763 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/splitter_ims.cc:208: TRACE: 234 -> 150.214.150.68:4555[0m
+2016-08-14 06:42:03.043032 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/splitter_ims.cc:208: TRACE: 235 -> 150.214.150.68:4555[0m
+2016-08-14 06:42:03.043276 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/splitter_ims.cc:208: TRACE: 236 -> 150.214.150.68:4555[0m
+2016-08-14 06:42:03.044048 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/splitter_ims.cc:208: TRACE: 237 -> 150.214.150.68:4555[0m
+2016-08-14 06:42:03.044279 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/splitter_ims.cc:208: TRACE: 238 -> 150.214.150.68:4555[0m
+2016-08-14 06:42:03.044510 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/splitter_ims.cc:208: TRACE: 239 -> 150.214.150.68:4555[0m
+2016-08-14 06:42:03.171692 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/splitter_ims.cc:208: TRACE: 240 -> 150.214.150.68:4555[0m
+2016-08-14 06:42:03.171993 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/splitter_ims.cc:208: TRACE: 241 -> 150.214.150.68:4555[0m
+2016-08-14 06:42:03.172234 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/splitter_ims.cc:208: TRACE: 242 -> 150.214.150.68:4555[0m
+2016-08-14 06:42:03.172494 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/splitter_ims.cc:208: TRACE: 243 -> 150.214.150.68:4555[0m
+2016-08-14 06:42:03.460089 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/splitter_ims.cc:208: TRACE: 244 -> 150.214.150.68:4555[0m
+2016-08-14 06:42:03.460402 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/splitter_ims.cc:208: TRACE: 245 -> 150.214.150.68:4555[0m
+2016-08-14 06:42:03.460642 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/splitter_ims.cc:208: TRACE: 246 -> 150.214.150.68:4555[0m
+2016-08-14 06:42:03.799549 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/splitter_ims.cc:208: TRACE: 247 -> 150.214.150.68:4555[0m
+2016-08-14 06:42:03.799859 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/splitter_ims.cc:208: TRACE: 248 -> 150.214.150.68:4555[0m
+2016-08-14 06:42:03.800098 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/splitter_ims.cc:208: TRACE: 249 -> 150.214.150.68:4555[0m
+2016-08-14 06:42:03.800336 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/splitter_ims.cc:208: TRACE: 250 -> 150.214.150.68:4555[0m
+2016-08-14 06:42:03.834650 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/splitter_ims.cc:208: TRACE: 251 -> 150.214.150.68:4555[0m
+2016-08-14 06:42:03.834942 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/splitter_ims.cc:208: TRACE: 252 -> 150.214.150.68:4555[0m
+2016-08-14 06:42:03.835252 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/splitter_ims.cc:208: TRACE: 253 -> 150.214.150.68:4555[0m
+2016-08-14 06:42:03.835490 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/splitter_ims.cc:208: TRACE: 254 -> 150.214.150.68:4555[0m
+2016-08-14 06:42:03.917865 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/splitter_ims.cc:208: TRACE: 255 -> 150.214.150.68:4555[0m
+2016-08-14 06:42:03.918174 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/splitter_ims.cc:208: TRACE: 256 -> 150.214.150.68:4555[0m
+2016-08-14 06:42:03.918439 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/splitter_ims.cc:208: TRACE: 257 -> 150.214.150.68:4555[0m
+2016-08-14 06:42:03.918673 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/splitter_ims.cc:208: TRACE: 258 -> 150.214.150.68:4555[0m
+2016-08-14 06:42:04.210298 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/splitter_ims.cc:208: TRACE: 259 -> 150.214.150.68:4555[0m
+2016-08-14 06:42:04.210661 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/splitter_ims.cc:208: TRACE: 260 -> 150.214.150.68:4555[0m
+2016-08-14 06:42:04.210900 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/splitter_ims.cc:208: TRACE: 261 -> 150.214.150.68:4555[0m
+2016-08-14 06:42:04.211136 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/splitter_ims.cc:208: TRACE: 262 -> 150.214.150.68:4555[0m
+2016-08-14 06:42:04.395560 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/splitter_ims.cc:208: TRACE: 263 -> 150.214.150.68:4555[0m
+2016-08-14 06:42:04.395882 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/splitter_ims.cc:208: TRACE: 264 -> 150.214.150.68:4555[0m
+2016-08-14 06:42:04.396126 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/splitter_ims.cc:208: TRACE: 265 -> 150.214.150.68:4555[0m
+2016-08-14 06:42:04.396361 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/splitter_ims.cc:208: TRACE: 266 -> 150.214.150.68:4555[0m
+2016-08-14 06:42:04.396593 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/splitter_ims.cc:208: TRACE: 267 -> 150.214.150.68:4555[0m
+2016-08-14 06:42:04.459707 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/splitter_ims.cc:208: TRACE: 268 -> 150.214.150.68:4555[0m
+2016-08-14 06:42:04.459997 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/splitter_ims.cc:208: TRACE: 269 -> 150.214.150.68:4555[0m
+2016-08-14 06:42:04.460238 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/splitter_ims.cc:208: TRACE: 270 -> 150.214.150.68:4555[0m
+2016-08-14 06:42:04.460472 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/splitter_ims.cc:208: TRACE: 271 -> 150.214.150.68:4555[0m
+2016-08-14 06:42:04.668035 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/splitter_ims.cc:208: TRACE: 272 -> 150.214.150.68:4555[0m
+2016-08-14 06:42:04.668336 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/splitter_ims.cc:208: TRACE: 273 -> 150.214.150.68:4555[0m
+2016-08-14 06:42:04.668577 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/splitter_ims.cc:208: TRACE: 274 -> 150.214.150.68:4555[0m
+2016-08-14 06:42:04.668810 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/splitter_ims.cc:208: TRACE: 275 -> 150.214.150.68:4555[0m
+2016-08-14 06:42:04.960436 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/splitter_ims.cc:208: TRACE: 276 -> 150.214.150.68:4555[0m
+2016-08-14 06:42:04.960747 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/splitter_ims.cc:208: TRACE: 277 -> 150.214.150.68:4555[0m
+2016-08-14 06:42:04.960985 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/splitter_ims.cc:208: TRACE: 278 -> 150.214.150.68:4555[0m
+2016-08-14 06:42:04.961218 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/splitter_ims.cc:208: TRACE: 279 -> 150.214.150.68:4555[0m
+2016-08-14 06:42:05.035624 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/splitter_ims.cc:208: TRACE: 280 -> 150.214.150.68:4555[0m
+2016-08-14 06:42:05.035915 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/splitter_ims.cc:208: TRACE: 281 -> 150.214.150.68:4555[0m
+2016-08-14 06:42:05.036155 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/splitter_ims.cc:208: TRACE: 282 -> 150.214.150.68:4555[0m
+2016-08-14 06:42:05.036390 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/splitter_ims.cc:208: TRACE: 283 -> 150.214.150.68:4555[0m
+2016-08-14 06:42:05.121465 Accepted connection from peer 207.81.36.166:41666
+2016-08-14 06:42:05.121616 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/splitter_ems.cc:156: TRACE: peer local endpoint = (192.168.1.131,41666)[0m
+2016-08-14 06:42:05.121688 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/splitter_ims.cc:222: TRACE: Communicating the multicast channel (0.0.0.0, 4554)[0m
+2016-08-14 06:42:05.121753 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/splitter_ims.cc:234: TRACE: Communicating the header size 10[0m
+2016-08-14 06:42:05.121793 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/splitter_ims.cc:248: TRACE: Sending a chunk_size of 1024 bytes[0m
+2016-08-14 06:42:05.121830 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/splitter_ims.cc:262: TRACE: Sending a header of 10240 bytes[0m
+2016-08-14 06:42:05.121916 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/splitter_ims.cc:274: TRACE: Sending a buffer_size of 256 bytes[0m
+2016-08-14 06:42:05.121966 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/splitter_dbs.cc:51: TRACE: Magic flags = 00001000[0m
+2016-08-14 06:42:05.122004 Sending the monitors as the list of peers
+2016-08-14 06:42:05.122084 Sending ID X2WV9J9 to peer 207.81.36.166:41666
+2016-08-14 06:42:05.293032 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/splitter_ims.cc:208: TRACE: 284 -> 150.214.150.68:4555[0m
+2016-08-14 06:42:05.293375 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/splitter_ims.cc:208: TRACE: 285 -> 150.214.150.68:4555[0m
+2016-08-14 06:42:05.293611 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/splitter_ims.cc:208: TRACE: 286 -> 150.214.150.68:4555[0m
+2016-08-14 06:42:05.293844 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/splitter_ims.cc:208: TRACE: 287 -> 150.214.150.68:4555[0m
+2016-08-14 06:42:05.377226 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/splitter_ims.cc:208: TRACE: 288 -> 150.214.150.68:4555[0m
+2016-08-14 06:42:05.377545 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/splitter_ims.cc:208: TRACE: 289 -> 150.214.150.68:4555[0m
+2016-08-14 06:42:05.377783 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/splitter_ims.cc:208: TRACE: 290 -> 150.214.150.68:4555[0m
+2016-08-14 06:42:05.378024 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/splitter_ims.cc:208: TRACE: 291 -> 150.214.150.68:4555[0m
+2016-08-14 06:42:05.459412 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/splitter_ims.cc:208: TRACE: 292 -> 150.214.150.68:4555[0m
+2016-08-14 06:42:05.459722 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/splitter_ims.cc:208: TRACE: 293 -> 150.214.150.68:4555[0m
+2016-08-14 06:42:05.459964 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/splitter_ims.cc:208: TRACE: 294 -> 150.214.150.68:4555[0m
+2016-08-14 06:42:05.460196 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/splitter_ims.cc:208: TRACE: 295 -> 150.214.150.68:4555[0m
+2016-08-14 06:42:05.501561 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/splitter_ims.cc:208: TRACE: 296 -> 150.214.150.68:4555[0m
+2016-08-14 06:42:05.501826 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/splitter_ims.cc:208: TRACE: 297 -> 150.214.150.68:4555[0m
+2016-08-14 06:42:05.502066 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/splitter_ims.cc:208: TRACE: 298 -> 150.214.150.68:4555[0m
+2016-08-14 06:42:05.502324 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/splitter_ims.cc:208: TRACE: 299 -> 150.214.150.68:4555[0m
+2016-08-14 06:42:05.502557 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/splitter_ims.cc:208: TRACE: 300 -> 150.214.150.68:4555[0m
+2016-08-14 06:42:05.527432 /home/kevin/p2pspTest/lib/p2psp/src/core/splitter_nts.cc:573: DEBUG: Message length = 7
+2016-08-14 06:42:05.527562 Received [hello, I'm X2WV9J9] from 207.81.36.166:41666
+2016-08-14 06:42:05.527695 Updating peer X2WV9J9
+2016-08-14 06:42:05.527727 source port to splitter = 41666
+2016-08-14 06:42:05.527755 source ports to monitors = 0
+2016-08-14 06:42:05.529513 /home/kevin/p2pspTest/lib/p2psp/src/core/splitter_nts.cc:573: DEBUG: Message length = 9
+2016-08-14 06:42:05.529624 Received forwarded hello (ID X2WV9J9) from 150.214.150.68:4555
+2016-08-14 06:42:05.529710 Incorporating the peer X2WV9J9. Source ports: 41666, 41666
+2016-08-14 06:42:05.529825 Sending the list of peers except monitors (0 peers)
+2016-08-14 06:42:05.529935 /home/kevin/p2pspTest/lib/p2psp/src/core/splitter_nts.cc:546: DEBUG: Previous port step: 0. Port diff: 41666 - 41666. New port step: 0
+2016-08-14 06:42:05.530036 /home/kevin/p2pspTest/lib/p2psp/src/core/splitter_ems.cc:209: DEBUG: Listening to the extra port 57533
+2016-08-14 06:42:05.530069 /home/kevin/p2pspTest/lib/p2psp/src/core/splitter_ems.cc:210: DEBUG: Sending [send hello to 207.81.36.166:41666]
+2016-08-14 06:42:05.542781 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/splitter_ims.cc:208: TRACE: 301 -> 150.214.150.68:4555[0m
+2016-08-14 06:42:05.543048 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/splitter_ims.cc:208: TRACE: 302 -> 150.214.150.68:4555[0m
+2016-08-14 06:42:05.543294 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/splitter_ims.cc:208: TRACE: 303 -> 150.214.150.68:4555[0m
+2016-08-14 06:42:05.543537 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/splitter_ims.cc:208: TRACE: 304 -> 150.214.150.68:4555[0m
+2016-08-14 06:42:05.626992 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/splitter_ims.cc:208: TRACE: 305 -> 150.214.150.68:4555[0m
+2016-08-14 06:42:05.627272 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/splitter_ims.cc:208: TRACE: 306 -> 150.214.150.68:4555[0m
+2016-08-14 06:42:05.627508 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/splitter_ims.cc:208: TRACE: 307 -> 150.214.150.68:4555[0m
+2016-08-14 06:42:05.627745 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/splitter_ims.cc:208: TRACE: 308 -> 150.214.150.68:4555[0m
+2016-08-14 06:42:05.710201 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/splitter_ims.cc:208: TRACE: 309 -> 150.214.150.68:4555[0m
+2016-08-14 06:42:05.710514 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/splitter_ims.cc:208: TRACE: 310 -> 150.214.150.68:4555[0m
+2016-08-14 06:42:05.710753 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/splitter_ims.cc:208: TRACE: 311 -> 150.214.150.68:4555[0m
+2016-08-14 06:42:05.710988 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/splitter_ims.cc:208: TRACE: 312 -> 150.214.150.68:4555[0m
+2016-08-14 06:42:05.733545 /home/kevin/p2pspTest/lib/p2psp/src/core/splitter_nts.cc:573: DEBUG: Message length = 7
+2016-08-14 06:42:05.733634 Received [hello, I'm X2WV9J9] from 207.81.36.166:41666
+2016-08-14 06:42:05.733704 /home/kevin/p2pspTest/lib/p2psp/src/core/splitter_nts.cc:609: DEBUG: Peer ID X2WV9J9 is not an arriving peer
+2016-08-14 06:42:05.735122 /home/kevin/p2pspTest/lib/p2psp/src/core/splitter_nts.cc:573: DEBUG: Message length = 9
+2016-08-14 06:42:05.735178 Received forwarded hello (ID X2WV9J9) from 150.214.150.68:4555
+2016-08-14 06:42:05.735231 /home/kevin/p2pspTest/lib/p2psp/src/core/splitter_nts.cc:652: DEBUG: Peer ID X2WV9J9 is not an arriving peer
+2016-08-14 06:42:05.735275 /home/kevin/p2pspTest/lib/p2psp/src/core/splitter_nts.cc:573: DEBUG: Message length = 8
+2016-08-14 06:42:05.735354 Peer X2WV9J9 successfully incorporated
+2016-08-14 06:42:05.735469 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/splitter_dbs.cc:113: TRACE: Inserted peer 207.81.36.166:41666[0m
+2016-08-14 06:42:05.735576 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/splitter_acs.cc:37: TRACE: Inserted 207.81.36.166:41666[0m
+2016-08-14 06:42:05.760330 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/splitter_ims.cc:208: TRACE: 313 -> 150.214.150.68:4555[0m
+2016-08-14 06:42:05.760657 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/splitter_ims.cc:208: TRACE: 314 -> 150.214.150.68:4555[0m
+2016-08-14 06:42:05.760900 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/splitter_ims.cc:208: TRACE: 315 -> 207.81.36.166:41666[0m
+2016-08-14 06:42:05.761135 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/splitter_ims.cc:208: TRACE: 316 -> 150.214.150.68:4555[0m
+2016-08-14 06:42:05.792457 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/splitter_ims.cc:208: TRACE: 317 -> 207.81.36.166:41666[0m
+2016-08-14 06:42:05.792737 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/splitter_ims.cc:208: TRACE: 318 -> 150.214.150.68:4555[0m
+2016-08-14 06:42:05.792972 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/splitter_ims.cc:208: TRACE: 319 -> 207.81.36.166:41666[0m
+2016-08-14 06:42:05.793284 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/splitter_ims.cc:208: TRACE: 320 -> 150.214.150.68:4555[0m
+2016-08-14 06:42:06.001810 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/splitter_ims.cc:208: TRACE: 321 -> 207.81.36.166:41666[0m
+2016-08-14 06:42:06.002097 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/splitter_ims.cc:208: TRACE: 322 -> 150.214.150.68:4555[0m
+2016-08-14 06:42:06.002347 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/splitter_ims.cc:208: TRACE: 323 -> 207.81.36.166:41666[0m
+2016-08-14 06:42:06.002581 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/splitter_ims.cc:208: TRACE: 324 -> 150.214.150.68:4555[0m
+2016-08-14 06:42:06.002809 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/splitter_ims.cc:208: TRACE: 325 -> 207.81.36.166:41666[0m
+2016-08-14 06:42:06.335262 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/splitter_ims.cc:208: TRACE: 326 -> 150.214.150.68:4555[0m
+2016-08-14 06:42:06.335590 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/splitter_ims.cc:208: TRACE: 327 -> 207.81.36.166:41666[0m
+2016-08-14 06:42:06.335834 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/splitter_ims.cc:208: TRACE: 328 -> 150.214.150.68:4555[0m
+2016-08-14 06:42:06.336064 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/splitter_ims.cc:208: TRACE: 329 -> 207.81.36.166:41666[0m
+2016-08-14 06:42:06.443482 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/splitter_ims.cc:208: TRACE: 330 -> 150.214.150.68:4555[0m
+2016-08-14 06:42:06.443778 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/splitter_ims.cc:208: TRACE: 331 -> 207.81.36.166:41666[0m
+2016-08-14 06:42:06.444015 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/splitter_ims.cc:208: TRACE: 332 -> 150.214.150.68:4555[0m
+2016-08-14 06:42:06.444245 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/splitter_ims.cc:208: TRACE: 333 -> 207.81.36.166:41666[0m
+2016-08-14 06:42:06.501633 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/splitter_ims.cc:208: TRACE: 334 -> 150.214.150.68:4555[0m
+2016-08-14 06:42:06.501894 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/splitter_ims.cc:208: TRACE: 335 -> 207.81.36.166:41666[0m
+2016-08-14 06:42:06.502147 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/splitter_ims.cc:208: TRACE: 336 -> 150.214.150.68:4555[0m
+2016-08-14 06:42:06.502376 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/splitter_ims.cc:208: TRACE: 337 -> 207.81.36.166:41666[0m
+2016-08-14 06:42:06.584891 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/splitter_ims.cc:208: TRACE: 338 -> 150.214.150.68:4555[0m
+2016-08-14 06:42:06.585159 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/splitter_ims.cc:208: TRACE: 339 -> 207.81.36.166:41666[0m
+2016-08-14 06:42:06.585388 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/splitter_ims.cc:208: TRACE: 340 -> 150.214.150.68:4555[0m
+2016-08-14 06:42:06.585610 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/splitter_ims.cc:208: TRACE: 341 -> 207.81.36.166:41666[0m
+2016-08-14 06:42:06.585812 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/splitter_ims.cc:208: TRACE: 342 -> 150.214.150.68:4555[0m
+2016-08-14 06:42:06.586033 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/splitter_ims.cc:208: TRACE: 343 -> 207.81.36.166:41666[0m
+2016-08-14 06:42:06.586300 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/splitter_ims.cc:208: TRACE: 344 -> 150.214.150.68:4555[0m
+2016-08-14 06:42:06.586528 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/splitter_ims.cc:208: TRACE: 345 -> 207.81.36.166:41666[0m
+2016-08-14 06:42:06.586738 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/splitter_ims.cc:208: TRACE: 346 -> 150.214.150.68:4555[0m
+2016-08-14 06:42:06.835402 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/splitter_ims.cc:208: TRACE: 347 -> 207.81.36.166:41666[0m
+2016-08-14 06:42:06.835729 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/splitter_ims.cc:208: TRACE: 348 -> 150.214.150.68:4555[0m
+2016-08-14 06:42:06.835959 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/splitter_ims.cc:208: TRACE: 349 -> 207.81.36.166:41666[0m
+2016-08-14 06:42:06.836189 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/splitter_ims.cc:208: TRACE: 350 -> 150.214.150.68:4555[0m
+2016-08-14 06:42:06.836812 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/splitter_ims.cc:208: TRACE: 351 -> 207.81.36.166:41666[0m
+2016-08-14 06:42:06.837060 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/splitter_ims.cc:208: TRACE: 352 -> 150.214.150.68:4555[0m
+2016-08-14 06:42:06.837281 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/splitter_ims.cc:208: TRACE: 353 -> 207.81.36.166:41666[0m
+2016-08-14 06:42:06.837477 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/splitter_ims.cc:208: TRACE: 354 -> 150.214.150.68:4555[0m
+2016-08-14 06:42:06.837809 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/splitter_ims.cc:208: TRACE: 355 -> 207.81.36.166:41666[0m
+2016-08-14 06:42:06.838045 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/splitter_ims.cc:208: TRACE: 356 -> 150.214.150.68:4555[0m
+2016-08-14 06:42:06.838302 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/splitter_ims.cc:208: TRACE: 357 -> 207.81.36.166:41666[0m
+2016-08-14 06:42:06.838509 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/splitter_ims.cc:208: TRACE: 358 -> 150.214.150.68:4555[0m
+2016-08-14 06:42:06.917680 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/splitter_ims.cc:208: TRACE: 359 -> 207.81.36.166:41666[0m
+2016-08-14 06:42:06.917962 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/splitter_ims.cc:208: TRACE: 360 -> 150.214.150.68:4555[0m
+2016-08-14 06:42:06.918222 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/splitter_ims.cc:208: TRACE: 361 -> 207.81.36.166:41666[0m
+2016-08-14 06:42:06.918457 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/splitter_ims.cc:208: TRACE: 362 -> 150.214.150.68:4555[0m
+2016-08-14 06:42:06.918684 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/splitter_ims.cc:208: TRACE: 363 -> 207.81.36.166:41666[0m
+2016-08-14 06:42:07.001892 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/splitter_ims.cc:208: TRACE: 364 -> 150.214.150.68:4555[0m
+2016-08-14 06:42:07.002214 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/splitter_ims.cc:208: TRACE: 365 -> 207.81.36.166:41666[0m
+2016-08-14 06:42:07.002453 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/splitter_ims.cc:208: TRACE: 366 -> 150.214.150.68:4555[0m
+2016-08-14 06:42:07.002682 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/splitter_ims.cc:208: TRACE: 367 -> 207.81.36.166:41666[0m
+2016-08-14 06:42:07.025191 Accepted connection from peer 207.81.36.166:41667
+2016-08-14 06:42:07.026513 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/splitter_ems.cc:156: TRACE: peer local endpoint = (192.168.1.131,41667)[0m
+2016-08-14 06:42:07.026629 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/splitter_ims.cc:222: TRACE: Communicating the multicast channel (0.0.0.0, 4554)[0m
+2016-08-14 06:42:07.026691 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/splitter_ims.cc:234: TRACE: Communicating the header size 10[0m
+2016-08-14 06:42:07.026732 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/splitter_ims.cc:248: TRACE: Sending a chunk_size of 1024 bytes[0m
+2016-08-14 06:42:07.026770 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/splitter_ims.cc:262: TRACE: Sending a header of 10240 bytes[0m
+2016-08-14 06:42:07.026843 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/splitter_ims.cc:274: TRACE: Sending a buffer_size of 256 bytes[0m
+2016-08-14 06:42:07.026896 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/splitter_dbs.cc:51: TRACE: Magic flags = 00001000[0m
+2016-08-14 06:42:07.026943 Sending the monitors as the list of peers
+2016-08-14 06:42:07.027000 Sending ID ZNHUKL1 to peer 207.81.36.166:41667
+2016-08-14 06:42:07.085077 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/splitter_ims.cc:208: TRACE: 368 -> 150.214.150.68:4555[0m
+2016-08-14 06:42:07.085345 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/splitter_ims.cc:208: TRACE: 369 -> 207.81.36.166:41666[0m
+2016-08-14 06:42:07.085583 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/splitter_ims.cc:208: TRACE: 370 -> 150.214.150.68:4555[0m
+2016-08-14 06:42:07.085811 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/splitter_ims.cc:208: TRACE: 371 -> 207.81.36.166:41666[0m
+2016-08-14 06:42:07.127271 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/splitter_ims.cc:208: TRACE: 372 -> 150.214.150.68:4555[0m
+2016-08-14 06:42:07.127632 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/splitter_ims.cc:208: TRACE: 373 -> 207.81.36.166:41666[0m
+2016-08-14 06:42:07.127866 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/splitter_ims.cc:208: TRACE: 374 -> 150.214.150.68:4555[0m
+2016-08-14 06:42:07.128095 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/splitter_ims.cc:208: TRACE: 375 -> 207.81.36.166:41666[0m
+2016-08-14 06:42:07.167403 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/splitter_ims.cc:208: TRACE: 376 -> 150.214.150.68:4555[0m
+2016-08-14 06:42:07.167676 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/splitter_ims.cc:208: TRACE: 377 -> 207.81.36.166:41666[0m
+2016-08-14 06:42:07.167913 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/splitter_ims.cc:208: TRACE: 378 -> 150.214.150.68:4555[0m
+2016-08-14 06:42:07.168141 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/splitter_ims.cc:208: TRACE: 379 -> 207.81.36.166:41666[0m
+2016-08-14 06:42:07.251604 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/splitter_ims.cc:208: TRACE: 380 -> 150.214.150.68:4555[0m
+2016-08-14 06:42:07.251872 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/splitter_ims.cc:208: TRACE: 381 -> 207.81.36.166:41666[0m
+2016-08-14 06:42:07.252109 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/splitter_ims.cc:208: TRACE: 382 -> 150.214.150.68:4555[0m
+2016-08-14 06:42:07.252339 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/splitter_ims.cc:208: TRACE: 383 -> 207.81.36.166:41666[0m
+2016-08-14 06:42:07.376824 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/splitter_ims.cc:208: TRACE: 384 -> 150.214.150.68:4555[0m
+2016-08-14 06:42:07.377113 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/splitter_ims.cc:208: TRACE: 385 -> 207.81.36.166:41666[0m
+2016-08-14 06:42:07.377354 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/splitter_ims.cc:208: TRACE: 386 -> 150.214.150.68:4555[0m
+2016-08-14 06:42:07.377585 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/splitter_ims.cc:208: TRACE: 387 -> 207.81.36.166:41666[0m
+2016-08-14 06:42:07.454999 /home/kevin/p2pspTest/lib/p2psp/src/core/splitter_nts.cc:573: DEBUG: Message length = 7
+2016-08-14 06:42:07.455100 Received [hello, I'm ZNHUKL1] from 207.81.36.166:41667
+2016-08-14 06:42:07.455192 Updating peer ZNHUKL1
+2016-08-14 06:42:07.455235 source port to splitter = 41667
+2016-08-14 06:42:07.455266 source ports to monitors = 0
+2016-08-14 06:42:07.456355 /home/kevin/p2pspTest/lib/p2psp/src/core/splitter_nts.cc:573: DEBUG: Message length = 9
+2016-08-14 06:42:07.456413 Received forwarded hello (ID ZNHUKL1) from 150.214.150.68:4555
+2016-08-14 06:42:07.456472 Incorporating the peer ZNHUKL1. Source ports: 41667, 41667
+2016-08-14 06:42:07.456518 Sending the list of peers except monitors (1 peers)
+2016-08-14 06:42:07.456612 target peer at207.81.36.166 is in a private network with peer sent as(192.168.1.131,41666)
+2016-08-14 06:42:07.456685 /home/kevin/p2pspTest/lib/p2psp/src/core/splitter_nts.cc:546: DEBUG: Previous port step: 0. Port diff: 41667 - 41667. New port step: 0
+2016-08-14 06:42:07.456803 /home/kevin/p2pspTest/lib/p2psp/src/core/splitter_ems.cc:209: DEBUG: Listening to the extra port 42458
+2016-08-14 06:42:07.456839 /home/kevin/p2pspTest/lib/p2psp/src/core/splitter_ems.cc:210: DEBUG: Sending [send hello to 207.81.36.166:41667]
+2016-08-14 06:42:07.710286 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/splitter_ims.cc:208: TRACE: 388 -> 150.214.150.68:4555[0m
+2016-08-14 06:42:07.710607 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/splitter_ims.cc:208: TRACE: 389 -> 207.81.36.166:41666[0m
+2016-08-14 06:42:07.710860 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/splitter_ims.cc:208: TRACE: 390 -> 150.214.150.68:4555[0m
+2016-08-14 06:42:07.711099 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/splitter_ims.cc:208: TRACE: 391 -> 207.81.36.166:41666[0m
+2016-08-14 06:42:07.808472 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/splitter_ims.cc:208: TRACE: 392 -> 150.214.150.68:4555[0m
+2016-08-14 06:42:07.808778 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/splitter_ims.cc:208: TRACE: 393 -> 207.81.36.166:41666[0m
+2016-08-14 06:42:07.809107 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/splitter_ims.cc:208: TRACE: 394 -> 150.214.150.68:4555[0m
+2016-08-14 06:42:07.809348 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/splitter_ims.cc:208: TRACE: 395 -> 207.81.36.166:41666[0m
+2016-08-14 06:42:07.809587 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/splitter_ims.cc:208: TRACE: 396 -> 150.214.150.68:4555[0m
+2016-08-14 06:42:07.863507 /home/kevin/p2pspTest/lib/p2psp/src/core/splitter_nts.cc:573: DEBUG: Message length = 7
+2016-08-14 06:42:07.863610 Received [hello, I'm ZNHUKL1] from 207.81.36.166:41667
+2016-08-14 06:42:07.863681 /home/kevin/p2pspTest/lib/p2psp/src/core/splitter_nts.cc:609: DEBUG: Peer ID ZNHUKL1 is not an arriving peer
+2016-08-14 06:42:07.864610 /home/kevin/p2pspTest/lib/p2psp/src/core/splitter_nts.cc:573: DEBUG: Message length = 9
+2016-08-14 06:42:07.864666 Received forwarded hello (ID ZNHUKL1) from 150.214.150.68:4555
+2016-08-14 06:42:07.864714 /home/kevin/p2pspTest/lib/p2psp/src/core/splitter_nts.cc:652: DEBUG: Peer ID ZNHUKL1 is not an arriving peer
+2016-08-14 06:42:07.866717 /home/kevin/p2pspTest/lib/p2psp/src/core/splitter_nts.cc:573: DEBUG: Message length = 9
+2016-08-14 06:42:07.866775 Received source port of peer ZNHUKL1 from 207.81.36.166:41666
+2016-08-14 06:42:07.866843 /home/kevin/p2pspTest/lib/p2psp/src/core/splitter_nts.cc:691: DEBUG: Peer ID ZNHUKL1 unknown
+2016-08-14 06:42:07.876619 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/splitter_ims.cc:208: TRACE: 397 -> 207.81.36.166:41666[0m
+2016-08-14 06:42:07.876908 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/splitter_ims.cc:208: TRACE: 398 -> 150.214.150.68:4555[0m
+2016-08-14 06:42:07.877149 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/splitter_ims.cc:208: TRACE: 399 -> 207.81.36.166:41666[0m
+2016-08-14 06:42:07.877390 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/splitter_ims.cc:208: TRACE: 400 -> 150.214.150.68:4555[0m
+2016-08-14 06:42:08.014422 /home/kevin/p2pspTest/lib/p2psp/src/core/splitter_nts.cc:573: DEBUG: Message length = 9
+2016-08-14 06:42:08.014533 Received source port of peer ZNHUKL1 from 207.81.36.166:41666
+2016-08-14 06:42:08.014605 /home/kevin/p2pspTest/lib/p2psp/src/core/splitter_nts.cc:691: DEBUG: Peer ID ZNHUKL1 unknown
+2016-08-14 06:42:08.020121 /home/kevin/p2pspTest/lib/p2psp/src/core/splitter_nts.cc:573: DEBUG: Message length = 9
+2016-08-14 06:42:08.020179 Received source port of peer ZNHUKL1 from 207.81.36.166:41666
+2016-08-14 06:42:08.020236 /home/kevin/p2pspTest/lib/p2psp/src/core/splitter_nts.cc:691: DEBUG: Peer ID ZNHUKL1 unknown
+2016-08-14 06:42:08.020626 /home/kevin/p2pspTest/lib/p2psp/src/core/splitter_nts.cc:573: DEBUG: Message length = 9
+2016-08-14 06:42:08.020680 Received source port of peer X2WV9J9 from 207.81.36.166:41667
+2016-08-14 06:42:08.084986 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/splitter_ims.cc:208: TRACE: 401 -> 207.81.36.166:41666[0m
+2016-08-14 06:42:08.085311 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/splitter_ims.cc:208: TRACE: 402 -> 150.214.150.68:4555[0m
+2016-08-14 06:42:08.085562 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/splitter_ims.cc:208: TRACE: 403 -> 207.81.36.166:41666[0m
+2016-08-14 06:42:08.085803 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/splitter_ims.cc:208: TRACE: 404 -> 150.214.150.68:4555[0m
+2016-08-14 06:42:08.168117 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/splitter_ims.cc:208: TRACE: 405 -> 207.81.36.166:41666[0m
+2016-08-14 06:42:08.168404 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/splitter_ims.cc:208: TRACE: 406 -> 150.214.150.68:4555[0m
+2016-08-14 06:42:08.168637 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/splitter_ims.cc:208: TRACE: 407 -> 207.81.36.166:41666[0m
+2016-08-14 06:42:08.168875 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/splitter_ims.cc:208: TRACE: 408 -> 150.214.150.68:4555[0m
+2016-08-14 06:42:08.293335 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/splitter_ims.cc:208: TRACE: 409 -> 207.81.36.166:41666[0m
+2016-08-14 06:42:08.293630 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/splitter_ims.cc:208: TRACE: 410 -> 150.214.150.68:4555[0m
+2016-08-14 06:42:08.293940 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/splitter_ims.cc:208: TRACE: 411 -> 207.81.36.166:41666[0m
+2016-08-14 06:42:08.294206 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/splitter_ims.cc:208: TRACE: 412 -> 150.214.150.68:4555[0m
+2016-08-14 06:42:08.334480 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/splitter_ims.cc:208: TRACE: 413 -> 207.81.36.166:41666[0m
+2016-08-14 06:42:08.334763 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/splitter_ims.cc:208: TRACE: 414 -> 150.214.150.68:4555[0m
+2016-08-14 06:42:08.334997 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/splitter_ims.cc:208: TRACE: 415 -> 207.81.36.166:41666[0m
+2016-08-14 06:42:08.335232 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/splitter_ims.cc:208: TRACE: 416 -> 150.214.150.68:4555[0m
+2016-08-14 06:42:08.459731 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/splitter_ims.cc:208: TRACE: 417 -> 207.81.36.166:41666[0m
+2016-08-14 06:42:08.460032 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/splitter_ims.cc:208: TRACE: 418 -> 150.214.150.68:4555[0m
+2016-08-14 06:42:08.460265 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/splitter_ims.cc:208: TRACE: 419 -> 207.81.36.166:41666[0m
+2016-08-14 06:42:08.460498 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/splitter_ims.cc:208: TRACE: 420 -> 150.214.150.68:4555[0m
+2016-08-14 06:42:08.534896 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/splitter_ims.cc:208: TRACE: 421 -> 207.81.36.166:41666[0m
+2016-08-14 06:42:08.535179 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/splitter_ims.cc:208: TRACE: 422 -> 150.214.150.68:4555[0m
+2016-08-14 06:42:08.535411 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/splitter_ims.cc:208: TRACE: 423 -> 207.81.36.166:41666[0m
+2016-08-14 06:42:08.535642 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/splitter_ims.cc:208: TRACE: 424 -> 150.214.150.68:4555[0m
+2016-08-14 06:42:08.535872 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/splitter_ims.cc:208: TRACE: 425 -> 207.81.36.166:41666[0m
+2016-08-14 06:42:08.794213 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/splitter_ims.cc:208: TRACE: 426 -> 150.214.150.68:4555[0m
+2016-08-14 06:42:08.794472 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/splitter_ims.cc:208: TRACE: 427 -> 207.81.36.166:41666[0m
+2016-08-14 06:42:08.794646 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/splitter_ims.cc:208: TRACE: 428 -> 150.214.150.68:4555[0m
+2016-08-14 06:42:08.794860 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/splitter_ims.cc:208: TRACE: 429 -> 207.81.36.166:41666[0m
+2016-08-14 06:42:09.016301 /home/kevin/p2pspTest/lib/p2psp/src/core/splitter_nts.cc:573: DEBUG: Message length = 8
+2016-08-14 06:42:09.016436 Peer ZNHUKL1 successfully incorporated
+2016-08-14 06:42:09.016575 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/splitter_dbs.cc:113: TRACE: Inserted peer 207.81.36.166:41667[0m
+2016-08-14 06:42:09.016667 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/splitter_acs.cc:37: TRACE: Inserted 207.81.36.166:41667[0m
+2016-08-14 06:42:09.209893 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/splitter_ims.cc:208: TRACE: 430 -> 150.214.150.68:4555[0m
+2016-08-14 06:42:09.210243 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/splitter_ims.cc:208: TRACE: 431 -> 207.81.36.166:41666[0m
+2016-08-14 06:42:09.210522 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/splitter_ims.cc:208: TRACE: 432 -> 150.214.150.68:4555[0m
+2016-08-14 06:42:09.210755 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/splitter_ims.cc:208: TRACE: 433 -> 207.81.36.166:41666[0m
+2016-08-14 06:42:09.216979 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/splitter_ims.cc:208: TRACE: 434 -> 207.81.36.166:41667[0m
+2016-08-14 06:42:09.217243 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/splitter_ims.cc:208: TRACE: 435 -> 150.214.150.68:4555[0m
+2016-08-14 06:42:09.217476 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/splitter_ims.cc:208: TRACE: 436 -> 207.81.36.166:41666[0m
+2016-08-14 06:42:09.217705 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/splitter_ims.cc:208: TRACE: 437 -> 207.81.36.166:41667[0m
+2016-08-14 06:42:09.460362 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/splitter_ims.cc:208: TRACE: 438 -> 150.214.150.68:4555[0m
+2016-08-14 06:42:09.460750 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/splitter_ims.cc:208: TRACE: 439 -> 207.81.36.166:41666[0m
+2016-08-14 06:42:09.460981 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/splitter_ims.cc:208: TRACE: 440 -> 207.81.36.166:41667[0m
+2016-08-14 06:42:09.461219 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/splitter_ims.cc:208: TRACE: 441 -> 150.214.150.68:4555[0m
+2016-08-14 06:42:09.501527 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/splitter_ims.cc:208: TRACE: 442 -> 207.81.36.166:41666[0m
+2016-08-14 06:42:09.501783 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/splitter_ims.cc:208: TRACE: 443 -> 207.81.36.166:41667[0m
+2016-08-14 06:42:09.502022 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/splitter_ims.cc:208: TRACE: 444 -> 150.214.150.68:4555[0m
+2016-08-14 06:42:09.502272 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/splitter_ims.cc:208: TRACE: 445 -> 207.81.36.166:41666[0m
+2016-08-14 06:42:09.502499 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/splitter_ims.cc:208: TRACE: 446 -> 207.81.36.166:41667[0m
+2016-08-14 06:42:09.502982 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/splitter_ims.cc:208: TRACE: 447 -> 150.214.150.68:4555[0m
+2016-08-14 06:42:09.503225 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/splitter_ims.cc:208: TRACE: 448 -> 207.81.36.166:41666[0m
+2016-08-14 06:42:09.503451 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/splitter_ims.cc:208: TRACE: 449 -> 207.81.36.166:41667[0m
+2016-08-14 06:42:09.503682 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/splitter_ims.cc:208: TRACE: 450 -> 150.214.150.68:4555[0m
+2016-08-14 06:42:09.503916 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/splitter_ims.cc:208: TRACE: 451 -> 207.81.36.166:41666[0m
+2016-08-14 06:42:09.504140 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/splitter_ims.cc:208: TRACE: 452 -> 207.81.36.166:41667[0m
+2016-08-14 06:42:09.504374 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/splitter_ims.cc:208: TRACE: 453 -> 150.214.150.68:4555[0m
+2016-08-14 06:42:09.504602 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/splitter_ims.cc:208: TRACE: 454 -> 207.81.36.166:41666[0m
+2016-08-14 06:42:09.667961 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/splitter_ims.cc:208: TRACE: 455 -> 207.81.36.166:41667[0m
+2016-08-14 06:42:09.669453 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/splitter_ims.cc:208: TRACE: 456 -> 150.214.150.68:4555[0m
+2016-08-14 06:42:09.669634 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/splitter_ims.cc:208: TRACE: 457 -> 207.81.36.166:41666[0m
+2016-08-14 06:42:09.669776 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/splitter_ims.cc:208: TRACE: 458 -> 207.81.36.166:41667[0m
+2016-08-14 06:42:09.826247 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/splitter_ims.cc:208: TRACE: 459 -> 150.214.150.68:4555[0m
+2016-08-14 06:42:09.826507 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/splitter_ims.cc:208: TRACE: 460 -> 207.81.36.166:41666[0m
+2016-08-14 06:42:09.826648 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/splitter_ims.cc:208: TRACE: 461 -> 207.81.36.166:41667[0m
+2016-08-14 06:42:09.826812 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/splitter_ims.cc:208: TRACE: 462 -> 150.214.150.68:4555[0m
+2016-08-14 06:42:09.834379 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/splitter_ims.cc:208: TRACE: 463 -> 207.81.36.166:41666[0m
+2016-08-14 06:42:09.834651 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/splitter_ims.cc:208: TRACE: 464 -> 207.81.36.166:41667[0m
+2016-08-14 06:42:09.835943 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/splitter_ims.cc:208: TRACE: 465 -> 150.214.150.68:4555[0m
+2016-08-14 06:42:09.836117 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/splitter_ims.cc:208: TRACE: 466 -> 207.81.36.166:41666[0m
+2016-08-14 06:42:10.001645 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/splitter_ims.cc:208: TRACE: 467 -> 207.81.36.166:41667[0m
+2016-08-14 06:42:10.002995 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/splitter_ims.cc:208: TRACE: 468 -> 150.214.150.68:4555[0m
+2016-08-14 06:42:10.003188 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/splitter_ims.cc:208: TRACE: 469 -> 207.81.36.166:41666[0m
+2016-08-14 06:42:10.003393 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/splitter_ims.cc:208: TRACE: 470 -> 207.81.36.166:41667[0m
+2016-08-14 06:42:10.003550 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/splitter_ims.cc:208: TRACE: 471 -> 150.214.150.68:4555[0m
+2016-08-14 06:42:10.209958 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/splitter_ims.cc:208: TRACE: 472 -> 207.81.36.166:41666[0m
+2016-08-14 06:42:10.210253 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/splitter_ims.cc:208: TRACE: 473 -> 207.81.36.166:41667[0m
+2016-08-14 06:42:10.285325 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/splitter_ims.cc:208: TRACE: 474 -> 150.214.150.68:4555[0m
+2016-08-14 06:42:10.285564 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/splitter_ims.cc:208: TRACE: 475 -> 207.81.36.166:41666[0m
+2016-08-14 06:42:10.285709 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/splitter_ims.cc:208: TRACE: 476 -> 207.81.36.166:41667[0m
+2016-08-14 06:42:10.285864 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/splitter_ims.cc:208: TRACE: 477 -> 150.214.150.68:4555[0m
+2016-08-14 06:42:10.418362 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/splitter_ims.cc:208: TRACE: 478 -> 207.81.36.166:41666[0m
+2016-08-14 06:42:10.418647 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/splitter_ims.cc:208: TRACE: 479 -> 207.81.36.166:41667[0m
+2016-08-14 06:42:10.419978 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/splitter_ims.cc:208: TRACE: 480 -> 150.214.150.68:4555[0m
+2016-08-14 06:42:10.420154 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/splitter_ims.cc:208: TRACE: 481 -> 207.81.36.166:41666[0m
+2016-08-14 06:42:10.584610 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/splitter_ims.cc:208: TRACE: 482 -> 207.81.36.166:41667[0m
+2016-08-14 06:42:10.585807 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/splitter_ims.cc:208: TRACE: 483 -> 150.214.150.68:4555[0m
+2016-08-14 06:42:10.585979 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/splitter_ims.cc:208: TRACE: 484 -> 207.81.36.166:41666[0m
+2016-08-14 06:42:10.742895 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/splitter_ims.cc:208: TRACE: 485 -> 207.81.36.166:41667[0m
+2016-08-14 06:42:10.744133 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/splitter_ims.cc:208: TRACE: 486 -> 150.214.150.68:4555[0m
+2016-08-14 06:42:10.744367 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/splitter_ims.cc:208: TRACE: 487 -> 207.81.36.166:41666[0m
+2016-08-14 06:42:10.744541 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/splitter_ims.cc:208: TRACE: 488 -> 207.81.36.166:41667[0m
+2016-08-14 06:42:10.753199 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/splitter_ims.cc:208: TRACE: 489 -> 150.214.150.68:4555[0m
+2016-08-14 06:42:10.753384 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/splitter_ims.cc:208: TRACE: 490 -> 207.81.36.166:41666[0m
+2016-08-14 06:42:10.753525 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/splitter_ims.cc:208: TRACE: 491 -> 207.81.36.166:41667[0m
+2016-08-14 06:42:10.753678 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/splitter_ims.cc:208: TRACE: 492 -> 150.214.150.68:4555[0m
+2016-08-14 06:42:10.960366 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/splitter_ims.cc:208: TRACE: 493 -> 207.81.36.166:41666[0m
+2016-08-14 06:42:10.960636 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/splitter_ims.cc:208: TRACE: 494 -> 207.81.36.166:41667[0m
+2016-08-14 06:42:10.960869 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/splitter_ims.cc:208: TRACE: 495 -> 150.214.150.68:4555[0m
+2016-08-14 06:42:10.961100 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/splitter_ims.cc:208: TRACE: 496 -> 207.81.36.166:41666[0m
+2016-08-14 06:42:11.126620 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/splitter_ims.cc:208: TRACE: 497 -> 207.81.36.166:41667[0m
+2016-08-14 06:42:11.128052 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/splitter_ims.cc:208: TRACE: 498 -> 150.214.150.68:4555[0m
+2016-08-14 06:42:11.128230 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/splitter_ims.cc:208: TRACE: 499 -> 207.81.36.166:41666[0m
+2016-08-14 06:42:11.128371 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/splitter_ims.cc:208: TRACE: 500 -> 207.81.36.166:41667[0m
+2016-08-14 06:42:11.167820 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/splitter_ims.cc:208: TRACE: 501 -> 150.214.150.68:4555[0m
+2016-08-14 06:42:11.168071 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/splitter_ims.cc:208: TRACE: 502 -> 207.81.36.166:41666[0m
+2016-08-14 06:42:11.168295 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/splitter_ims.cc:208: TRACE: 503 -> 207.81.36.166:41667[0m
+2016-08-14 06:42:11.168524 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/splitter_ims.cc:208: TRACE: 504 -> 150.214.150.68:4555[0m
+2016-08-14 06:42:11.168752 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/splitter_ims.cc:208: TRACE: 505 -> 207.81.36.166:41666[0m
+2016-08-14 06:42:11.169115 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/splitter_ims.cc:208: TRACE: 506 -> 207.81.36.166:41667[0m
+2016-08-14 06:42:11.169361 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/splitter_ims.cc:208: TRACE: 507 -> 150.214.150.68:4555[0m
+2016-08-14 06:42:11.169588 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/splitter_ims.cc:208: TRACE: 508 -> 207.81.36.166:41666[0m
+2016-08-14 06:42:11.201035 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/splitter_ims.cc:208: TRACE: 509 -> 207.81.36.166:41667[0m
+2016-08-14 06:42:11.201322 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/splitter_ims.cc:208: TRACE: 510 -> 150.214.150.68:4555[0m
+2016-08-14 06:42:11.201558 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/splitter_ims.cc:208: TRACE: 511 -> 207.81.36.166:41666[0m
+2016-08-14 06:42:11.201782 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/splitter_ims.cc:208: TRACE: 512 -> 207.81.36.166:41667[0m
+2016-08-14 06:42:11.418410 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/splitter_ims.cc:208: TRACE: 513 -> 150.214.150.68:4555[0m
+2016-08-14 06:42:11.418746 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/splitter_ims.cc:208: TRACE: 514 -> 207.81.36.166:41666[0m
+2016-08-14 06:42:11.418978 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/splitter_ims.cc:208: TRACE: 515 -> 207.81.36.166:41667[0m
+2016-08-14 06:42:11.419209 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/splitter_ims.cc:208: TRACE: 516 -> 150.214.150.68:4555[0m
+2016-08-14 06:42:11.834941 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/splitter_ims.cc:208: TRACE: 517 -> 207.81.36.166:41666[0m
+2016-08-14 06:42:11.835244 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/splitter_ims.cc:208: TRACE: 518 -> 207.81.36.166:41667[0m
+2016-08-14 06:42:11.835493 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/splitter_ims.cc:208: TRACE: 519 -> 150.214.150.68:4555[0m
+2016-08-14 06:42:11.835720 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/splitter_ims.cc:208: TRACE: 520 -> 207.81.36.166:41666[0m
+2016-08-14 06:42:11.841056 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/splitter_ims.cc:208: TRACE: 521 -> 207.81.36.166:41667[0m
+2016-08-14 06:42:11.841320 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/splitter_ims.cc:208: TRACE: 522 -> 150.214.150.68:4555[0m
+2016-08-14 06:42:11.841551 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/splitter_ims.cc:208: TRACE: 523 -> 207.81.36.166:41666[0m
+2016-08-14 06:42:11.841779 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/splitter_ims.cc:208: TRACE: 524 -> 207.81.36.166:41667[0m
+2016-08-14 06:42:12.043390 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/splitter_ims.cc:208: TRACE: 525 -> 150.214.150.68:4555[0m
+2016-08-14 06:42:12.043677 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/splitter_ims.cc:208: TRACE: 526 -> 207.81.36.166:41666[0m
+2016-08-14 06:42:12.043907 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/splitter_ims.cc:208: TRACE: 527 -> 207.81.36.166:41667[0m
+2016-08-14 06:42:12.044136 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/splitter_ims.cc:208: TRACE: 528 -> 150.214.150.68:4555[0m
+2016-08-14 06:42:12.044368 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/splitter_ims.cc:208: TRACE: 529 -> 207.81.36.166:41666[0m
+2016-08-14 06:42:12.209660 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/splitter_ims.cc:208: TRACE: 530 -> 207.81.36.166:41667[0m
+2016-08-14 06:42:12.209959 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/splitter_ims.cc:208: TRACE: 531 -> 150.214.150.68:4555[0m
+2016-08-14 06:42:12.210290 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/splitter_ims.cc:208: TRACE: 532 -> 207.81.36.166:41666[0m
+2016-08-14 06:42:12.210528 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/splitter_ims.cc:208: TRACE: 533 -> 207.81.36.166:41667[0m
+2016-08-14 06:42:12.417964 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/splitter_ims.cc:208: TRACE: 534 -> 150.214.150.68:4555[0m
+2016-08-14 06:42:12.418268 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/splitter_ims.cc:208: TRACE: 535 -> 207.81.36.166:41666[0m
+2016-08-14 06:42:12.418503 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/splitter_ims.cc:208: TRACE: 536 -> 207.81.36.166:41667[0m
+2016-08-14 06:42:12.418739 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/splitter_ims.cc:208: TRACE: 537 -> 150.214.150.68:4555[0m
+2016-08-14 06:42:12.567214 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/splitter_ims.cc:208: TRACE: 538 -> 207.81.36.166:41666[0m
+2016-08-14 06:42:12.567479 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/splitter_ims.cc:208: TRACE: 539 -> 207.81.36.166:41667[0m
+2016-08-14 06:42:12.567728 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/splitter_ims.cc:208: TRACE: 540 -> 150.214.150.68:4555[0m
+2016-08-14 06:42:12.567959 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/splitter_ims.cc:208: TRACE: 541 -> 207.81.36.166:41666[0m
+2016-08-14 06:42:12.626402 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/splitter_ims.cc:208: TRACE: 542 -> 207.81.36.166:41667[0m
+2016-08-14 06:42:12.626682 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/splitter_ims.cc:208: TRACE: 543 -> 150.214.150.68:4555[0m
+2016-08-14 06:42:12.626915 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/splitter_ims.cc:208: TRACE: 544 -> 207.81.36.166:41666[0m
+2016-08-14 06:42:12.627143 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/splitter_ims.cc:208: TRACE: 545 -> 207.81.36.166:41667[0m
+2016-08-14 06:42:12.917868 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/splitter_ims.cc:208: TRACE: 546 -> 150.214.150.68:4555[0m
+2016-08-14 06:42:12.918184 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/splitter_ims.cc:208: TRACE: 547 -> 207.81.36.166:41666[0m
+2016-08-14 06:42:12.918413 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/splitter_ims.cc:208: TRACE: 548 -> 207.81.36.166:41667[0m
+2016-08-14 06:42:12.918649 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/splitter_ims.cc:208: TRACE: 549 -> 150.214.150.68:4555[0m
+2016-08-14 06:42:12.919014 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/splitter_ims.cc:208: TRACE: 550 -> 207.81.36.166:41666[0m
+2016-08-14 06:42:12.919250 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/splitter_ims.cc:208: TRACE: 551 -> 207.81.36.166:41667[0m
+2016-08-14 06:42:12.919485 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/splitter_ims.cc:208: TRACE: 552 -> 150.214.150.68:4555[0m
+2016-08-14 06:42:12.919717 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/splitter_ims.cc:208: TRACE: 553 -> 207.81.36.166:41666[0m
+2016-08-14 06:42:12.919945 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/splitter_ims.cc:208: TRACE: 554 -> 207.81.36.166:41667[0m
+2016-08-14 06:42:12.920305 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/splitter_ims.cc:208: TRACE: 555 -> 150.214.150.68:4555[0m
+2016-08-14 06:42:12.920545 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/splitter_ims.cc:208: TRACE: 556 -> 207.81.36.166:41666[0m
+2016-08-14 06:42:12.920772 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/splitter_ims.cc:208: TRACE: 557 -> 207.81.36.166:41667[0m
+2016-08-14 06:42:12.921004 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/splitter_ims.cc:208: TRACE: 558 -> 150.214.150.68:4555[0m
+2016-08-14 06:42:12.960146 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/splitter_ims.cc:208: TRACE: 559 -> 207.81.36.166:41666[0m
+2016-08-14 06:42:12.960418 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/splitter_ims.cc:208: TRACE: 560 -> 207.81.36.166:41667[0m
+2016-08-14 06:42:12.960664 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/splitter_ims.cc:208: TRACE: 561 -> 150.214.150.68:4555[0m
+2016-08-14 06:42:12.960892 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/splitter_ims.cc:208: TRACE: 562 -> 207.81.36.166:41666[0m
+2016-08-14 06:42:13.002364 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/splitter_ims.cc:208: TRACE: 563 -> 207.81.36.166:41667[0m
+2016-08-14 06:42:13.002663 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/splitter_ims.cc:208: TRACE: 564 -> 150.214.150.68:4555[0m
+2016-08-14 06:42:13.002897 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/splitter_ims.cc:208: TRACE: 565 -> 207.81.36.166:41666[0m
+2016-08-14 06:42:13.003126 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/splitter_ims.cc:208: TRACE: 566 -> 207.81.36.166:41667[0m
+2016-08-14 06:42:13.084527 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/splitter_ims.cc:208: TRACE: 567 -> 150.214.150.68:4555[0m
+2016-08-14 06:42:13.084806 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/splitter_ims.cc:208: TRACE: 568 -> 207.81.36.166:41666[0m
+2016-08-14 06:42:13.085040 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/splitter_ims.cc:208: TRACE: 569 -> 207.81.36.166:41667[0m
+2016-08-14 06:42:13.085271 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/splitter_ims.cc:208: TRACE: 570 -> 150.214.150.68:4555[0m
+2016-08-14 06:42:13.126703 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/splitter_ims.cc:208: TRACE: 571 -> 207.81.36.166:41666[0m
+2016-08-14 06:42:13.126980 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/splitter_ims.cc:208: TRACE: 572 -> 207.81.36.166:41667[0m
+2016-08-14 06:42:13.127225 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/splitter_ims.cc:208: TRACE: 573 -> 150.214.150.68:4555[0m
+2016-08-14 06:42:13.127458 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/splitter_ims.cc:208: TRACE: 574 -> 207.81.36.166:41666[0m
+2016-08-14 06:42:13.127687 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/splitter_ims.cc:208: TRACE: 575 -> 207.81.36.166:41667[0m
+2016-08-14 06:42:13.167855 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/splitter_ims.cc:208: TRACE: 576 -> 150.214.150.68:4555[0m
+2016-08-14 06:42:13.168123 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/splitter_ims.cc:208: TRACE: 577 -> 207.81.36.166:41666[0m
+2016-08-14 06:42:13.168355 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/splitter_ims.cc:208: TRACE: 578 -> 207.81.36.166:41667[0m
+2016-08-14 06:42:13.168588 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/splitter_ims.cc:208: TRACE: 579 -> 150.214.150.68:4555[0m
+2016-08-14 06:42:13.209987 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/splitter_ims.cc:208: TRACE: 580 -> 207.81.36.166:41666[0m
+2016-08-14 06:42:13.210262 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/splitter_ims.cc:208: TRACE: 581 -> 207.81.36.166:41667[0m
+2016-08-14 06:42:13.210500 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/splitter_ims.cc:208: TRACE: 582 -> 150.214.150.68:4555[0m
+2016-08-14 06:42:13.210733 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/splitter_ims.cc:208: TRACE: 583 -> 207.81.36.166:41666[0m
+2016-08-14 06:42:13.252106 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/splitter_ims.cc:208: TRACE: 584 -> 207.81.36.166:41667[0m
+2016-08-14 06:42:13.253287 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/splitter_ims.cc:208: TRACE: 585 -> 150.214.150.68:4555[0m
+2016-08-14 06:42:13.253531 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/splitter_ims.cc:208: TRACE: 586 -> 207.81.36.166:41666[0m
+2016-08-14 06:42:13.253689 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/splitter_ims.cc:208: TRACE: 587 -> 207.81.36.166:41667[0m
+2016-08-14 06:42:13.293456 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/splitter_ims.cc:208: TRACE: 588 -> 150.214.150.68:4555[0m
+2016-08-14 06:42:13.293641 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/splitter_ims.cc:208: TRACE: 589 -> 207.81.36.166:41666[0m
+2016-08-14 06:42:13.293782 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/splitter_ims.cc:208: TRACE: 590 -> 207.81.36.166:41667[0m
+2016-08-14 06:42:13.293934 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/splitter_ims.cc:208: TRACE: 591 -> 150.214.150.68:4555[0m
+2016-08-14 06:42:13.334397 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/splitter_ims.cc:208: TRACE: 592 -> 207.81.36.166:41666[0m
+2016-08-14 06:42:13.334657 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/splitter_ims.cc:208: TRACE: 593 -> 207.81.36.166:41667[0m
+2016-08-14 06:42:13.334970 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/splitter_ims.cc:208: TRACE: 594 -> 150.214.150.68:4555[0m
+2016-08-14 06:42:13.335204 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/splitter_ims.cc:208: TRACE: 595 -> 207.81.36.166:41666[0m
+2016-08-14 06:42:13.417557 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/splitter_ims.cc:208: TRACE: 596 -> 207.81.36.166:41667[0m
+2016-08-14 06:42:13.417861 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/splitter_ims.cc:208: TRACE: 597 -> 150.214.150.68:4555[0m
+2016-08-14 06:42:13.418097 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/splitter_ims.cc:208: TRACE: 598 -> 207.81.36.166:41666[0m
+2016-08-14 06:42:13.418343 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/splitter_ims.cc:208: TRACE: 599 -> 207.81.36.166:41667[0m
+2016-08-14 06:42:13.542796 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/splitter_ims.cc:208: TRACE: 600 -> 150.214.150.68:4555[0m
+2016-08-14 06:42:13.543061 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/splitter_ims.cc:208: TRACE: 601 -> 207.81.36.166:41666[0m
+2016-08-14 06:42:13.543290 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/splitter_ims.cc:208: TRACE: 602 -> 207.81.36.166:41667[0m
+2016-08-14 06:42:13.543521 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/splitter_ims.cc:208: TRACE: 603 -> 150.214.150.68:4555[0m
+2016-08-14 06:42:13.667999 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/splitter_ims.cc:208: TRACE: 604 -> 207.81.36.166:41666[0m
+2016-08-14 06:42:13.668279 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/splitter_ims.cc:208: TRACE: 605 -> 207.81.36.166:41667[0m
+2016-08-14 06:42:13.668525 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/splitter_ims.cc:208: TRACE: 606 -> 150.214.150.68:4555[0m
+2016-08-14 06:42:13.668756 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/splitter_ims.cc:208: TRACE: 607 -> 207.81.36.166:41666[0m
+2016-08-14 06:42:13.668983 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/splitter_ims.cc:208: TRACE: 608 -> 207.81.36.166:41667[0m
+2016-08-14 06:42:13.877327 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/splitter_ims.cc:208: TRACE: 609 -> 150.214.150.68:4555[0m
+2016-08-14 06:42:13.877597 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/splitter_ims.cc:208: TRACE: 610 -> 207.81.36.166:41666[0m
+2016-08-14 06:42:13.877822 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/splitter_ims.cc:208: TRACE: 611 -> 207.81.36.166:41667[0m
+2016-08-14 06:42:13.878052 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/splitter_ims.cc:208: TRACE: 612 -> 150.214.150.68:4555[0m
+2016-08-14 06:42:13.974545 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/splitter_ims.cc:208: TRACE: 613 -> 207.81.36.166:41666[0m
+2016-08-14 06:42:13.974812 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/splitter_ims.cc:208: TRACE: 614 -> 207.81.36.166:41667[0m
+2016-08-14 06:42:13.975060 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/splitter_ims.cc:208: TRACE: 615 -> 150.214.150.68:4555[0m
+2016-08-14 06:42:13.975289 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/splitter_ims.cc:208: TRACE: 616 -> 207.81.36.166:41666[0m
+2016-08-14 06:42:14.126812 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/splitter_ims.cc:208: TRACE: 617 -> 207.81.36.166:41667[0m
+2016-08-14 06:42:14.127118 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/splitter_ims.cc:208: TRACE: 618 -> 150.214.150.68:4555[0m
+2016-08-14 06:42:14.127353 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/splitter_ims.cc:208: TRACE: 619 -> 207.81.36.166:41666[0m
+2016-08-14 06:42:14.127582 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/splitter_ims.cc:208: TRACE: 620 -> 207.81.36.166:41667[0m
+2016-08-14 06:42:14.377237 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/splitter_ims.cc:208: TRACE: 621 -> 150.214.150.68:4555[0m
+2016-08-14 06:42:14.377551 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/splitter_ims.cc:208: TRACE: 622 -> 207.81.36.166:41666[0m
+2016-08-14 06:42:14.377783 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/splitter_ims.cc:208: TRACE: 623 -> 207.81.36.166:41667[0m
+2016-08-14 06:42:14.378035 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/splitter_ims.cc:208: TRACE: 624 -> 150.214.150.68:4555[0m
+2016-08-14 06:42:14.459511 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/splitter_ims.cc:208: TRACE: 625 -> 207.81.36.166:41666[0m
+2016-08-14 06:42:14.459852 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/splitter_ims.cc:208: TRACE: 626 -> 207.81.36.166:41667[0m
+2016-08-14 06:42:14.460101 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/splitter_ims.cc:208: TRACE: 627 -> 150.214.150.68:4555[0m
+2016-08-14 06:42:14.460332 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/splitter_ims.cc:208: TRACE: 628 -> 207.81.36.166:41666[0m
+2016-08-14 06:42:14.656777 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/splitter_ims.cc:208: TRACE: 629 -> 207.81.36.166:41667[0m
+2016-08-14 06:42:14.657090 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/splitter_ims.cc:208: TRACE: 630 -> 150.214.150.68:4555[0m
+2016-08-14 06:42:14.657325 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/splitter_ims.cc:208: TRACE: 631 -> 207.81.36.166:41666[0m
+2016-08-14 06:42:14.657549 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/splitter_ims.cc:208: TRACE: 632 -> 207.81.36.166:41667[0m
+2016-08-14 06:42:14.751950 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/splitter_ims.cc:208: TRACE: 633 -> 150.214.150.68:4555[0m
+2016-08-14 06:42:14.752233 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/splitter_ims.cc:208: TRACE: 634 -> 207.81.36.166:41666[0m
+2016-08-14 06:42:14.752465 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/splitter_ims.cc:208: TRACE: 635 -> 207.81.36.166:41667[0m
+2016-08-14 06:42:14.752697 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/splitter_ims.cc:208: TRACE: 636 -> 150.214.150.68:4555[0m
+2016-08-14 06:42:14.752922 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/splitter_ims.cc:208: TRACE: 637 -> 207.81.36.166:41666[0m
+2016-08-14 06:42:14.960278 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/splitter_ims.cc:208: TRACE: 638 -> 207.81.36.166:41667[0m
+2016-08-14 06:42:14.961566 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/splitter_ims.cc:208: TRACE: 639 -> 150.214.150.68:4555[0m
+2016-08-14 06:42:14.961812 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/splitter_ims.cc:208: TRACE: 640 -> 207.81.36.166:41666[0m
+2016-08-14 06:42:14.961961 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/splitter_ims.cc:208: TRACE: 641 -> 207.81.36.166:41667[0m
+2016-08-14 06:42:15.167670 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/splitter_ims.cc:208: TRACE: 642 -> 150.214.150.68:4555[0m
+2016-08-14 06:42:15.168026 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/splitter_ims.cc:208: TRACE: 643 -> 207.81.36.166:41666[0m
+2016-08-14 06:42:15.168265 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/splitter_ims.cc:208: TRACE: 644 -> 207.81.36.166:41667[0m
+2016-08-14 06:42:15.168499 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/splitter_ims.cc:208: TRACE: 645 -> 150.214.150.68:4555[0m
+2016-08-14 06:42:15.209740 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/splitter_ims.cc:208: TRACE: 646 -> 207.81.36.166:41666[0m
+2016-08-14 06:42:15.209998 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/splitter_ims.cc:208: TRACE: 647 -> 207.81.36.166:41667[0m
+2016-08-14 06:42:15.210269 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/splitter_ims.cc:208: TRACE: 648 -> 150.214.150.68:4555[0m
+2016-08-14 06:42:15.210503 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/splitter_ims.cc:208: TRACE: 649 -> 207.81.36.166:41666[0m
+2016-08-14 06:42:15.292929 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/splitter_ims.cc:208: TRACE: 650 -> 207.81.36.166:41667[0m
+2016-08-14 06:42:15.293223 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/splitter_ims.cc:208: TRACE: 651 -> 150.214.150.68:4555[0m
+2016-08-14 06:42:15.293454 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/splitter_ims.cc:208: TRACE: 652 -> 207.81.36.166:41666[0m
+2016-08-14 06:42:15.293681 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/splitter_ims.cc:208: TRACE: 653 -> 207.81.36.166:41667[0m
+2016-08-14 06:42:15.377123 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/splitter_ims.cc:208: TRACE: 654 -> 150.214.150.68:4555[0m
+2016-08-14 06:42:15.377410 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/splitter_ims.cc:208: TRACE: 655 -> 207.81.36.166:41666[0m
+2016-08-14 06:42:15.377736 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/splitter_ims.cc:208: TRACE: 656 -> 207.81.36.166:41667[0m
+2016-08-14 06:42:15.377973 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/splitter_ims.cc:208: TRACE: 657 -> 150.214.150.68:4555[0m
+2016-08-14 06:42:15.378237 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/splitter_ims.cc:208: TRACE: 658 -> 207.81.36.166:41666[0m
+2016-08-14 06:42:15.383269 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/splitter_ims.cc:208: TRACE: 659 -> 207.81.36.166:41667[0m
+2016-08-14 06:42:15.383519 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/splitter_ims.cc:208: TRACE: 660 -> 150.214.150.68:4555[0m
+2016-08-14 06:42:15.383753 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/splitter_ims.cc:208: TRACE: 661 -> 207.81.36.166:41666[0m
+2016-08-14 06:42:15.383980 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/splitter_ims.cc:208: TRACE: 662 -> 207.81.36.166:41667[0m
+2016-08-14 06:42:15.501590 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/splitter_ims.cc:208: TRACE: 663 -> 150.214.150.68:4555[0m
+2016-08-14 06:42:15.501876 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/splitter_ims.cc:208: TRACE: 664 -> 207.81.36.166:41666[0m
+2016-08-14 06:42:15.502102 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/splitter_ims.cc:208: TRACE: 665 -> 207.81.36.166:41667[0m
+2016-08-14 06:42:15.502362 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/splitter_ims.cc:208: TRACE: 666 -> 150.214.150.68:4555[0m
+2016-08-14 06:42:15.584723 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/splitter_ims.cc:208: TRACE: 667 -> 207.81.36.166:41666[0m
+2016-08-14 06:42:15.585009 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/splitter_ims.cc:208: TRACE: 668 -> 207.81.36.166:41667[0m
+2016-08-14 06:42:15.585256 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/splitter_ims.cc:208: TRACE: 669 -> 150.214.150.68:4555[0m
+2016-08-14 06:42:15.585485 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/splitter_ims.cc:208: TRACE: 670 -> 207.81.36.166:41666[0m
+2016-08-14 06:42:15.793065 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/splitter_ims.cc:208: TRACE: 671 -> 207.81.36.166:41667[0m
+2016-08-14 06:42:15.793388 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/splitter_ims.cc:208: TRACE: 672 -> 150.214.150.68:4555[0m
+2016-08-14 06:42:15.793622 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/splitter_ims.cc:208: TRACE: 673 -> 207.81.36.166:41666[0m
+2016-08-14 06:42:15.793848 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/splitter_ims.cc:208: TRACE: 674 -> 207.81.36.166:41667[0m
+2016-08-14 06:42:15.877270 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/splitter_ims.cc:208: TRACE: 675 -> 150.214.150.68:4555[0m
+2016-08-14 06:42:15.877543 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/splitter_ims.cc:208: TRACE: 676 -> 207.81.36.166:41666[0m
+2016-08-14 06:42:15.877770 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/splitter_ims.cc:208: TRACE: 677 -> 207.81.36.166:41667[0m
+2016-08-14 06:42:15.877996 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/splitter_ims.cc:208: TRACE: 678 -> 150.214.150.68:4555[0m
+2016-08-14 06:42:15.878234 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/splitter_ims.cc:208: TRACE: 679 -> 207.81.36.166:41666[0m
+2016-08-14 06:42:15.878465 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/splitter_ims.cc:208: TRACE: 680 -> 207.81.36.166:41667[0m
+2016-08-14 06:42:15.878697 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/splitter_ims.cc:208: TRACE: 681 -> 150.214.150.68:4555[0m
+2016-08-14 06:42:15.878920 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/splitter_ims.cc:208: TRACE: 682 -> 207.81.36.166:41666[0m
+2016-08-14 06:42:15.879138 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/splitter_ims.cc:208: TRACE: 683 -> 207.81.36.166:41667[0m
+2016-08-14 06:42:15.959540 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/splitter_ims.cc:208: TRACE: 684 -> 150.214.150.68:4555[0m
+2016-08-14 06:42:15.959803 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/splitter_ims.cc:208: TRACE: 685 -> 207.81.36.166:41666[0m
+2016-08-14 06:42:15.960028 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/splitter_ims.cc:208: TRACE: 686 -> 207.81.36.166:41667[0m
+2016-08-14 06:42:15.960331 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/splitter_ims.cc:208: TRACE: 687 -> 150.214.150.68:4555[0m
+2016-08-14 06:42:16.001651 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/splitter_ims.cc:208: TRACE: 688 -> 207.81.36.166:41666[0m
+2016-08-14 06:42:16.001918 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/splitter_ims.cc:208: TRACE: 689 -> 207.81.36.166:41667[0m
+2016-08-14 06:42:16.002175 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/splitter_ims.cc:208: TRACE: 690 -> 150.214.150.68:4555[0m
+2016-08-14 06:42:16.002397 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/splitter_ims.cc:208: TRACE: 691 -> 207.81.36.166:41666[0m
+2016-08-14 06:42:16.064817 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/splitter_ims.cc:208: TRACE: 692 -> 207.81.36.166:41667[0m
+2016-08-14 06:42:16.065112 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/splitter_ims.cc:208: TRACE: 693 -> 150.214.150.68:4555[0m
+2016-08-14 06:42:16.065346 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/splitter_ims.cc:208: TRACE: 694 -> 207.81.36.166:41666[0m
+2016-08-14 06:42:16.065574 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/splitter_ims.cc:208: TRACE: 695 -> 207.81.36.166:41667[0m
+2016-08-14 06:42:16.084954 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/splitter_ims.cc:208: TRACE: 696 -> 150.214.150.68:4555[0m
+2016-08-14 06:42:16.085232 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/splitter_ims.cc:208: TRACE: 697 -> 207.81.36.166:41666[0m
+2016-08-14 06:42:16.085465 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/splitter_ims.cc:208: TRACE: 698 -> 207.81.36.166:41667[0m
+2016-08-14 06:42:16.085698 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/splitter_ims.cc:208: TRACE: 699 -> 150.214.150.68:4555[0m
+2016-08-14 06:42:16.085923 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/splitter_ims.cc:208: TRACE: 700 -> 207.81.36.166:41666[0m
+2016-08-14 06:42:16.168167 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/splitter_ims.cc:208: TRACE: 701 -> 207.81.36.166:41667[0m
+2016-08-14 06:42:16.168448 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/splitter_ims.cc:208: TRACE: 702 -> 150.214.150.68:4555[0m
+2016-08-14 06:42:16.168682 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/splitter_ims.cc:208: TRACE: 703 -> 207.81.36.166:41666[0m
+2016-08-14 06:42:16.168909 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/splitter_ims.cc:208: TRACE: 704 -> 207.81.36.166:41667[0m
+2016-08-14 06:42:16.292434 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/splitter_ims.cc:208: TRACE: 705 -> 150.214.150.68:4555[0m
+2016-08-14 06:42:16.292729 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/splitter_ims.cc:208: TRACE: 706 -> 207.81.36.166:41666[0m
+2016-08-14 06:42:16.292962 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/splitter_ims.cc:208: TRACE: 707 -> 207.81.36.166:41667[0m
+2016-08-14 06:42:16.293194 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/splitter_ims.cc:208: TRACE: 708 -> 150.214.150.68:4555[0m
+2016-08-14 06:42:16.417622 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/splitter_ims.cc:208: TRACE: 709 -> 207.81.36.166:41666[0m
+2016-08-14 06:42:16.417897 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/splitter_ims.cc:208: TRACE: 710 -> 207.81.36.166:41667[0m
+2016-08-14 06:42:16.418171 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/splitter_ims.cc:208: TRACE: 711 -> 150.214.150.68:4555[0m
+2016-08-14 06:42:16.418404 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/splitter_ims.cc:208: TRACE: 712 -> 207.81.36.166:41666[0m
+2016-08-14 06:42:16.627009 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/splitter_ims.cc:208: TRACE: 713 -> 207.81.36.166:41667[0m
+2016-08-14 06:42:16.627371 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/splitter_ims.cc:208: TRACE: 714 -> 150.214.150.68:4555[0m
+2016-08-14 06:42:16.627606 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/splitter_ims.cc:208: TRACE: 715 -> 207.81.36.166:41666[0m
+2016-08-14 06:42:16.627836 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/splitter_ims.cc:208: TRACE: 716 -> 207.81.36.166:41667[0m
+2016-08-14 06:42:16.791201 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/splitter_ims.cc:208: TRACE: 717 -> 150.214.150.68:4555[0m
+2016-08-14 06:42:16.791606 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/splitter_ims.cc:208: TRACE: 718 -> 207.81.36.166:41666[0m
+2016-08-14 06:42:16.791843 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/splitter_ims.cc:208: TRACE: 719 -> 207.81.36.166:41667[0m
+2016-08-14 06:42:16.792080 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/splitter_ims.cc:208: TRACE: 720 -> 150.214.150.68:4555[0m
+2016-08-14 06:42:16.834329 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/splitter_ims.cc:208: TRACE: 721 -> 207.81.36.166:41666[0m
+2016-08-14 06:42:16.834593 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/splitter_ims.cc:208: TRACE: 722 -> 207.81.36.166:41667[0m
+2016-08-14 06:42:16.834841 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/splitter_ims.cc:208: TRACE: 723 -> 150.214.150.68:4555[0m
+2016-08-14 06:42:16.835069 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/splitter_ims.cc:208: TRACE: 724 -> 207.81.36.166:41666[0m
+2016-08-14 06:42:17.126791 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/splitter_ims.cc:208: TRACE: 725 -> 207.81.36.166:41667[0m
+2016-08-14 06:42:17.127113 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/splitter_ims.cc:208: TRACE: 726 -> 150.214.150.68:4555[0m
+2016-08-14 06:42:17.127350 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/splitter_ims.cc:208: TRACE: 727 -> 207.81.36.166:41666[0m
+2016-08-14 06:42:17.127576 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/splitter_ims.cc:208: TRACE: 728 -> 207.81.36.166:41667[0m
+2016-08-14 06:42:17.377171 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/splitter_ims.cc:208: TRACE: 729 -> 150.214.150.68:4555[0m
+2016-08-14 06:42:17.377502 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/splitter_ims.cc:208: TRACE: 730 -> 207.81.36.166:41666[0m
+2016-08-14 06:42:17.377737 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/splitter_ims.cc:208: TRACE: 731 -> 207.81.36.166:41667[0m
+2016-08-14 06:42:17.377980 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/splitter_ims.cc:208: TRACE: 732 -> 150.214.150.68:4555[0m
+2016-08-14 06:42:17.378225 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/splitter_ims.cc:208: TRACE: 733 -> 207.81.36.166:41666[0m
+2016-08-14 06:42:17.516425 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/splitter_ims.cc:208: TRACE: 734 -> 207.81.36.166:41667[0m
+2016-08-14 06:42:17.516708 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/splitter_ims.cc:208: TRACE: 735 -> 150.214.150.68:4555[0m
+2016-08-14 06:42:17.516937 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/splitter_ims.cc:208: TRACE: 736 -> 207.81.36.166:41666[0m
+2016-08-14 06:42:17.517163 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/splitter_ims.cc:208: TRACE: 737 -> 207.81.36.166:41667[0m
+2016-08-14 06:42:17.626660 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/splitter_ims.cc:208: TRACE: 738 -> 150.214.150.68:4555[0m
+2016-08-14 06:42:17.626983 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/splitter_ims.cc:208: TRACE: 739 -> 207.81.36.166:41666[0m
+2016-08-14 06:42:17.627220 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/splitter_ims.cc:208: TRACE: 740 -> 207.81.36.166:41667[0m
+2016-08-14 06:42:17.627451 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/splitter_ims.cc:208: TRACE: 741 -> 150.214.150.68:4555[0m
+2016-08-14 06:42:17.877047 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/splitter_ims.cc:208: TRACE: 742 -> 207.81.36.166:41666[0m
+2016-08-14 06:42:17.913909 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/splitter_ims.cc:318: TRACE: Exiting handle arrivals[0m
+2016-08-14 06:42:17.913909 Accepted connection from peer 127.0.0.1:33048
+2016-08-14 06:42:17.914043 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/splitter_ims.cc:222: TRACE: Communicating the multicast channel (0.0.0.0, 4554)[0m
+2016-08-14 06:42:17.914172 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/splitter_ims.cc:234: TRACE: Communicating the header size 10[0m
+2016-08-14 06:42:17.914230 [31m/home/kevin/p2pspTest/lib/p2psp/src/core/splitter_ims.cc:242: ERROR: Broken pipe[0m
+2016-08-14 06:42:17.914290 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/splitter_ims.cc:248: TRACE: Sending a chunk_size of 1024 bytes[0m
+2016-08-14 06:42:17.914391 [31m/home/kevin/p2pspTest/lib/p2psp/src/core/splitter_ims.cc:256: ERROR: Broken pipe[0m
+2016-08-14 06:42:17.914427 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/splitter_ims.cc:262: TRACE: Sending a header of 10240 bytes[0m
+2016-08-14 06:42:17.914467 [31m/home/kevin/p2pspTest/lib/p2psp/src/core/splitter_ims.cc:268: ERROR: Broken pipe[0m
+2016-08-14 06:42:17.914502 [33m/home/kevin/p2pspTest/lib/p2psp/src/core/splitter_ims.cc:274: TRACE: Sending a buffer_size of 256 bytes[0m
+2016-08-14 06:42:17.914540 [31m/home/kevin/p2pspTest/lib/p2psp/src/core/splitter_ims.cc:282: ERROR: Broken pipe[0m
