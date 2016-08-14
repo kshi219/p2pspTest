@@ -15,7 +15,6 @@
 #include "../lib/p2psp/src/core/splitter_acs.h"
 #include "../lib/p2psp/src/core/splitter_lrs.h"
 #include "../lib/p2psp/src/core/splitter_nts.h"
-#include "../lib/p2psp/src/core/splitter_ems.h"
 #include <boost/program_options/parsers.hpp>
 #include <boost/program_options/variables_map.hpp>
 #include <signal.h>
@@ -42,7 +41,7 @@ void HandlerCtrlC(int s) {
 
 void HandlerEndOfExecution() {
   // Wake up the "moderate_the_team" daemon, which is waiting in a recvfrom().
-  splitter_ptr->SayGoodbye();
+  //splitter_ptr->SayGoodbye();
 
   // Wake up the "handle_arrivals" daemon, which is waiting in an accept().
   boost::asio::io_service io_service_;
@@ -185,9 +184,7 @@ int main(int argc, const char *argv[]) {
     //splitter_ptr.reset(new p2psp::SplitterSTRPE());
   } else if (vm.count("NTS")) {
     splitter_ptr.reset(new p2psp::SplitterNTS());
-  } else if (vm.count("EMS")) {
-    splitter_ptr.reset(new p2psp::SplitterEMS());
-  }else if (vm.count("LRS")) {
+  } else if (vm.count("LRS")) {
     splitter_ptr.reset(new p2psp::SplitterLRS());
   } else if (vm.count("ACS")) {
     splitter_ptr.reset(new p2psp::SplitterACS());
@@ -195,7 +192,7 @@ int main(int argc, const char *argv[]) {
     is_IMS_only = true;
     splitter_ptr.reset(new p2psp::SplitterIMS());
   } else {
-    splitter_ptr.reset(new p2psp::SplitterEMS());
+    splitter_ptr.reset(new p2psp::SplitterDBS());
   }
 
   if (vm.count("buffer_size")) {
